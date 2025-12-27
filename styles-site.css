@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* -----------------------------------------
+
+INFORMATION
+
+FileName:	style-site.css
+Summary:	format
+Created:	2008-09-04
+UpdatedBy:	2008-09-04
+Copyright:	(c)2008 www.y-tti.com
+
+------------------------------------------ */
+
+/* 基本外部スタイルシートの読み込み
+------------------------------------------ */
+@import "css/basic.css";
+@import "css/layout.css";
+@import "css/pattern.css";
+@import "css/entry.css";
+@import "css/side.css";
+@import "css/footer.css";
+@import "css/comment.css";

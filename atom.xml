@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <title>崖っぷちWEBデザイナーブログ</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/" />
+   <link rel="self" type="application/atom+xml" href="http://www.y-tti.com/blog/atom.xml" />
+   <id>tag:www.y-tti.com,2017:/blog/1</id>
+   <updated>2010-07-13T19:07:48Z</updated>
+   <subtitle>奈良県で勉強中の兵庫県で働くひよっこWEBデザイナー。
+2007年1月(27歳時)にネ申の啓示を受けてWEBデザイナーを志す。
+photoshop,illustrator,Flash,shade,html,css,php/cgi,movabletypeと
+身に付けなきゃいけないことテンコ盛り&amp;金ないわで崖っぷちです。
+</subtitle>
+   <generator uri="http://www.sixapart.com/movabletype/">Movable Type 3.35</generator>
+
+<entry>
+   <title>iPhoneアプリ開発、道に迷いながら6冊の本を読んでみた。</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2010/07/iphone6.php" />
+   <id>tag:www.y-tti.com,2010:/blog//1.211</id>
+   
+   <published>2010-07-13T18:24:51Z</published>
+   <updated>2010-07-13T19:07:48Z</updated>
+   
+   <summary> 約2ヶ月前より、iPhoneアプリ開発の勉強をスタートしました。 iPhone...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="iPhone" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>
+約2ヶ月前より、iPhoneアプリ開発の勉強をスタートしました。<br />
+iPhoneアプリ開発に関しては、右も左も分からない田舎ペーペーな状態からスタートであって、<br />
+何から始めればいいのかサッパリ検討がつきません。<br />
+ゆえに何か掴めるまで、本を買いあさり読みまくる手法で攻めることにしました。
+</p>
+
+<p>
+以下、本単体に対するレビューというより、<br />
+僕の勉強日記な部分が強いです。<br />
+僕の実力はActionScriptがちょいちょいぐらいなので、<br />
+ばりばりプログラマーさんや、頭の回転が速い人にとっては、
+参考にならない記事になるかと思います。<br />
+※レビューはリンク先のamazonの方が充実してます。
+</p>
+
+
+<h3>2010.05〜2010.07 我が脳ミソが自信をなくした日々</h3>
+<p>上から読んだ順です。</p>
+
+<h4>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797354011/ytticom-22/ref=nosim/" name="amazletlink" target="_blank" style="font-weight:bold">
+はじめてのiPhoneプログラミング
+</a>
+</h4>
+<p>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797354011/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41X86oH-bvL._SL160_.jpg" alt="はじめてのiPhoneプログラミング" style="border: none;" /></a>
+</p>
+<p>
+開発についての必要知識が一通り詳しく載っている本。<br />
+題名のとおり、はじめてのiPhone本として読んだが、10%も理解できなかった。<br />
+ある程度全体を理解して最後の仕上げに読むべき本かもしれない。
+</p>
+<br />
+
+<h4>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873114179/ytticom-22/ref=nosim/" name="amazletlink" target="_blank" style="font-weight:bold">
+iPhone SDK アプリケーション開発ガイド
+</a>
+</h4>
+<p>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873114179/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41G2k1xpssL._SL160_.jpg" alt="iPhone SDK アプリケーション開発ガイド" style="border: none;" /></a>
+</p>
+<p>
+必要な基本知識が詰まった本で、グラフィックやサウンド等突っ込んだ部分の記述もある本。<br />
+こちらも、10%も理解できなかったものの前回読んだ本と被る場所もあり、<br />
+「この問題見たことあるぞ！」っという受験生気分になれてテンションUP。
+</p>
+<br />
+
+
+<h4>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4863540515/ytticom-22/ref=nosim/" name="amazletlink" target="_blank" style="font-weight:bold">
+Objective-C逆引きハンドブック
+</a>
+</h4>
+<p>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4863540515/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51TjCsZCcwL._SL160_.jpg" alt="Objective-C逆引きハンドブック" style="border: none;" /></a>
+</p>
+<p>
+先にこの本に目を通すべきだった！<br />
+言語であるObjective-Cを全然分かっていなかったことに気づく。<br />
+変数定義、配列、ループ等、基本制御から、各リファレンスに目を通して雰囲気は掴めた。
+</p>
+<br />
+
+
+<h4>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048679929/ytticom-22/ref=nosim/" name="amazletlink" target="_blank" style="font-weight:bold">
+iPhone SDK リファレンス大全 実践インターフェース構築
+</a>
+</h4>
+<p>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048679929/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51iCPDEXfDL._SL160_.jpg" alt="iPhone SDK リファレンス大全 実践インターフェース構築 (MacPeople Books)" style="border: none;" /></a>
+</p>
+<p>
+挿入画像が多くて見やすくやさしい本。<br />
+基本部分をゆったりと多くの誌面を使って説明してくれた本。<br />
+一番はじめに読めばよかったかもしれない。
+</p>
+<br />
+
+<h4>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048681621/ytticom-22/ref=nosim/" name="amazletlink" target="_blank" style="font-weight:bold">
+iPhone SDK 3 プログラミング大全 ゲームプログラミング
+</a>
+</h4>
+<p>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4048681621/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41aH9SRncdL._SL160_.jpg" alt="iPhone SDK 3 プログラミング大全 ゲームプログラミング (MacPeople Books)" style="border: none;" /></a>
+</p>
+<p>
+こちらも挿入画像が多くて見やすくやさしい本。<br />
+ゲームプログラミングとあるが、世に出ているような凄いゲームを作るためのものではない。<br />
+iPhone開発の基本部分を押さえながらの開発全体像が把握できたような。
+</p>
+<br />
+
+<h4>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798119687/ytticom-22/ref=nosim/" name="amazletlink" target="_blank" style="font-weight:bold">
+ライトウェイト・プログラマのためのiPhoneアプリ開発ガイド
+</a>
+</h4>
+<p>
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798119687/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41BUhdNqTZL._SL160_.jpg" alt="ライトウェイト・プログラマのためのiPhoneアプリ開発ガイド" style="border: none;" /></a>
+</p>
+<p>
+サンプルアプリを解説していく本<br />
+ライトウェイト・プログラマとあるが、中のコードは結構複雑。。<br />
+開発手法を学ぶには良いと思います。
+</p>
+
+<br />
+<br />
+<p>
+現在、Webから拾ってきたサンプルコードを試したりしてるのですが、<br />
+本で読んだことを全く理解できてないことに気づきました。<br />
+でも、「何をすれば良いか全く分からない世界」から、<br />
+「どうやって実現すれば良いか分からない世界」へと<br />
+旅立つことが出来た気がします。
+</p>
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>MySpaceバイオグラフィーの編集が出来ない。</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2010/06/myspace.php" />
+   <id>tag:www.y-tti.com,2010:/blog//1.210</id>
+   
+   <published>2010-06-18T09:07:20Z</published>
+   <updated>2010-07-12T19:38:53Z</updated>
+   
+   <summary> MySpaceのカスタマイズで苦戦したのでメモ。 アーティストアカウントでのカ...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="PHP/システム関連" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>
+MySpaceのカスタマイズで苦戦したのでメモ。<br />
+アーティストアカウントでのカスタマイズの話であり、個人アカウントでの
+カスタマイズではないです。<br />
+個人アカウントはプロフィール2.0とかいうのが使えるらしい。
+</p>
+<p>
+※2010.06.19現在の仕様のため今後変わる可能性多いにありです
+</p>
+
+<h3>苦戦の流れから苦肉の対処</h3>
+
+<h4>まずは基本的なデザイン変更方法</h4>
+<p>
+「プロフィール編集」→「アーティスト詳細タブ」→「バイオグラフィー」にHTML/CSSを記述。
+</p>
+<p>
+ハックくさい方法だが、<a href="http://blogs.myspace.com/index.cfm?fuseaction=blog.view&friendID=1000523809&blogID=328783419" target="_blank">公式ブログ</a>に書かれています。
+</p>
+
+<h4>アーティスト詳細画面で問題発生</h4>
+<p>
+実行ボタンが行方不明。<br />
+MySpaceのレイアウトそのままで、CSSで色付けしていくだけなら問題ないのですが、
+ちょこっとレイアウトを変えたり、不要な部分を表示しないように変更を加えると、
+下記のようにプレビュー表示用のCSSがぶつかってしまって必要な実行ボタンまでも
+非表示になってしまったり、埋もれてしまったりします。
+</p>
+<p>
+<img alt="myspace1.jpg" src="http://www.y-tti.com/blog/images/myspace1.jpg" width="400" height="250" />
+</p>
+<p>
+このままでは、編集できないので、苦肉の策で対処。
+</p>
+
+<pre class="code">javascript: editInterest('bio');</pre>
+<p>
+上記スクリプトをブラウザ上で実行（アドレス欄に記述してエンター）<br />
+これでなんとかアーティストバイオグラフィーの編集が可能に。
+</p>
+
+<h4>さらにプレビュー画面で問題発生</h4>
+<p>
+またまた実行ボタンが行方不明。<br />
+編集してプレビューボタンを押すと、アーティスト詳細画面と同様に
+実行ボタンが無い。<br />
+このままでは、編集を反映できないので、苦肉の策で対処。
+</p>
+
+<pre class="code">table table table div form input 
+{
+display: block;
+visibility: visible;
+position: absolute;
+z-index: 10;
+top: 10px;
+left: 10px;
+}</pre>
+
+<p>
+上記CSSをバイオグラフィーに記述するHTML/CSSに入れる。
+すると、以下のように送信ボタンがひょっこり現れる。
+</p>
+
+<p>
+<img alt="myspace2.jpg" src="http://www.y-tti.com/blog/images/myspace2.jpg" width="400" height="243" />
+</p>
+
+<p>
+そもそも、バイオグラフィーの編集自体できないから、CSS追加できないよって方は、
+Firebugで編集してボタンを表示させるべし。<br />
+<br />
+これで何とか編集できるようになった。
+</p>
+
+
+<h4>その他、MySpaceデザイン編集における悲しい仕様</h4>
+<p>
+<strong>・CSSのID指定が出来ない。</strong><br />
+フォーム入力不可の文字があった、#を受け付けてくれない。<br />
+CSSハックの文字も受け付けないのが何個かあり。<br />
+<br />
+<strong>■追記2010.07.12</strong><br />
+
+<pre class="code">
+div[id="hoge"]{}
+</pre>
+の記述方法でID指定可能。ただしIE6は。。。<a href="http://www.y-tti.com/blog/2010/06/csstest.html" target="_blank">CSSテスト</a>
+<br /><br />
+</p>
+
+<p>
+<strong>・サーバーが不安定。</strong><br />
+やたら重かったり、原因不明のサーバーエラーが頻繁に出たり。。
+</p>
+
+<p>
+<strong>・吐き出されるHTMLがゴリゴリのテーブル組。</strong><br />
+CSSによる制御が厳しい。
+</p>
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>FlashBuilderプラグイン【SourceMate]のエラー対処</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2010/06/flashbuildersourcemate.php" />
+   <id>tag:www.y-tti.com,2010:/blog//1.209</id>
+   
+   <published>2010-06-03T11:30:58Z</published>
+   <updated>2010-06-03T11:39:32Z</updated>
+   
+   <summary>FlashBuilderのコードアシスト機能を飛躍的にUPしてくれるSource...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>FlashBuilderのコードアシスト機能を飛躍的にUPしてくれる<a href="http://www.elementriver.com/sourcemate/" target="_blank">SourceMate</a>を入れたものの[SWF(backgroundColor="0x0")]と指定すると以下のようなコンパイルエラーとなって困ったものの解決したメモ。</p>
+
+<p><img alt="sourcemateerr.png" src="http://www.y-tti.com/blog/images/sourcemateerr.png" width="305" height="97" /></p>
+
+<h4>エラー内容</h4>
+<pre class="code">Unrecognized attribute 'backgroundColor' in [SWF]</pre>
+<p>
+バージョンが上がってそのうち対応されると思いますが。。<br />
+現バージョン「sourcemate_1.0.1.v05172010」ではエラーとなっています。
+</p>
+<h4>対処方法</h4>
+
+<p>FlashBuilderの「ウィンドウ > 設定」より、「SouceMate > Metadata」を選択し、【SWF(Specifies application attributes)】を選択してEditボタン</p>
+<p><img alt="soucemate2.jpg" src="http://www.y-tti.com/blog/images/soucemate2.jpg" width="500" height="345" /></p>
+<br />
+
+<br />
+<p>下のようなウィンドウが開いたら、Addボタンを押して【backgroundColor】を追加。DatatypeはStringでOK。一番右のチェックボックスが勝手にONになってたけど、他と合わせてOFFにした。どういう機能かは不明。あとはOKボタン。</p>
+<p><img alt="soucemate3.jpg" src="http://www.y-tti.com/blog/images/soucemate3.jpg" width="500" height="422" />
+</p>
+
+<p>これで多分解決</p>
+<p>ちなみに今までFlexBuilder3 + <a href="http://theflashblog.com/?p=481" target="_blank">Snip Tree View</a>にて開発していたのですが、SourceMateにもスニペット機能があるので、FlashBuilder + SourceMateにて前環境と同じように使えそう。</p>
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>teraco23でマトリックスな格闘をしてきた。</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/07/teraco23.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.208</id>
+   
+   <published>2009-07-01T16:59:39Z</published>
+   <updated>2009-07-01T17:02:52Z</updated>
+   
+   <summary> 大阪てら子 23 「みんなで作る特別授業」行ってきました。 武田鉄矢ばりに参加...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>
+<a href="http://teraco.jp/2009/06/12-124155.php" target="_blank">大阪てら子 23 「みんなで作る特別授業」</a>行ってきました。<br .>
+武田鉄矢ばりに参加者全員が先生になるという勉強会です。
+</p>
+
+<p>
+今回は、怖くて手を出せなかった「マトリックス」を元に画像変形に挑戦してみました。<br />
+※アフィン変換や、射影変換と言われる変換方法を理解してから、actionscriptを書きたかったのですが、ちょっと理解不可能だったので、とりあえず、平行四辺形と台形の変形を実現することに力を注いでみた。
+</p>
+
+
+<h3>平行四辺形な変形</h3>
+<h4>wonderflにUPしてみた</h4>
+<p>
+<div style="text-align:center;width:465px;"><iframe title="てらこ23で発表したものの説明１ - wonderfl build flash online" src="http://wonderfl.net/blogparts/6d55bc5e553a4c9d2a930099f8a91a6914fd5d12" width="465" height="490" style="border:1px black solid;"></iframe><a href="http://wonderfl.net/code/6d55bc5e553a4c9d2a930099f8a91a6914fd5d12" title="てらこ23で発表したものの説明１ - wonderfl build flash online">てらこ23で発表したものの説明１ - wonderfl build flash online</a></div>
+</p>
+<br />
+<p>
+とりあえず、平行四辺形に変形してみた。Matrixのa,b,c,d,tx,tyのプロパティを以下のように設定し、画像に適応すると平行四辺形に変形します。
+</p>
+
+
+<blockquote><a href="http://www.adobe.com/jp/devnet/flash/articles/matrix_class.html" target="_blank">adobeのデベロッパーセンターに野中さんの記事より</a><br />
+a: 水平方向の伸縮率 = 変換後の幅/もとの幅<br />
+b: 垂直方向の傾斜率 = 垂直方向の傾斜/もとの幅<br />
+c: 水平方向の傾斜率 = 水平方向の傾斜/もとの高さ<br />
+d: 垂直方向の伸縮率 = 変換後の高さ/もとの高さ<br />
+tx: 水平方向の移動ピクセル数<br />
+ty: 垂直方向の移動ピクセル数</blockquote>
+
+<h4>Matrix部分</h4>
+<pre name="code" class="js">
+private function _getTransformMatrix($pt0:Point, $pt1:Point, $pt2:Point):Matrix
+{
+	/*
+	http://www.adobe.com/jp/devnet/flash/articles/matrix_class.html
+	a: 水平方向の伸縮率 = 変換後の幅/もとの幅
+	b: 垂直方向の傾斜率 = 垂直方向の傾斜/もとの幅
+	c: 水平方向の傾斜率 = 水平方向の傾斜/もとの高さ
+	d: 垂直方向の伸縮率 = 変換後の高さ/もとの高さ
+	tx: 水平方向の移動ピクセル数
+	ty: 垂直方向の移動ピクセル数
+	*/
+	var w:Number = _bmd.width;
+	var h:Number = _bmd.height;
+	var mat:Matrix = new Matrix();
+	mat.a = ($pt1.x - $pt0.x) / w;
+	mat.b = ($pt1.y - $pt0.y) / w;
+	mat.c = ($pt2.x - $pt0.x) / h;
+	mat.d = ($pt2.y - $pt0.y) / h;
+	mat.tx = $pt0.x;
+	mat.ty = $pt0.y;
+	return mat;
+}
+</pre>
+
+
+<h4>Matrixを適応する部分</h4>
+<pre name="code" class="js">
+	_canvas.transform.matrix = newMatrix;
+</pre>
+<p>
+※_canvasに画像をaddChildしてます。
+※_canvasはSprite。
+</p>
+
+
+
+<h3>台形な変形</h3>
+<h4>wonderflにUPしてみた</h4>
+<p>
+<div style="text-align:center;width:465px;"><iframe title="てらこ23で発表したものの説明２ - wonderfl build flash online" src="http://wonderfl.net/blogparts/e56e31f395e7f7457464b00111a6dab5aadc3c7f" width="465" height="490" style="border:1px black solid;"></iframe><a href="http://wonderfl.net/code/e56e31f395e7f7457464b00111a6dab5aadc3c7f" title="てらこ23で発表したものの説明２ - wonderfl build flash online">てらこ23で発表したものの説明２ - wonderfl build flash online</a></div>
+</p>
+<br />
+<p>
+平行四辺形な変形は、どう頑張っても台形の変形は実現できません。ということで、三角形を２つ使用して台形を実現させます。<br />
+三角形？？何故に？？という方は以下の画像を！
+</p>
+<img alt="teraco23_img1.gif" src="http://www.y-tti.com/blog/images/teraco23_img1.gif" width="465" height="465" />
+
+<p>
+三角形といえど、平行四辺形な変形と同様です。<br />
+多分ですが、この三角形はポリゴンと呼ばれるやつなのかもしれない。（推測）
+</p>
+
+<h4>Matrixを適応する部分</h4>
+<pre name="code" class="js">
+	_canvas.graphics.clear();
+			
+	//分割した１個目を描画
+	_canvas.graphics.lineStyle(1 , 0x00FF00);
+	_canvas.graphics.beginBitmapFill(_bmd , newMatrix1 );
+	_canvas.graphics.moveTo(bP0.x , bP0.y );
+	_canvas.graphics.lineTo(bP1.x , bP1.y );
+	_canvas.graphics.lineTo(bP2.x , bP2.y );
+	_canvas.graphics.endFill();
+			
+	//分割した２個目を描画
+	_canvas.graphics.lineStyle(1 , 0x00FF00);
+	_canvas.graphics.beginBitmapFill(_bmd , newMatrix2 );
+	_canvas.graphics.moveTo(bP3.x , bP3.y );
+	_canvas.graphics.lineTo(bP1.x , bP1.y );
+	_canvas.graphics.lineTo(bP2.x , bP2.y );
+	_canvas.graphics.endFill();
+</pre>
+<p>
+台形への描画は、ちょっと面倒くさいけど、beginBitmapFill とmoveToとlineToを使って描画してます。
+</p>
+
+
+<h3>上記の理解を元に遊んでみた</h3>
+<p>
+<a href="http://www.y-tti.com/blog/flash/teraco23/TestBitmapDataTest.swf" target="_blank">その１</a><br />
+<a href="http://www.y-tti.com/blog/flash/teraco23/TestBitmapSquare.swf" target="_blank">その２</a><br />
+</p>
+
+<p>
+三角形の分割数を増やしたりで色んな表現ができそうな気がします。ただし、分割の方法や、ポイントの配置方法などがちょっと難しい。手探り状態なので色々試してみるしかないか。
+<br />
+<a href="http://www.y-tti.com/lab/teraco23/srcview/" target="_blank">view source</a>
+</p>
+
+
+
+
+
+
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>Publishing source code が便利すぎるかも。</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/06/publishing_source_code.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.207</id>
+   
+   <published>2009-06-29T19:30:39Z</published>
+   <updated>2009-06-29T19:37:07Z</updated>
+   
+   <summary>Flex BuilderにはPublishing source codeというV...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>Flex Builderには<a href="http://livedocs.adobe.com/flex/3/html/help.html?content=build_7.html" target="_blank">Publishing source code</a>というViewSource機能（ソースをHTMLへ変換してプレビューが出来る機能）があって、これが凄い便利です。
+</p>
+
+<p><a href="http://saqoosha.net/" target="_blank">Saqoosha</a>さんがソース公開する時によく使われていて、どうやっているんだろう？？と調べてみたら、いつも使っているFlex Builderの機能に存在していたという。全く知らなかった。
+</p>
+
+<h3>ViewSourceデモ</h3>
+<p><a href="http://www.y-tti.com/lab/testview/srcview/" target="_blank">ViewSource</a></p>
+<p>今までソース公開にzip化したファイルにリンクという方法でやってたのですが、断然、Publishing source codeで吐き出したHTMLファイルの方が手軽で見やすい。ピックアップしたいソースはjavascriptのSyntaxHighlighterでブログに直に書いて、全体ソースはViewSourceな感じがいいかな。</p>
+
+<h3>Publishing source codeの場所</h3>
+<blockquote>プロジェクト - リリースビルドの書き出し - ソースの表示</blockquote>
+<p>１、プロジェクト - リリースビルドの書き出し</p>
+<p><img alt="publishsourcecode1.jpg" src="http://www.y-tti.com/blog/images/publishsourcecode1.jpg" width="300" height="200" />
+</p>
+<p>２、リリースビルドの書き出し - ソースの表示</p>
+<p><img alt="publishsourcecode2.jpg" src="http://www.y-tti.com/blog/images/publishsourcecode2.jpg" width="300" height="300" />
+</p>
+<br />
+<p>ActionScriptソースをHTMLへ変換（コンバーター？）なものを探してたわけですが、ちょうどいいもん見つけれた。Flex Builderはやっぱり偉大だ。</p>]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>Papervision3D 3D座標→2D座標の変換メモ</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/06/papervision3d_3d2d.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.206</id>
+   
+   <published>2009-06-10T18:14:23Z</published>
+   <updated>2009-06-10T18:16:42Z</updated>
+   
+   <summary> pv3dに3D座標→2D座標の変換クラスがあるか探してたのですが、結局見つける...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[
+<p>pv3dに3D座標→2D座標の変換クラスがあるか探してたのですが、結局見つけることが出来ず途方にくれてたわけですが、<br />
+<a href="http://www.nabble.com/3D-%3E%3E-2D-coordinates-td14730886.html" target="_blank">http://www.nabble.com/3D-%3E%3E-2D-coordinates-td14730886.html</a><br />
+こちらにそれらしきソースが！！</p>
+
+<h3>以下該当ソース</h3>
+<pre name="code" class="js">
+private function getObj2DCords ( o:DisplayObject3D, camera:CameraObject3D,  offsetX:Number = 0, offsetY:Number = 0 ):Point
+{
+	var view:Matrix3D = o.view;
+	var persp:Number = (camera.focus * camera.zoom) / (camera.focus + view.n34);
+	return new Point ( (view.n14 * persp) + offsetX, (view.n24 * persp) + offsetY );
+}</pre>
+
+<h3>サンプルをwonderflに上げてみた。</h3>
+<p>
+<div style="text-align:center;width:465px;"><iframe title="Papervision3D 3D座標→2D座標 - wonderfl build flash online" src="http://wonderfl.kayac.com/blogparts/13931817a8e66476482e60d0d11fb8a98ae7d1b5" width="465" height="490" style="border:1px black solid;"></iframe><a href="http://wonderfl.kayac.com/code/13931817a8e66476482e60d0d11fb8a98ae7d1b5" title="Papervision3D 3D座標→2D座標 - wonderfl build flash online">Papervision3D 3D座標→2D座標 - wonderfl build flash online</a></div>
+</p>
+
+<p>
+※CameraType.DEBUGを使ってるので、マウスドラッグや方向キーでカメラが動きます。<br /><br />
+3D空間にあるCubeの座標に2D座標の青い円を置いてみた。<br />
+これで、3Dオブジェクトに対して、簡単なコメントや「Click!!」とかの文字をつけることが出来そうだ。
+</p>]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>大阪てら子 22 「webカメラで遊ぼう！」に参加してきました</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/05/_22_web_1.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.205</id>
+   
+   <published>2009-05-31T13:47:53Z</published>
+   <updated>2009-05-31T13:56:48Z</updated>
+   
+   <summary> 大阪てら子 22 「webカメラで遊ぼう！」に参加してきました。 毎度ながら、...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>
+大阪てら子 22 「webカメラで遊ぼう！」に参加してきました。<br />
+毎度ながら、スイマセン！的な発表なんですが、今回もスイマセンです。<br />
+</p>
+
+<p>
+今回やっておきたかったことは以下の２点。
+<ul>
+<li>Webカメラで撮った画像を保存。</li>
+<li>シンプルな動体検知</li>
+</ul>
+<p>
+
+<h3>こんなものを発表しました動画</h3>
+<p>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/lebjLE6TFm4&hl=ja&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/lebjLE6TFm4&hl=ja&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</p>
+
+<h3>Webカメラで撮った画像を保存</h3>
+<p>Flashのみで画像保存はFlash Player9の段階では不可能？みたいなので、サーバー側(php)で保存します。<br />
+※Flash Player10からはローカルファイルアクセス機能が出来るようになったので画像保存できるかもしれない。
+</p>
+
+<blockquote>
+１、BitmapDataをエンコードしてサーバーへ送信<br />
+２、サーバー側で画像保存<br />
+※サーバーはローカルにMAMPをインストールした環境を使用しました。（mac 0SX）
+</blockquote>
+
+
+
+
+<p>Flash→PHPの連携はパラメーターの引き渡しが簡単に出来る<a href="http://amfphp.org/" target="_blank">AMFPHP</a>を使ってみました。エンコードに関しては、<a href="http://code.google.com/p/as3corelib/" target="_blank">as3corelib</a>よりPNGEncoderを使用しています。
+</p>
+
+<h4>主要部分のASスクリプト</h4>
+<pre name="code" class="js">
+package
+{
+	import com.adobe.images.PNGEncoder;
+	import flash.display.BitmapData;
+	import flash.display.Sprite;
+	import flash.net.NetConnection;
+	import flash.net.Responder;
+	import flash.utils.ByteArray;
+	
+	public class Test_amfphp extends Sprite
+	{
+		public function Test_amfphp()
+		{
+			//BitmapDataをエンコード
+			var bmd:BitmapData = new BitmapData(100,100,false,0x0)
+			var byteArray:ByteArray = PNGEncoder.encode(bmd);
+			
+			//AMFPHPのgateway.phpがある場所
+			var gateway:String = "http://localhost/amfphp/gateway.php";
+			
+			//AMFPHPが返す値の受け皿を設定
+			var responder:Responder = new Responder(_onResult,_onStatus);
+			
+			//つなげる。
+			var connection:NetConnection = new NetConnection();
+			connection.connect(gateway);
+			
+			//呼ぶ
+			connection.call("PHPクラス名.メソッド名",responder,byteArray,"その他引数１","その他引数２");
+		}
+		
+		private function _onResult($result:Object):void {
+			trace("結果_" + $result);
+		}
+		
+		private function _onStatus($status:Object):void {
+			trace("ステータス_" + $status);
+		}
+
+	}
+}
+</pre>
+
+<h4>画像保存のphpスクリプト</h4>
+
+
+<pre name="code" class="php">class PngSave
+{
+    public function download($image,$dir)
+    {
+        $fileName = $dir.&quot;hae.png&quot;; // ファイル名
+        
+        //方法1
+        $fp = fopen($fileName, 'wb');
+        fwrite($fp, $image-&gt;data);
+        fclose($fp);
+        
+        //方法2 ブラウザからじゃないと上手くいかない？
+        //$im = imagecreatefromstring ($image-&gt;data);
+        //header('Content-Type: image/png');
+        //header(&quot;Content-Disposition: attachment; filename=&quot;.$fileName);
+        //imagepng($im);
+        
+        return $fileName;
+    }
+}</pre>
+
+
+
+<p>ActionScript側からAMFPHPにByteArrayを飛ばした時、$image->dataにデータが入ってます。※$imageと指定してハマりました。<br />
+参考：<a href="http://d.hatena.ne.jp/hirossy1977/20071217" target="_blank">AMFPHP1.9b2でByteArrayをもらう、返す</a>　
+</p>
+
+
+<h3>シンプルな動体検知</h3>
+<p>
+動体検知ですが、検知する場所を決めて、その場所のピクセルの色が一つ前の色と最新の色とで、
+どれだけ変化しているか？で判断しています。<br />
+今回の場合、画面の左、上、右の３カ所に検知するポイントを置いて、そこのピクセルの色が一定以上変化したかどうか？で動体検知を行いました。
+
+</p>
+<h4>動体検知判断のASスクリプト</h4>
+<pre name="code" class="js">
+package
+{
+	import flash.display.Sprite;
+	
+	public class Test_ColorDiff extends Sprite
+	{
+		public function Test_ColorDiff()
+		{
+			//古い色と最新の色
+			var color_old:uint = 0xFFFFFF;
+			var color_new:uint = 0xFFFF00;
+			
+			//古い色をR,G,Bに分ける
+			var color_old_arr:Array = [ 
+				color_old >> 16 , 
+				color_old >> 8 & 0xFF ,
+				color_old & 0xFF ,
+				];
+			trace("old-R_" + color_old_arr[0]); //255
+			trace("old-G_" + color_old_arr[1]); //255
+			trace("old-B_" + color_old_arr[2]); //255
+			
+			//新しいい色をR,G,Bに分ける
+			var color_new_arr:Array = [ 
+				color_new >> 16 , 
+				color_new >> 8 & 0xFF ,
+				color_new & 0xFF ,
+				];
+			trace("new-R_" + color_new_arr[0]); //255
+			trace("new-G_" + color_new_arr[1]); //255
+			trace("new-B_" + color_new_arr[2]); //0
+			
+			//R,G,Bそれぞれ古い色と新しい色を比較し、threshold_valueの値以上に差が出たら「動いた」と見なす。
+			var threshold_value:Number = 20;
+			for(var i:Number = 0;i <= 2;i++ ){
+				if(Math.abs(color_old_arr[i] - color_new_arr[i]) > threshold_value ) {
+					trace("動いた！");
+				}
+			}
+			
+		}
+	}
+}
+</pre>
+
+<p>てな感じです。</p>
+
+
+<h3>大阪てら子 22 「webカメラで遊ぼう！」の感想</h3>
+<p>
+世の中広いわけで、凄いスクリプトを書く人、とても良いアイデアを持っている人を目のあたりにすると、
+危機感というか、やべー状態になりました。
+<br /><br />
+ということでこれからも精進していこうと思います。
+</p>
+<br />
+<p>USKさんが今回の様子をしっかりまとめてくださっています。<br />
+<p><a href="http://www.mrlittlebig.com/blog/032/" target="_blank">大阪てら子 22 「webカメラで遊ぼう！」@trace</a>
+</p>
+<p>
+それと、トンカさんが同様に動体検知されてました。<br />
+<a href="http://www.kiteretsu-so.com/archives/1386" target="_blank">てら子に行ってきた！～大阪てら子 22 「webカメラで遊ぼう！」～@キテレツ荘</a><br />
+動体検知方法は、BlendMode.DIFFERENCEで古い情報と新しい情報の差分を取得する方法のようです。その方法は全く思いつかなかった！！
+</p>]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>DBD::mysqlのインストールメモ</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/04/dbdmysql.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.204</id>
+   
+   <published>2009-04-23T08:33:22Z</published>
+   <updated>2009-04-24T07:29:12Z</updated>
+   
+   <summary>Movable Typeをローカル環境にインストールしようとした時に躓いたのでメ...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="PHP/システム関連" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>Movable Typeをローカル環境にインストールしようとした時に躓いたのでメモ。
+</p>
+<p>※私のはMac OS10.5.6に<a href="http://www.mamp.info/" target="_blank">MAMP</a>をインストールした環境です。</p>
+
+<h3>DBD::mysqlがインストールされてない</h3>
+<p>ローカルにMovable Typeを解凍&設置し、mt-check.cgiを走らせたところ、</p>
+<blockquote>サーバーにDBD::mysqlがインストールされていないか、DBD::mysqlに必要なモジュールがインストールされていません DBIとDBD::mysqlは、MySQLを使ってブログのデータを管理するために必要です。 DBD::mysqlをインストールする場合は、インストール手順を参照してください。
+</blockquote>
+<p>なエラーが。MAMPはデフォでMySQLをインストールしてくれるので、DBD::mysqlとはperlとMySQLをつないでくれる便利なモノと予想。まあ、それはどうでもよくて、DBD::mysqlをインストールすることに。</p>
+
+<h3>DBD::mysqlをインストール</h3>
+<p><a href="http://dev.mysql.com/downloads/" target="_blank">MySQL</a>と<a href="http://www.cpan.org/modules/by-module/DBD/" target="_blank">DBD::mysql</a>が必要となるのでダウンロードし解凍しとく。</p>
+<p>以下を実行</p>
+<blockquote>1. mysql_configを探す。（私の場合は /Applications/MAMP/Library/bin/ にある）<br /><br />
+2. MAMPと同じバージョンのMySQLをダウンロードして、解凍する。<br />
+　（訳注．mySQLのサイトからでもよし、MAMPのサイトでソース版をダウンロードしてもよし）<br /><br />
+3. includeディレクトリを /Applications/MAMP/Library/ディレクトリの下に移動する。<br /><br />
+4. libディレクトリの内容を /Applications/MAMP/Library/lib/mysql/ディレクトリにコピーする。<br /><br />
+5. ターミナルを起動し、DBD::mysqlを解凍したディレクトリに移動<br /><br />
+6. make file を作る: <br />sudo Perl Makefile.PL --mysql_config=/Applications/MAMP/Library/bin/mysql_config<br />
+　（訳注．mysql_configを指定することによって、この環境用のコンパイル引数を調べて設定してくれる）<br />
+<strong>※自分の場合、このままでは無理でした。当エントリの下の方参照</strong>
+<br />
+7. sudo make<br /><br />
+8. sudo make install</blockquote>
+※<a href="http://d.hatena.ne.jp/lyco/20090315" target="_blank">Macが主流になってきました</a>様より引用
+
+<h4>ここで make コマンドが使えない</h4>
+<blockquote>-bash: make: command not found</blockquote>
+とハマる。
+
+<h3>makeコマンドを使用できるようDeveloper Toolをインスト</h3>
+<p>appleの<a href="https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/promo?source=ADCLOG&code=ADCLOG-NEX" target="_blank">ADC member site</a>より、Xcode (最新ver) Developer ToolsをDL＆インストール</p>
+<p>※DLにメンバー登録が必要です。（無料）</p>
+
+<h4>Device Centralが起動するか心配</h4>
+<p>Xcodeがあると、Device Central CS3が起動しないという症状があり、以前Xcodeをアンインストールしました。→Device Central CS3起動するようになった。
+</p>
+<p>で、今回、Xcode 3.1.2をインストールしたところ、Device Central CS3も無事起動！！</p>
+
+<h4>makeコマンドも無事使用可能に</h4>
+<p>ということで、makeコマンドが通り、無事にDBD::mysqlがインストールされ、<del>かつMac0S 10.5.6 & Movable Type + MySQL環境が構築できました。おわり。</del></p>
+<p>嘘です。MySQLを選ぶところでこんなエラーが。(apache_error_logより)</p>
+<pre name="code" class="js">[Thu Apr 23 23:40:17 2009] [notice] Digest: generating secret for digest authentication ...
+[Thu Apr 23 23:40:17 2009] [notice] Digest: done
+[Thu Apr 23 23:40:17 2009] [notice] Apache/2.0.59 (Unix) PHP/5.2.6 DAV/2 configured -- resuming normal operations
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] dyld: lazy symbol binding failed: Symbol not found: _mysql_init, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Expected in: dynamic lookup, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] , referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] dyld: Symbol not found: _mysql_init, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Expected in: dynamic lookup, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] , referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] Premature end of script headers: mt-wizard.cgi, referer: http://localhost/mt/mt-wizard.cgi
+</pre>
+
+<h4>perlからMySQLへアクセスするスクリプトを試す</h4>
+<p>※mt425っていうデータベースとユーザはphpMyadminより作成してあります。 </p>
+<pre name="code" class="js">use DBI;
+
+$user = 'hoge';
+$passwd = 'hoge';
+#$db = DBI->connect('DBI:mysql:hoge:localhost', $user, $passwd);
+$db = DBI->connect('DBI:mysql:mt425:localhost:mysql_socket=/Applications/MAMP/tmp/mysql/mysql.sock', $user, $passwd);
+$sth = $db->prepare("SELECT cd, nm FROM test");
+$sth->execute;
+$num_rows = $sth->rows;
+print "該当 $num_rows 件\n";
+for ($i=0; $i<$num_rows; $i++) {
+    @a = $sth->fetchrow_array;
+    print "cd=$a[0], nm=$a[1] \n";
+}
+$sth->finish;
+$db->disconnect;</pre>
+
+<p>結果</p>
+<pre name="code" class="js">dyld: lazy symbol binding failed: Symbol not found: _mysql_init
+  Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle
+  Expected in: dynamic lookup
+
+dyld: Symbol not found: _mysql_init
+  Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle
+  Expected in: dynamic lookup
+
+Trace/BPT trap</pre>
+<p>
+同じようなエラーが出たんで、Movable Typeはひとまず置いといて、perl&MySQLを解決しなくては。
+</p>
+<h3>追加(次の日)　寝て頭すっきりさせたらエラーがなくなった。</h3>
+<p>弄くりまわしてごちゃごちゃしたらエラーがなくなった。その過程を覚えてる範囲で記載しておきます。</p>
+<h4>１、用意するMySQLのバージョン</h4>
+<p>MAMPにはすでにMySQLが入っているのだけど、どうも完全体ではないみたいなので、MySQLをDLしてきて、おいしいところだけチョイスする。その時に「Mac OS X 10.5 (x86)」と「Mac OS X 10.5 (x86_64)」があるわけだが、x86の方を選んだ。※最初はx86_64を選んでいてエラーでてた。ただし、結果的にエラーがなくなっただけで、これが原因かどうかは分かりません。
+</p>
+<h4>perl Makefile.PLの設定</h4>
+<blockquote>perl Makefile.PL --libs="-L/Applications/MAMP/Library/lib/mysql/lib -lmysqlclient" --mysql_config=/Applications/MAMP/Library/bin/mysql_config  --testdb=mt425 --testhost=localhost -testuser=mt425 -testpassword=admin</blockquote>
+<p>※一行で<br />
+※mt425っていうデータベースとユーザはphpMyadminより作成してあります。
+</p>
+<p>自分の場合、<br />
+/Applications/MAMP/Library/lib/mysql/lib<br />
+にDLしてきたMySQL（Mac OS X 10.5 (x86)）のlibファイルをコピペして、Makefile.PL時に設定しました。</p>
+<p>後は、
+sudo make<br />
+sudo make test<br />
+sudo make install<br />
+です。</p>
+<h4>make test時にエラーが</h4>
+<p>/tmp/mysql.sockが無いYO!みたいなエラーが出たけど、これは無視！<br />
+※perlでのアクセス時や、movable typeインストール時にmysql.sockの位置を指定できため。</p>
+<p>export PATH=$PATH:/Applications/MAMP/Library/bin
+あと上記のようなコマンドを打ったけど、意味は全然わかっていなかったりする。</p>
+
+<h3>OS10.5.6 & Movable Type & MySQL完了</h3>
+<p><img alt="mtmysql.jpg" src="http://www.y-tti.com/blog/images/mtmysql.jpg" width="364" height="293" /></p>
+<p>データベースソケットのところにmysql.sockの位置を指定。データベースポートは無視。</p>
+<p>これで多分完了。ローカルにmt環境作るだけなんて簡単よ！とか思ってたけど全くそんなことなかった。サーバー弄くれる人尊敬します。</p>
+
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>なぜこのサイトでモノを買ったのか？を考えてみた。</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/04/post_70.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.203</id>
+   
+   <published>2009-04-07T16:38:26Z</published>
+   <updated>2009-04-07T16:41:42Z</updated>
+   
+   <summary>ネットで何かを買う時、何が決め手になるのか？を考えた。ターゲットは「自分」。 パ...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="WEBデザインメモ" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>ネットで何かを買う時、何が決め手になるのか？を考えた。ターゲットは「自分」。
+</p>
+
+<h3>パソコンデスクを購入した。</h3>
+<p>購入したサイトは以下。<br />
+<a href="http://garage.plus.co.jp/product/table/d2/d2.asp" target="_blank">ガラージ</a>
+</p>
+<h4>購入を決断した決め手、その１</h4>
+<p>写真がかっこいい。WEBデザインが好み。</p>
+<p>写真（CG）とWEBデザインが、自分好みな感じで、見た瞬間「これいいかも？」と思った。「デスク」でぐぐると色々なサイトが見れるのですが、<a href="http://garage.plus.co.jp/" target="_blank">ガラージ</a>のサイトは他と比べて、ひと味違う空気感というかデザインな気がした。他のサイトの大概が「楽天」的なデザインでモノに関係なく興味を持つことがなかった。
+</p>
+<h4>購入を決断した決め手、その２</h4>
+<p>詳細情報が豊富。</p>
+<p>写真で興味を持った僕は、デスクの詳細を読んでいった。写真と文字でしっかり説明されていて購入後の配置や用途など想像することが容易に出来た。
+</p>
+
+<h3>Tシャツを購入した。</h3>
+<p>購入したサイトは以下。<br />
+<a href="http://www.upsold.com/parody/main.html" target="_blank">UPSOLD</a></p>
+<h4>購入を決断した決め手、その１</h4>
+<p>写真が見やすい。1ページに表示する商品数がちょうどいい。</p>
+<p>商品くり抜きの単色背景によって、他の羅列されたTシャツとの区別がつきやすい。こういうTシャツ販売サイトは、大量に商品があるので、以下に数多くの商品を瞬時に見れるかが大事だと思う。</p>
+
+<h3>まとめ</h3>
+<p>デザインはとても大事だと思う。<br />
+WEBページを開いた時、一番に人の感覚を左右するのはデザインだと思います。その次に文字などによる情報が目に入ってくる。「なんかイイナ〜」や「イマイチだな」などの視覚による感覚はとても大事で、購入するかしないかまで関係してくることもある。<br />
+商品自体はイマイチでも、WEBデザインが素晴らしければ、僕はその商品を購入してしまうかもしれない。</p>
+<p>
+とまあ、自分はデザインよりコーディング系ばっかりやってるんですが、デザインの勉強はしっかりやっておこうと思った次第でございます。</p>
+
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>Flashバナーのデザイン作成時の留意点</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/03/flash_10.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.202</id>
+   
+   <published>2009-03-24T09:10:11Z</published>
+   <updated>2009-03-24T09:46:07Z</updated>
+   
+   <summary>ポータル系サイトなどでよく見かけるFlashバナーですが、バナー制作規定にある「...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>ポータル系サイトなどでよく見かけるFlashバナーですが、バナー制作規定にある「容量(swfファイルサイズ)」にたびたび泣かされます。何も考えずオーサリングすれば必ず容量オーバーするという悪夢。下手すりゃ構成案段階まで逆戻りして作り直しなんてことになるかもしれないので、「構成案とデザイン」時の留意点をメモしておこうと思います。<br />
+※オーサリング担当者からデザイン担当者へ向けての留意点という視点で。</p>
+
+<h3>オブジェクト数に気をつける</h3>
+<h4>オブジェクト数と比例して容量が増える</h4>
+<p><img alt="bnrCreate_obj.jpg" src="http://www.y-tti.com/blog/images/bnrCreate_obj.jpg" width="450" height="120" /></p>
+<p>異なるオブジェクト１個配置より異なるオブジェクト３個配置の方が容量が大きい。<br>
+※同じ形のオブジェクトであれば、Flashオーサリング時にシンボルとして扱えるので問題なしです。
+</p>
+<p>オブジェクトの大きさにもよるが、単純な考え方として、異なるオブジェクトが増えるとその分、Flashに配置する素材が増えるので、swf容量も大きくなる。</p>
+<p>訴求したいものを絞るとオブジェクト数も減るはず。</p>
+<br /><br />
+<p>■補足</p>
+<p>ビットマップの場合は、面積(大きさ)が大きくなるほどと容量が増える。「10px × 10px」のビットマップ３個と「100px × 100px」の画像１個なら、後者の方が容量が大きい。</p>
+<p>ベクターの場合は、パスの複雑差などが容量に関係してくる。</p>
+
+
+
+<h3>背景とかカットシーン数に気をつける</h3>
+<h4>背景を変える</h4>
+<p><img alt="bnrCreate_haikei1.jpg" src="http://www.y-tti.com/blog/images/bnrCreate_haikei1.jpg" width="450" height="120" /></p>
+<p>単純に背景を変えるとその分、Flashに配置する素材が増えるので容量が増える。</p>
+
+<h4>背景を変えない</h4>
+<p><img alt="bnrCreate_haikei2.jpg" src="http://www.y-tti.com/blog/images/bnrCreate_haikei2.jpg" width="450" height="120" /></p>
+<p>背景を統一すると容量が少なくて済む。</p>
+<br /><br />
+<p>シーンをどのようにカット割りするかが大事。出来る限り少ないカットシーン数で済む表現方法を考えるのが大事。かもしれない</p>
+
+
+<h3>単色の背景を用いる＆色数を少なくする</h3>
+<p>オブジェクト（↓ではキャラクター）の容量について。</p>
+<h4>単色の背景の場合</h4>
+<p><img alt="bnrCreate_gradi2.jpg" src="http://www.y-tti.com/blog/images/bnrCreate_gradi2.jpg" width="450" height="120" /></p>
+<p>アルファチャンネル(透明エリア)を保持しないgif形式を使用することにより、容量が小さくて済む。また、gif書き出しの時に色数を削ることが出来るので更に容量を減らすことが出来る。</p>
+
+<h4>単色の背景でない場合（グラデーションとか）</h4>
+<p><img alt="bnrCreate_gradi1.jpg" src="http://www.y-tti.com/blog/images/bnrCreate_gradi1.jpg" width="450" height="120" /></p>
+<p>アルファチャンネル(透明エリア)を保持するpng形式となるので、容量が大きくなる。一つや二つのオブジェクトなら構わないが、数が膨れ上がると容量の差は歴然となってくる。。かもしれない。
+</p>
+
+<br /><br /><br /><p>
+気がついたら書き足し&修正していきます。</p>
+
+
+
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>javascript開発環境をとりあえず作っておく。</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/03/javascript.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.201</id>
+   
+   <published>2009-03-17T18:18:31Z</published>
+   <updated>2009-03-17T18:37:17Z</updated>
+   
+   <summary>javascriptはコピペだけで何とかなるから大丈夫！？ と逃げ逃げの姿勢でや...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="Ajaxメモ" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>javascriptはコピペだけで何とかなるから大丈夫！？<br />
+と逃げ逃げの姿勢でやってきたんですが、<br />
+↓みたいなのを見せられるともう無視できんなと思い始めた次第でございます。
+</p>
+<p><a href="http://www.nihilogic.dk/labs/mario/mario_large_music.htm" target="_blank">Javascript Super Mario</a></p>
+<p><a href="http://www.youtube.com/experiencewii?gl=JP&hl=ja" target="_blank">Wario Land: Shake It</a></p>
+<p>仕事でもFlashで作った後で、javascriptで作ればよかった！って思うことがたまにあるんで少しずつjavascriptに慣れていこうと思います。<br />
+※簡単ながらも細かな修正が何回もやってきて、Flashでコンパイルするのがめんどくさい。などなど。
+</p>
+
+<h3>aptanaとjQueryでやっちゃおう</h3>
+<h4>aptana</h4>
+<p><a href="http://www.aptana.com/" target="_blank">aptana</a>とはEclipseベースのWebオーサリングツールです。javascriptやらphpやらhtmlやら色々カバーしてて便利のようです。※個人的にEclipseベースのFlex Builderに慣れてしまってるので使いやすいだろう！という願望。</p>
+<p><a href="http://www.y-tti.com/blog/images/aptana01.jpg"><img alt="aptana01.jpg" src="http://www.y-tti.com/blog/images/aptana01-thumb.jpg" width="500" height="290" /></a>
+</p>
+<h4>jQuery</h4>
+<p><a href="http://docs.jquery.com/Downloading_jQuery" target="_blank">jQuery</a>とはJavaScriptライブラリの1つのようです。まだ使い慣れてないけど、jQueryを使えば簡単にjavascriptが組める！＆ブラウザの互換性が保てる！ってな部分を期待してみます。<br />
+※aptanaをインストールすればjQueryをインポートできるのでDLする必要なし。</p>
+<br />
+<h3>aptanaでjQueryをインポート</h3>
+<p>プロジェクトウィンドウの該当プロジェクトを右クリックより、</p>
+<pre class="code">【インポート】 &gt; 【Ajaxライブラリ・インポート・ウィザード】</pre>
+<p>からjQueryのcheckboxをチェックすればOK</p>
+<p><img alt="aptana03.jpg" src="http://www.y-tti.com/blog/images/aptana03.jpg" width="450" height="470" />
+</p>
+<br />
+<h3>aptanaでjQueryのコードアシストを設定</h3>
+<p>メニュー部分の【ウィンドウ】>【設定】より、</p>
+<pre class="code">【Aptana】 &gt; 【エディター】 &gt; 【JavaScript】 &gt; 【コードアシスト】</pre>
+<p>と選択し、jQueryのチェックボックスをcheckすればOK</p>
+<p><img alt="aptana02.jpg" src="http://www.y-tti.com/blog/images/aptana02.jpg" width="450" height="374" />
+</p>
+
+<p>$と打ってコード補完されていればOK!</p>
+<p>
+Flex BuilderやFlash DevelopでActionscriptを書く時もそうだけど、コードアシストによってエディタ様様様が言語をご教授してくれる気がします。良いエディタを使えばより勉強になると思います。コードアシストは自分にとって生命線なんです。。
+</p>
+
+<h3>さてjavascriptを勉強しようか！</h3>
+<p>下記２つの記事を見たら、javascript恐怖症が少し和らいだのでメモ</p>
+<p><a href="http://moto-mono.net/2009/03/09/newsticker1-1.html" target="_blank">jQueryを使ってNews Tickerプラグインを作ってみよう[前編][1]</a>
+</p>
+<p><a href="http://blog.livedoor.jp/sasata299/archives/51189103.html" target="_blank">javascript初級者のオブジェクト指向とかプロトタイプとか</a></p>
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>インターフェースって食べれるの？</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/03/post_69.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.200</id>
+   
+   <published>2009-03-15T19:18:48Z</published>
+   <updated>2009-03-16T10:09:22Z</updated>
+   
+   <summary>大阪てら子 21 「AS3教えて！えらい人」にいってきました。 色々と勉強になる...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p><a href="http://teraco.jp/2009/03/03-152902.php" target="_blank">大阪てら子 21 「AS3教えて！えらい人」</a>にいってきました。</p>
+<p>色々と勉強になる質問が飛び交い、先生達が勉強になる解答を示してくれて、私にとって、とっても有意義な時間になりました。
+</p>
+<p>自分はinterface（インターフェース）について質問させてもらったんで、その内容をちょちょいとまとめておきます。</p>
+<h3>インターフェースってなに？</h3>
+<p>抽象的なクラスです。っと説明つきにくいので、↓を参照してください。</p>
+<p><a href="http://msugai.fc2web.com/java/interface.html" target="_blank">Java入門 | インタフェース</a></p>
+<p>Javaの資料ですが、概念はActionScriptでもほとんど変わらないはずです。自分もモヤモヤっとしか理解してません。。。</p>
+
+<h3>もう少し具体的にどういう時に使うの？</h3>
+<p>インターフェースを実装 (implements)したクラスはインターフェースで定義されたメソッドを必ず実装しなければならない。（しなければコンパイルできない）
+</p>
+<p>ってことは、複数人でコードを書く時にインターフェースを決めておけば、クラスが綺麗に統一されていくよー。みたいなことはググっていけば何となく理解できました。
+</p>
+<p>ただし、システムのように大人数で開発することは余りなく、一人で実装することが多いFlashでは、インターフェースは必須ではないんじゃない？って疑問がふつふつと。
+</p>
+<h4>ということで、別な部分での利点を教えてください！</h4>
+<p>っていうことを質問したわけであります。</p>
+<p>で、そのまとめを文章で説明しにくいので以下のasを！！</p>
+<p>※車に無理矢理例えてみた。<br />
+※メソッドのok_wakattaYo1とok_wakattaYo2を見てなるほど！っと道が開ければ。。<br /></p>
+
+<p><a href="http://www.y-tti.com/blog/flash/teraco_osiete/teraco_osiete.as" target="_blank">teraco_osiete.as</a>
+</p>
+<pre name="code" class="js">
+package {
+	import flash.display.DisplayObject;
+	import flash.display.Sprite;
+
+	public class teraco_osiete extends Sprite
+	{
+		public function teraco_osiete() {
+			ok_wakattaYo1();
+			ok_wakattaYo2();
+		}
+		
+		public function ok_wakattaYo1():void {
+			//var car:Car = new Car();
+			//っとするところを抽象的に
+			//var car:IMachine と変数宣言してみる。
+			var car:IMachine = new Car();
+			
+			//そのままcarをaddChildするとIMachineはDisplayObjectでは
+			//ないので怒られる。なんでキャストする。
+			addChild(DisplayObject(car));
+			
+			//上記２つと同様。
+			var carlogo:IMachine = new CarLogo();
+			addChild(DisplayObject(carlogo));
+		}
+		
+		public function ok_wakattaYo2():void {
+			//Car(Sprite)とCarLogo(TextField)をインスタンス化して、配列にぶっこむ。
+			var machines:Array = [];
+			var car:Car = new Car();
+			var carlogo:CarLogo = new CarLogo();
+			machines.push(car);
+			machines.push(carlogo);
+			
+			//配列の中身をfor eachでまわす時、受け取る変数をIMachineと定義する。
+			//IMachineにはdrawが定義されているので問題なくdrawできる。
+			//※抽象クラスを使うことによりSpriteを継承しているCarでもTextFieldを継承しているCarLogoでも
+			// 変数に格納できる。
+			for each (var obj:IMachine in machines) {
+				trace(obj);//１ループ目[object Car]　, ２ループ目[object CarLogo]
+				obj.draw();
+			}
+		}
+	}
+}
+
+import flash.display.Sprite;
+import flash.text.TextField;
+import machine1.IMachine;
+
+/**
+ * 抽象クラス「IMachine」を実装 (implements)したCarクラス
+ */
+class Car extends Sprite implements IMachine {
+	public function draw():void {}
+}
+
+/**
+ * 抽象クラス「IMachine」を実装 (implements)したCarLogoクラス
+ */
+class CarLogo extends TextField implements IMachine {
+	public function draw():void {}
+}
+
+/**
+ * 抽象クラス「IMachine」
+ * 抽象メソッド「draw」のシグネチャを定義
+ */
+interface IMachine {
+	function draw():void;
+}
+</pre>
+
+
+<p>私と同じぐらいのas理解度の人はなるほどー！！ってなるはず。</p>]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>shadowboxでHTML表示のメモ</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/03/shadowboxhtml.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.199</id>
+   
+   <published>2009-03-02T17:42:25Z</published>
+   <updated>2009-03-02T17:42:34Z</updated>
+   
+   <summary>Lightbox風なやつで、HTMLやswfを表示できるjavascriptを探...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="Ajaxメモ" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>Lightbox風なやつで、HTMLやswfを表示できるjavascriptを探してたわけですが、<br />
+LightWindow　→同じドメインのHTMLが開かない（IE6）<br />
+multibox　→IE6で上手く開かない<br />
+MOOdalBox　→IE6で上手く開かない<br />
+と、ことごとく玉砕されたため、<br />
+今流行りの<a href="http://mjijackson.com/shadowbox/" target="_blank">shadowbox</a>に目をつけてみました</p>
+
+<p>がしかし、
+shadowboxでHTML表示を行うことだけに約２、３時間ハマることに。。</p>
+
+<h4>失敗：'iframe'無し</h4>
+<MTPrecode>
+Shadowbox.loadPlayer(['html'], 'js/player');</MTPrecode>
+
+<h4>成功：'iframe'有り</h4>
+<MTPrecode>Shadowbox.loadPlayer(['html' , 'iframe'], 'js/player');</MTPrecode>
+<p>
+
+ここでいう、「iframe」の意味がいまいち分からないのだが、「iframe」つけたらshadowboxで上手くHTML表示が出来たのでめでたしめでたし。</p>]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>透過png画像が綺麗に表示されない！回避方法メモ</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/02/png.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.198</id>
+   
+   <published>2009-02-25T14:07:28Z</published>
+   <updated>2009-02-25T14:15:06Z</updated>
+   
+   <summary>Flash Player10まで進んでしまってる昨今でございますが、ポータル向け...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>Flash Player10まで進んでしまってる昨今でございますが、ポータル向けのバナー制作などではレギュレーションによりFlash Player6書き出しでなければいけなかったりします。</p>
+<p>Flash Player6書き出し＆透過png画像使用時に、Flashタイムライン上では綺麗に表示されているのにパブリッシュしたら汚くなってしまっていて多いにハマったのでメモ。</p>
+
+<h3>Flash Player6とFlash Player9での書き出し例</h3>
+<h4>Flash Player6書き出し</h4>
+<p><a href="http://www.y-tti.com/blog/flash/TestPng/pngTest_fp6.swf" target="_blank"><img alt="pngTestfp6.jpg" src="http://www.y-tti.com/blog/images/pngTestfp6.jpg" width="251" height="155" /></a></p>
+<p>左側問題なし、右側は汚い</p>
+
+<h4>Flash Player9書き出し</h4>
+<p><a href="http://www.y-tti.com/blog/flash/TestPng/pngTest_fp9.swf" target="_blank"><img alt="pngTestfp9.jpg" src="http://www.y-tti.com/blog/images/pngTestfp9.jpg" width="251" height="155" /></a></p>
+<p>両方問題なし</p>
+
+<h3>使用したpng画像</h3>
+<h4>詰め詰めで切り出ししたpng画像（汚くなる）</h4>
+<p><img alt="pngNG.jpg" src="http://www.y-tti.com/blog/images/pngNG.jpg" width="296" height="306" /></p>
+<p>Flash Player7,8,9では問題なかったが、Flash Player6書き出しで画像が汚くなった。</p>
+
+<h4>
+1px間を空けてで切り出ししたpng画像（問題なし）</h4>
+<p><img alt="pngOK.jpg" src="http://www.y-tti.com/blog/images/pngOK.jpg" width="357" height="304" /></p>
+<p>Flash Player6,7,8,9どれも問題なし</p>
+
+<h3>回避方法まとめ</h3>
+<p>Flash Player6（7もたまにあるかも？）書き出しにて、透過png画像を使用する時は、切り出し時に隙間を空けるべし。</p>
+]]>
+      
+   </content>
+</entry>
+<entry>
+   <title>stage幅取得のタイミングをテストしてみた</title>
+   <link rel="alternate" type="text/html" href="http://www.y-tti.com/blog/2009/02/stage.php" />
+   <id>tag:www.y-tti.com,2009:/blog//1.197</id>
+   
+   <published>2009-01-31T18:59:50Z</published>
+   <updated>2009-01-31T19:07:33Z</updated>
+   
+   <summary>Flashはブラウザに依存しない！！って思っていたいが、 SWFObject v...</summary>
+   <author>
+      <name></name>
+      
+   </author>
+         <category term="FLASH勉強" scheme="http://www.sixapart.com/ns/types#category" />
+   
+   
+   <content type="html" xml:lang="ja" xml:base="http://www.y-tti.com/blog/">
+      <![CDATA[<p>Flashはブラウザに依存しない！！って思っていたいが、<br />
+SWFObject v2.1を使用し、stage.stageWidthやstage.stageHeightを
+取得しようとした時にどうもFirefoxにて上手く取得できない。</p>
+<br />
+<p>
+ということで<br />
+<a href="http://www.y-tti.com/blog/flash/stageTest/" target="_blank">テスト</a><br />
+してみた。<br />
+</p>
+
+<h3>FirefoxとSafariでの結果</h3>
+<h4>Firefox</h4>
+<p>
+<img alt="stageTest_firefox.jpg" src="http://www.y-tti.com/blog/images/stageTest_firefox.jpg" width="406" height="244" />
+</p>
+<h4>Safari</h4>
+<p><img alt="stageTest_safari.jpg" src="http://www.y-tti.com/blog/images/stageTest_safari.jpg" width="406" height="244" /></p>
+
+<h3>実行したactionscript</h3>
+<MTPrecode>package {
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.text.TextField;
+	import flash.text.TextFieldAutoSize;
+
+	[SWF(backgroundColor="0xFFFFFF",frameRate="30",width="640",height="480")]
+	public class stageTest extends Sprite
+	{
+		private var _tf:TextField;
+		public const STAGEADDCHILD:String = "stageaddchild";
+		
+		public function stageTest()
+		{
+			_tf = new TextField();
+			//_tf.multiline = true;
+			_tf.autoSize = TextFieldAutoSize.LEFT;
+			//_tf.wordWrap = false;
+			addChild(_tf);
+			addEventListener(Event.ADDED_TO_STAGE , addStageHandler);
+			addEventListener(Event.ENTER_FRAME , enterframeHandler);
+			addEventListener(this.STAGEADDCHILD , stageAddChildHandler);
+		}
+		
+		private function addStageHandler(e:Event):void {
+			var str:String = _tf.text;
+			str += "Event.ADDED_TO_STAGE --" + "stageWidth = "+ stage.stageWidth + " -- " + "stageHeight = " + stage.stageHeight + "\r";
+			_tf.text = str;
+		}
+		
+		private function enterframeHandler(e:Event):void {
+			var str:String = _tf.text;
+			str += "Event.ENTER_FRAME --" + "stageWidth = "+ stage.stageWidth + " -- " + "stageHeight = " + stage.stageHeight + "\r";
+			_tf.text = str;
+			
+			if(stage.stageWidth>0) {
+				removeEventListener(Event.ENTER_FRAME , enterframeHandler);
+				dispatchEvent(new Event(STAGEADDCHILD));
+			}
+		}
+		
+		private function stageAddChildHandler(e:Event):void {
+			var str:String = _tf.text;
+			str += "stageOK";
+			_tf.text = str;
+			
+		}
+	}
+}</MTPrecode>
+
+<h3>結果を踏まえて</h3>
+<p>Event.ADDED_TO_STAGEでイベント待ちすればOKとか、
+Event.ENTER_FRAMEを一回ループすればOKと思っていたのですが、
+どちらもダメのようです。</p>
+<p>stage.stageWidthが取得できるまで待ち、dispatchEventしたほうがよさげ。</p>
+<p>
+SWFObject v2.1の問題な気もしますが、みんなどういう対処しているのかな。。
+</p>]]>
+      
+   </content>
+</entry>
+
+</feed>

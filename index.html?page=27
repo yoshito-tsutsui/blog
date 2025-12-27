@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="robots" content="INDEX,FOLLOW" />
+		<meta name="description" content="奈良県で勉強中の<s>兵庫県で働く</s>ひよっこWEBデザイナー。<br>
+2007年1月(27歳時)にネ申の啓示を受けてWEBデザイナーを志す。<br>
+photoshop,illustrator,Flash,shade,html,css,php/cgi,movabletypeと<br>
+身に付けなきゃいけないことテンコ盛り&金ないわで崖っぷちです。
+" />
+		<meta name="generator" content="http://www.sixapart.jp/movabletype/" />
+		<link rel="home" href="index.html" title="崖っぷちWEBデザイナーブログ" />
+		<link rel="index" href="http://www.y-tti.com/blog/archives.html" title="崖っぷちWEBデザイナーブログarchives" />
+		<link rel="stylesheet" href="styles-site.css" type="text/css" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="alternate" type="application/atom+xml" title="Atom" href="atom.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="index.xml" /> 
+
+		<link rel="stylesheet" href="SyntaxHighlighter/Styles/SyntaxHighlighter.css" type="text/css" />  
+		<script type="text/javascript" src="SyntaxHighlighter/Scripts/shCore.js"></script>   
+		<script type="text/javascript" src="SyntaxHighlighter/Scripts/shBrushPhp.js"></script>
+		<script type="text/javascript" src="SyntaxHighlighter/Scripts/shBrushJScript.js"></script>
+		
+		<title>崖っぷちWEBデザイナーブログ</title>
+		
+	</head>
+	<body>
+		<div id="topborder"></div>
+	
+		<div id="container">
+			
+			<div id="left-content">
+				<div id="header">
+					<h1><a href="index.html" accesskey="1" title="崖っぷちWEBデザイナーブログ"><img src="img/logo.gif" alt="崖っぷちWEBデザイナーブログ" /></a></h1>
+				</div><!-- header -->
+				<div id="main">
+				
+					<div id="entry-container">
+																		<div class="entry-pagelink">
+							< <a href="index.php?page=26" title="">次の5日分</a> | </MTPaginateIfPreviousPage_><a href="index.php?page=28" title="">前の5日分</a></MTPaginateIfNextPage_>> 
+						</div><!-- entry-pagelink -->
+						
+						
+						
+												<div class="entry-title">
+							<h2><a href="2007/09/flash.php" title="今の状態をFLASHを使って表現。">今の状態をFLASHを使って表現。</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="flash/index.html" title="">FLASH勉強</a></p>
+								<p class="date">2007&#24180;09&#26376;18&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="400" height="300" id="pank" align="middle"><br /><br />
+<param name="allowScriptAccess" value="sameDomain" /><br /><br />
+<param name="movie" value="http://www.y-tti.com/blog/flash/pank.swf" /><param name="quality" value="high" /><embed src="flash/pank.swf" quality="high" width="400" height="300" name="inu_small" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br /><br />
+</object></p>
+
+<p>先のことを考えたり、<br />
+今のことを考えたり、<br />
+過去のことを考えたり、</p>
+
+<p>それでは、今何をしなければいけないのか？<br />
+とか考えようとしても何も考えれなかったり、<br />
+ただ、無駄に時間が過ぎてしまっていたり、<br />
+気がついたら寝てたりと。。。</p>
+
+<p>まさにパンクしてます。。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2007/09/flash.php" title="今の状態をFLASHを使って表現。">Permalink</a></li>
+								<li>by </li>
+								<li>at 22:35</li>
+								<li>in <a href="flash/index.html" title="">FLASH勉強</a></li>
+								<li><a href="2007/09/flash.php#comments" title="今の状態をFLASHを使って表現。にコメント">Comments</a> (0) </li>
+								<li><a href="2007/09/flash.php#trackbacks" title="今の状態をFLASHを使って表現。にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2007/09/heros.php" title="HEROSを見たが、、、＋神戸散策">HEROSを見たが、、、＋神戸散策</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="k1/index.html" title="">K-1・格闘技ネタ</a></p>
+								<p class="date">2007&#24180;09&#26376;17&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>HEROSをテレビ観戦。</p>
+
+<p>何故だろな。HEROSは何かがしょぼいな。<br />
+総合格闘技はやっぱりPRIDEの方が数倍面白かった。<br />
+見たかったハリトーノフ、アリスター、ユンドンシクも放送されず、<br />
+何のために２時間もテレビの前にいたのか。。</p>
+
+<p>CMもセンスを疑うようなモノが何度も流され、<br />
+本気で気持ち悪くなってきて吐き気が。。。</p>
+
+<p>K-1GP開幕戦に期待しよう。</p>
+
+<p><br />
+3連休東京から来た友人と神戸散策しておりました。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+												<div class="entry-more"><p><a href="2007/09/heros.php#more" title="HEROSを見たが、、、＋神戸散策">HEROSを見たが、、、＋神戸散策の続きを読む</a></p></div><!-- entry-more_end -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2007/09/heros.php" title="HEROSを見たが、、、＋神戸散策">Permalink</a></li>
+								<li>by </li>
+								<li>at 23:59</li>
+								<li>in <a href="k1/index.html" title="">K-1・格闘技ネタ</a></li>
+								<li><a href="2007/09/heros.php#comments" title="HEROSを見たが、、、＋神戸散策にコメント">Comments</a> (0) </li>
+								<li><a href="2007/09/heros.php#trackbacks" title="HEROSを見たが、、、＋神戸散策にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2007/09/flash_photoshop.php" title="FLASH photoshopから書き出し">FLASH photoshopから書き出し</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="flash/index.html" title="">FLASH勉強</a></p>
+								<p class="date">2007&#24180;09&#26376;14&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="400" height="300" id="youkai" align="middle"><br /><br />
+<param name="allowScriptAccess" value="sameDomain" /><br /><br />
+<param name="movie" value="http://www.y-tti.com/blog/flash/youkai.swf" /><param name="quality" value="high" /><embed src="flash/youkai.swf" quality="high" width="400" height="300" name="inu_small" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br /><br />
+</object></p>
+
+<p>photoshopで絵を描いて、<br />
+ImegeReadyより、swfファイルにてファイル書き出し。<br />
+または、pngファイル書き出しにて<br />
+透明部分を維持した形でFLASHに読み込み。</p>
+
+<p>をやろうと思ったけど、<br />
+透明部分にギザギザが残ってしまう。<br />
+<img alt="youkai02.jpg" src="images/youkai02.jpg" width="140" height="104" /><br />
+↑みたいに。<br />
+色々試してみたけど、<br />
+どうしても無理だった。</p>
+
+<p>仕方ないので、FLASHの方で、<br />
+分解→なげなわツールで不要部分削除。<br />
+をやったけど、こんな方法しかないのか。。</p>
+
+<p>あと、jpgファイルを読み込むと<br />
+ｸﾞﾗﾃﾞｰｼｮﾝがやたら崩れてる。。</p>
+
+<p>photoshopとFLASHの連携が分からない。。。</p>
+
+<p><br />
+■■■追記(解決)■■■<br />
+FLASHからPNGデータの透明部分を読み込みで<br />
+ギザギザで出る現象だが原因が判明。</p>
+
+<p>原因<br />
+【PCのディスプレイ設定が16bitなため】</p>
+
+<p>解決<br />
+【PCのディスプレイ設定を32bit(24bit(に変更】</p>
+
+<p>これでギザギザは解決！！<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2007/09/flash_photoshop.php" title="FLASH photoshopから書き出し">Permalink</a></li>
+								<li>by </li>
+								<li>at 23:02</li>
+								<li>in <a href="flash/index.html" title="">FLASH勉強</a></li>
+								<li><a href="2007/09/flash_photoshop.php#comments" title="FLASH photoshopから書き出しにコメント">Comments</a> (0) </li>
+								<li><a href="2007/09/flash_photoshop.php#trackbacks" title="FLASH photoshopから書き出しにトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2007/09/post_36.php" title="デッサン　ホッチキスと洗濯バサミと紙">デッサン　ホッチキスと洗濯バサミと紙</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="cat4/index.html" title="">デッサン習い事</a></p>
+								<p class="date">2007&#24180;09&#26376;13&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p><img alt="KC380042.jpg" src="images/KC380042.jpg" width="300" height="400" /></p>
+
+<p><br />
+「デッサンは本質を捉えること」</p>
+
+<p>と、モジャ先生がおっしゃってました。</p>
+
+<p>なるほど！</p>
+
+<p>目に見えてるものを描くのではなくて、<br />
+構造がどのようになっているか意識して描く。</p>
+
+<p>デッサンって奥が深いんですね。。<br />
+ギターでいうと、チョーキングの奥の深さが<br />
+少し分かった感じ。</p>
+
+<p>デッサンを習いはじめて4ヶ月ぐらいだけど、<br />
+最近は、そこらに転がってる物体がどのような構造に<br />
+なっているのか考えることが楽しかったり、<br />
+今まで絵を見ることに興味が無かった私が、<br />
+興味ありありになってたり、<br />
+そんな今日この頃です。</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2007/09/post_36.php" title="デッサン　ホッチキスと洗濯バサミと紙">Permalink</a></li>
+								<li>by </li>
+								<li>at 22:31</li>
+								<li>in <a href="cat4/index.html" title="">デッサン習い事</a></li>
+								<li><a href="2007/09/post_36.php#comments" title="デッサン　ホッチキスと洗濯バサミと紙にコメント">Comments</a> (0) </li>
+								<li><a href="2007/09/post_36.php#trackbacks" title="デッサン　ホッチキスと洗濯バサミと紙にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2007/09/flash_6.php" title="FLASH ボタンに音をつける。">FLASH ボタンに音をつける。</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="flash/index.html" title="">FLASH勉強</a></p>
+								<p class="date">2007&#24180;09&#26376;12&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="400" height="300" id="patin" align="middle"><br /><br />
+<param name="allowScriptAccess" value="sameDomain" /><br /><br />
+<param name="movie" value="http://www.y-tti.com/blog/flash/patin.swf" /><param name="quality" value="high" /><embed src="flash/patin.swf" quality="high" width="400" height="300" name="inu_small" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br /><br />
+</object></p>
+
+<p>マウスオーバーとクリックで音が出ます。</p>
+
+<p>actionscriptは全く使わず、<br />
+フラッシュのGUI機能そのまま使いました。</p>
+
+<p>フラッシュより、絵がしょぼすぎて困った。。<br />
+そろそろ、がっつりFLASHらしいものに<br />
+挑戦してみよかなっと思う今日この頃です。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2007/09/flash_6.php" title="FLASH ボタンに音をつける。">Permalink</a></li>
+								<li>by </li>
+								<li>at 23:04</li>
+								<li>in <a href="flash/index.html" title="">FLASH勉強</a></li>
+								<li><a href="2007/09/flash_6.php#comments" title="FLASH ボタンに音をつける。にコメント">Comments</a> (0) </li>
+								<li><a href="2007/09/flash_6.php#trackbacks" title="FLASH ボタンに音をつける。にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+
+						
+												<div class="entry-pagelinkunder">
+							< <a href="index.php?page=26" title="">次の5日分</a> | </MTPaginateIfPreviousPage_><a href="index.php?page=28" title="">前の5日分</a></MTPaginateIfNextPage_>> 
+						</div><!-- entry-pagelink -->
+						
+						
+
+						<div class="pagetop">
+							<div class="pagetopbox">
+								<a href="index.php?page=27#header">Page Top</a>
+							</div><!-- pagetop -->
+							<div class="clear"></div>
+						</div>
+							
+					</div><!-- entry-container -->
+						
+				</div><!-- main -->
+			</div><!-- left-content -->
+				
+			<div id="right-content">
+				<div id="header2">
+				</div><!-- header2 -->
+				
+				<div id="side-content">
+					
+					<!-- 左メニューモジュールの開始 -->
+										<div id="left-side-content">
+						<div id="side-search">
+							<div class="search-form">
+								<form method="get" action="http://www.y-tti.com/mt/mt-search.cgi">
+									<input type="hidden" name="IncludeBlogs" value="1" />
+									<input id="search" class="searchtextarea" tabindex="5" size="10" accesskey="t"  value="" name="search" onblur="if(this.value==''){this.style.color=''; this.form.reset()}" onfocus="this.value = ''; this.style.color = '#000000';" />
+									<input type="submit" tabindex="6" accesskey="s" value="SEARCH" class="searchsubmit" />
+								</form>
+							</div><!-- search-form -->
+						</div><!-- side-search -->
+										
+							
+						<div id="side-recent">
+							<ul>
+																<li><a href="2010/07/iphone6.php" title="iPhoneアプリ開発、道に迷いながら6冊の本を読んでみた。" >iPhoneアプリ開発、道に迷いながら6冊の本を読んでみた。</a></li>
+																<li><a href="2010/06/myspace.php" title="MySpaceバイオグラフィーの編集が出来ない。" >MySpaceバイオグラフィーの編集が出来ない。</a></li>
+																<li><a href="2010/06/flashbuildersourcemate.php" title="FlashBuilderプラグイン【SourceMate]のエラー対処" >FlashBuilderプラグイン【SourceMate]のエラー対処</a></li>
+																<li><a href="2009/07/teraco23.php" title="teraco23でマトリックスな格闘をしてきた。" >teraco23でマトリックスな格闘をしてきた。</a></li>
+																<li><a href="2009/06/publishing_source_code.php" title="Publishing source code が便利すぎるかも。" >Publishing source code が便利すぎるかも。</a></li>
+																<li><a href="2009/06/papervision3d_3d2d.php" title="Papervision3D 3D座標→2D座標の変換メモ" >Papervision3D 3D座標→2D座標の変換メモ</a></li>
+																<li><a href="2009/05/_22_web_1.php" title="大阪てら子 22 「webカメラで遊ぼう！」に参加してきました" >大阪てら子 22 「webカメラで遊ぼう！」に参加してきました</a></li>
+																<li><a href="2009/04/dbdmysql.php" title="DBD::mysqlのインストールメモ" >DBD::mysqlのインストールメモ</a></li>
+																<li><a href="2009/04/post_70.php" title="なぜこのサイトでモノを買ったのか？を考えてみた。" >なぜこのサイトでモノを買ったのか？を考えてみた。</a></li>
+																<li><a href="2009/03/flash_10.php" title="Flashバナーのデザイン作成時の留意点" >Flashバナーのデザイン作成時の留意点</a></li>
+																<li><a href="2009/03/javascript.php" title="javascript開発環境をとりあえず作っておく。" >javascript開発環境をとりあえず作っておく。</a></li>
+																<li><a href="2009/03/post_69.php" title="インターフェースって食べれるの？" >インターフェースって食べれるの？</a></li>
+																<li><a href="2009/03/shadowboxhtml.php" title="shadowboxでHTML表示のメモ" >shadowboxでHTML表示のメモ</a></li>
+																<li><a href="2009/02/png.php" title="透過png画像が綺麗に表示されない！回避方法メモ" >透過png画像が綺麗に表示されない！回避方法メモ</a></li>
+																<li><a href="2009/02/stage.php" title="stage幅取得のタイミングをテストしてみた" >stage幅取得のタイミングをテストしてみた</a></li>
+								
+							</ul>
+						</div><!-- side-recent -->
+						
+						<div id="side-ficcblogparts">
+						<script language="JavaScript" type="text/javascript" src="http://www.anotherbookmark.com/blogparts/bp.js"></script><script language="JavaScript" type="text/javascript">setFlash(160,300,0xffffff,0x24211A,0xF8F8F8,0x7FA81F);</script><noscript><a href="http://www.anotherbookmark.com/" target="_blank">FICC Another Bookmark Beta</a> powered by <a href="http://www.ficc.jp/" target="_blank">FICC</a></noscript>
+						</div><!-- side-ficcblogparts -->
+						
+												<div id="side-categories">
+														<ul>
+								
+								<li><a href="ajax/index.html" title="" >Ajaxメモ</a></li>
+								
+								<li><a href="flash/index.html" title="" >FLASH勉強</a></li>
+								
+								<li><a href="k1/index.html" title="" >K-1・格闘技ネタ</a></li>
+								
+								<li><a href="php/index.html" title="" >PHP/システム関連</a></li>
+								
+								<li><a href="web/index.html" title="" >WEBデザインメモ</a></li>
+								
+								<li><a href="iphone/index.html" title="" >iPhone</a></li>
+								
+								<li><a href="youtube/index.html" title="" >youtube動画</a></li>
+								
+								<li><a href="cat3/index.html" title="" >おすすめ雑誌・本・ソフト</a></li>
+								
+								<li><a href="cat4/index.html" title="" >デッサン習い事</a></li>
+								
+								<li><a href="cat1/index.html" title="" >ブログ構築過程</a></li>
+								
+								<li><a href="rasheen/index.html" title="" >ラシーン(rasheen)</a></li>
+															</ul>
+							
+						</div><!-- side-categories -->
+						
+						
+						<div id="side-link">
+							<ul>
+								<li><a href="http://www.live-kokuchi.com/" target="_blank">ライブ告知.com</a></li>
+								<li><a href="http://meiryou.ti-da.net/" target="_blank">沖縄インディーズアーティスト、路上ミュージシャン紹介</a></li>
+								<li><a href="http://blog.livedoor.jp/shiozakidream/" target="_blank">オト→キセキ</a></li>
+								<li><a href="http://kawagoe-soichi.spaces.live.com/" target="_blank">風速４０光年</a></li>
+								<li><a href="http://mekishikans.com/" target="_blank">メキシカンズ</a></li>
+								<li><a href="http://marontic.jp/chiemi/" target="_blank">CHIEN</a></li>
+								<li><a href="http://plaza.rakuten.co.jp/yanikko3rd/" target="_blank">○○じゃー</a></li>
+								<li><a href="http://blog.globalleaf.com/" target="_blank">WEB とビールと UMA の一本道</a></li>
+								<li><a href="http://web21.exblog.jp/" target="_blank">闘え！Webデザイナー</a></li>
+								<li><a href="http://tomwebtom.com/web_blog/" target="_blank">WEBデザインを勉強中</a></li>
+								<li><a href="http://noahnola.blog87.fc2.com/" target="_blank">小さな巨人の小さな絵日記</a></li>
+								<li><a href="http://www.ikesai.com/" target="_blank">いけてるサイトドットコム</a></li>
+								<li><a href="http://wd.dsp.co.jp/" target="_blank">withD(デジタルスケープ)</a></li>
+								<li><a href="http://www.n-c-c.org/" target="_blank">NCC(ナショナルクリエーターズカンファレンス)</a></li>
+								<li><a href="http://www.mdn.co.jp/" target="_blank">MdN</a></li>
+								<li><a href="http://www.cbc-net.com/" target="_blank">CBCNET</a></li>
+								<li><a href="http://itpro.nikkeibp.co.jp/article/COLUMN/20060525/238975/?ST=swd-tech" target="_blank">FLASH8 入門講座:ITpro</a></li>
+								<li><a href="http://www.flash-jp.com/" target="_blank">FLASH-jpフォーラム</a></li>
+								<li><a href="http://macototo.cool.ne.jp/junics/" target="_blank">JUNICS HOMEPAGE</a></li>
+							</ul>
+						</div><!-- side-link -->
+						
+						<div id="side-feed">
+							<ul class="ulfeed">
+							<li><a class="rss" href="index.xml" title="崖っぷちWEBデザイナーブログ RSS Feed (XML)">RSS Feed (XML)</a></li>
+							<li><a class="rss" href="atom.xml" title="崖っぷちWEBデザイナーブログ Atom Feed (XML)">Atom Feed (XML)</a></li>
+							<li><a class="twitter" href="http://twitter.com/y_tti">Twitter</a></li>
+							<li><a class="delicious" href="http://delicious.com/ytti">del.icio.us</a></li>
+							<li><a class="rhatena" href="http://r.hatena.ne.jp/y-tti/">r.hatena</a></li>
+							<li><a class="drecom" href="2008/09/drecom_rss.php">drecom RSS</a></li>
+							</ul>
+						</div><!-- side-feed -->
+					</div><!-- left-side-content -->
+					<!-- 左メニューモジュールの終了 -->
+					<!-- 右メニューモジュールの開始 -->
+										<div id="right-side-content">
+						<div id="side-microad">
+<script type="text/javascript"><!--
+in_uid = '130988';
+in_templateid = '51002';
+in_charset = 'UTF-8';
+in_group = 'blog';
+in_matchurl = '';
+in_HBgColor = 'F8F8F8';
+in_HBorderColor = '24211A';
+in_HTitleColor = '24211A';
+in_HTextColor = '5D6155';
+in_HUrlColor = '7FA81F';
+frame_width = '160';
+frame_height = '300';
+--></script>
+<script type='text/javascript' src='http://cache.microad.jp/send0100.js'></script>
+						</div><!-- side-microad -->
+	
+						<div id="side-blogparts">
+<script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script>
+						</div>
+							
+						<div id="side-book">
+
+							<div class="side-bookbox">
+								<div class="booktitle">Adobe Flash CS3 詳細! ActionScript 3.0 入門ノート (DVD-ROM付)</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881665901/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41lyzDy6G3L._SL160_.jpg" alt="Adobe Flash CS3 詳細! ActionScript 3.0 入門ノート (DVD-ROM付)" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+クラスで書けるようになった。配列のpushとかspliceとかsliceとかややこしい部分の辞書代わりにも使ってます。XML関係もこれで覚えた。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">ActionScript 3.0 アニメーション</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4862460496/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51VBoM8avZL._SL160_.jpg" alt="ActionScript 3.0 アニメーション" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+vx,Math,cos,sinとか???な数学的な部分をこの本で理解できた気がします。逃げたいジャンルだけどFLASHに必須なジャンルなのよね。。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">Adobe Flash CS3 詳細! ActionScript3.0入門ノート2 (CD-ROM付) </div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881666460/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41ck4PZgokL._SL160_.jpg" alt="Adobe Flash CS3 詳細! ActionScript3.0入門ノート2 (CD-ROM付)" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+ActionScript応用への第一歩。ただこれを読む前に入門ノート１を先に読んでおいた方がよさそう。ASの世界が広がった気がする本です。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">Flash Creative Workshop</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797336072/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41R-rGNvK6L._SL160_.jpg" alt="Flash Creative Workshop" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+FLASHを始めて右も左も分からない時に救世主となった本。FLASHサイト制作法がなるほど！っと。ActionScriptバリバリの人はスルー。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">FLASH OOP for ActionScript 3.0</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798116300/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51J-MQ%2BFUOL._SL160_.jpg" alt="FLASH OOP for ActionScript 3.0" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+FLASHの「今の主流」を知ることが出来る本。筆者の方々は総勢10人以上でかつ現在活躍中の方々ばかりなんでミーハー的な読み方もありかも。
+								</div>
+							</div><!-- side-bookbox -->
+	
+						</div><!-- side-book -->
+					</div><!-- right-side-content -->					<!-- 右メニューモジュールの終了 -->
+					<div class="clear"></div>
+						
+				</div><!-- side-content -->
+					
+			</div><!-- right-content -->
+			<div class="clear"></div>
+				
+		</div><!-- container -->
+	
+		<!-- フッターモジュールの開始 -->
+		
+		<div id="footer">
+			<div id="footer-content">
+				<div id="footer-profile">
+					<div class="img"><img src="img/profile-img.jpg" width="53" height="73" /></div>
+					<div class="descripton">
+					奈良県在住のWEBデザイナー??FLASHer??。
+					2007年1月(27歳時)にネ申の啓示を受けてWEBデザイナーを志す。
+					現在はFLASHを主として活動中。
+					身に付けなきゃいけないことテンコ盛り&金ないわで崖っぷちです。
+					<p><a href="http://twitter.com/y_tti">Twitter</a> | <a href="http://delicious.com/ytti">del.icio.us</a> | <a href="http://r.hatena.ne.jp/y-tti/">r.hatena</a> </p>
+					</div>
+					<div class="clear"></div>
+				</div><!-- footer-profile -->
+				
+								<div id="footer-archives">
+															<ul>
+					
+					<li><a href="2010/07/index.html" title="" >2010&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2010/06/index.html" title="" >2010&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2009/07/index.html" title="" >2009&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2009/06/index.html" title="" >2009&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2009/05/index.html" title="" >2009&#24180;05&#26376;</a></li>
+					
+										
+					<li><a href="2009/04/index.html" title="" >2009&#24180;04&#26376;</a></li>
+					
+										
+					<li><a href="2009/03/index.html" title="" >2009&#24180;03&#26376;</a></li>
+					
+										
+					<li><a href="2009/02/index.html" title="" >2009&#24180;02&#26376;</a></li>
+					
+										
+					<li><a href="2009/01/index.html" title="" >2009&#24180;01&#26376;</a></li>
+					
+										
+					<li><a href="2008/12/index.html" title="" >2008&#24180;12&#26376;</a></li>
+					
+										
+					<li><a href="2008/11/index.html" title="" >2008&#24180;11&#26376;</a></li>
+					
+										
+					<li><a href="2008/10/index.html" title="" >2008&#24180;10&#26376;</a></li>
+					
+										
+					<li><a href="2008/09/index.html" title="" >2008&#24180;09&#26376;</a></li>
+					
+										
+					<li><a href="2008/08/index.html" title="" >2008&#24180;08&#26376;</a></li>
+					
+										
+					<li><a href="2008/07/index.html" title="" >2008&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2008/06/index.html" title="" >2008&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2008/05/index.html" title="" >2008&#24180;05&#26376;</a></li>
+					
+										
+					<li><a href="2008/04/index.html" title="" >2008&#24180;04&#26376;</a></li>
+					
+										
+					<li><a href="2008/03/index.html" title="" >2008&#24180;03&#26376;</a></li>
+					
+										
+					<li><a href="2008/02/index.html" title="" >2008&#24180;02&#26376;</a></li>
+					
+										
+					<li><a href="2008/01/index.html" title="" >2008&#24180;01&#26376;</a></li>
+					
+										
+					<li><a href="2007/12/index.html" title="" >2007&#24180;12&#26376;</a></li>
+					
+										
+					<li><a href="2007/11/index.html" title="" >2007&#24180;11&#26376;</a></li>
+					
+										
+					<li><a href="2007/10/index.html" title="" >2007&#24180;10&#26376;</a></li>
+					
+										
+					<li><a href="2007/09/index.html" title="" >2007&#24180;09&#26376;</a></li>
+					
+										
+					<li><a href="2007/08/index.html" title="" >2007&#24180;08&#26376;</a></li>
+					
+										
+					<li><a href="2007/07/index.html" title="" >2007&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2007/06/index.html" title="" >2007&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2007/05/index.html" title="" >2007&#24180;05&#26376;</a></li>
+										<li><a href="2007/05/index.html" title="" >2007&#24180;05&#26376;</a></li>
+					</ul>
+					
+					
+					<div class="clear"></div>
+					<ul>
+						<li><a href="archives.php" title="崖っぷちWEBデザイナーブログ">Archives</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div><!-- footer-archives -->
+				<div class="clear"></div>
+				
+				
+				<div id="footer-bloglink">
+					<a href="http://www.blogmura.com/" target="_blank"><img src="http://www.blogmura.com/img/www80_15.gif" width="80" height="15" border="0" alt="ブログランキング・にほんブログ村へ" /></a>
+					<a href="http://blog.with2.net/link.php?508541" target="_blank"><img src="http://www.y-tti.com/blog/img/blogrankingu01.gif" border="0" alt="人気blogランキングへ"></a>
+					<a href="http://www.blog-parts.com/" target="_blank"><img src="http://www.blog-feed.com/icon00.gif" border="0" alt="ブログ検索"></a>
+					<script src="http://banner.blogranking.net/scs?37746"></script>
+					<noscript><a href="http://blogranking.net/" target="_blank"><img src="http://banner.blogranking.net/nosbanner?37746" alt="ブログランキング ドット ネット" border="0" /></a></noscript>
+					<a href="http://nendai-blog.zerone.jp/" target="_blank"><img src="img/bn_80_15.gif" border="0" width="80" height="15"alt="年代別ブログ図鑑"></a>
+					<a href="http://www.fivestyle.biz/click/in/?key=1191690099wEZ6Im9bgT1584"><img src="http://www.fivestyle.biz/help/banner_imeges/banner29.gif" alt="芸術 ブログランキング" border="0"></a>
+				</div><!-- footer-bloglink -->
+					
+			</div><!-- footer-content -->
+		</div><!-- footer -->		<!-- フッターモジュールの終了 -->
+	</body>
+</html>
+<script language="javascript">
+		 window.onload = function () { 
+			dp.SyntaxHighlighter.ClipboardSwf = "/flash/clipboard.swf";
+			dp.SyntaxHighlighter.HighlightAll('code');	
+		}
+		</script>
+<script type="text/javascript" src="http://www.y-tti.com/mogura/w_js.php"></script>
+<noscript>
+<img src="http://www.y-tti.com/mogura/writelog.php?mode=img&js=2" width="0" height="0" style="visibility:hidden;" />
+</noscript> 

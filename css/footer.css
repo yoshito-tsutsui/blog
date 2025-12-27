@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* -----------------------------------------
+
+INFORMATION
+
+FileName:	footer.css
+Summary:	format
+Created:	2008-09-04
+UpdatedBy:	2008-09-04
+Copyright:	(c)2008 www.y-tti.com
+
+------------------------------------------ */
+
+/* 000:common
+--------------------------- */
+div#footer-archives,
+div#footer-profile {
+	padding:20px 0 20px 0;
+}
+
+div#footer-content{
+	font-size:90%;
+	text-align:left;
+}
+
+div#footer-content a{
+	color:#FFFFFF;
+}
+
+div#footer-content a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+
+/* フッター
+--------------------------- */
+div#footer-content {
+	width:980px;
+	margin:0 auto;
+	color:#ffffff;
+
+	line-height:120%;
+	letter-spacing:1px;
+}
+
+div#footer-profile {
+	background:url(../img/profile-titlebg.gif) no-repeat;
+	width:400px;
+	float:left;
+	
+}
+
+div#footer-profile .img {
+	float:left;
+	border:2px solid #FFFFFF;
+}
+
+div#footer-profile .descripton {
+	float:left;
+	width:320px;
+	margin-left:15px;
+}
+
+div#footer-archives {
+	background:url(../img/archives-titlebg.gif) no-repeat;
+	width:550px;
+	float:right;
+}
+
+div#footer-archives ul{
+
+}
+
+div#footer-archives li{
+	display:inline;
+	padding:0 0 1px 0;
+	margin:0 0 0px 0;
+	float:left;
+}
+
+div#footer-archives li a{
+	background:url(../img/arrow_36.gif) no-repeat 0px 5px;
+	padding:0 0 0 15px;
+	margin:0 0 0px 0;
+	display:block;
+	color:#FFFFFF;
+}
+
+div#footer-archives li a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+div#footer-bloglink {
+	padding:0 0 30px 0;
+	margin:0 0 0 0;
+	text-align:right;
+}

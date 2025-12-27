@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="robots" content="INDEX,FOLLOW" />
+		<meta name="description" content="奈良県で勉強中の<s>兵庫県で働く</s>ひよっこWEBデザイナー。<br>
+2007年1月(27歳時)にネ申の啓示を受けてWEBデザイナーを志す。<br>
+photoshop,illustrator,Flash,shade,html,css,php/cgi,movabletypeと<br>
+身に付けなきゃいけないことテンコ盛り&金ないわで崖っぷちです。
+" />
+		<meta name="generator" content="http://www.sixapart.jp/movabletype/" />
+		<link rev="made" href="mailto:your@email" title="E-mail address" />
+		<link rel="home" href="../../index.html" title="崖っぷちWEBデザイナーブログ" />
+		<link rel="index" href="http://www.y-tti.com/blog/archives.html" title="崖っぷちWEBデザイナーブログarchives" />
+		<link rel="prev" href="../05/index.html" title="2007&amp;#24180;05&amp;#26376;" />
+		<link rel="next" href="../07/index.html" title="2007&amp;#24180;07&amp;#26376;" />
+		<link rel="stylesheet" href="../../styles-site.css" type="text/css" />
+		<link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon" />
+		<link rel="alternate" type="application/atom+xml" title="Atom" href="../../atom.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="../../index.xml" /> 
+		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../rsd.xml" />
+		<link rel="stylesheet" href="../../SyntaxHighlighter/Styles/SyntaxHighlighter.css" type="text/css" />
+		<script type="text/javascript" src="../../SyntaxHighlighter/Scripts/shCore.js"></script>  
+		<script type="text/javascript" src="../../SyntaxHighlighter/Scripts/shBrushPhp.js"></script>
+		<script type="text/javascript" src="../../SyntaxHighlighter/Scripts/shBrushJScript.js"></script>
+
+		<title>崖っぷちWEBデザイナーブログ | 2007&#24180;06&#26376;</title>
+		
+	</head>
+	<body>
+		<div id="topborder"></div>
+	
+		<div id="container">
+			
+			<div id="left-content">
+				<div id="header">
+					<h1><a href="../../index.html" accesskey="1" title="崖っぷちWEBデザイナーブログ"><img src="../../img/logo.gif" alt="崖っぷちWEBデザイナーブログ" /></a></h1>
+				</div><!-- header -->
+				<div id="main">
+				
+					<div id="entry-container">
+						
+						<div class="entry-pagelink">
+							< <a href="../05/index.html">&laquo; 2007&#24180;05&#26376;</a> | <a href="../../index.html">main</a>| <a href="../07/index.html">2007&#24180;07&#26376; &raquo;</a> >
+						</div><!-- entry-pagelink -->
+						
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000030"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/30"
+    dc:title="PHP 文字化け　メモ"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000030"
+    dc:subject="PHP/システム関連"
+    dc:description="引き続き仕事で、簡単な空メールサービスのシステムを組んでます。 ①空メール送信 ..."
+    dc:creator=""
+    dc:date="2007-06-29T11:49:59+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="php.html" title="PHP 文字化け　メモ">PHP 文字化け　メモ</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="../../php/index.html" title="">PHP/システム関連</a></p>
+								<p class="date">2007&#24180;06&#26376;29&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>引き続き仕事で、簡単な空メールサービスのシステムを組んでます。</p>
+
+<p>①空メール送信<br />
+　.mailfilterでphpプログラム起動してメアド取得して、送信者へメール返信。<br />
+　※メール返信内容に【アドレス + ?id=xxxx】みたいなのを記述</p>
+
+<p>②メール受信<br />
+　アドレスよりブラウザ起動（アンケートフォーム）</p>
+
+<p>③アンケートフォーム<br />
+　アンケートフォームに答えてDBにアンケート内容登録（idでメールとアンケート内容紐付け）</p>
+
+<p>みたいな流れ。</p>
+
+<p><br />
+で、③まで何とか進めたが文字化け問題発生＾＾；<br />
+・ＰＣからなら何の問題なし。<br />
+・携帯からだとブラウザ表記は問題ないが、ＤＢ登録時で文字化け。</p>
+
+<p>携帯に手を出すと何かと問題発生するだろうと思っていたが<br />
+やっぱり起きた。。。</p>
+
+<p>とまあ、結果的に解決方法は単純で、</p>
+
+<p>$quest1 = trim(mb_convert_encoding($_GET["quest1"], "EUC-JP", "auto"));</p>
+
+<p>mb_convert_encodingにて文字コード変換するだけ。</p>
+
+<p><br />
+ただ、phpをやる以上、文字化けに関してはしっかり仕組みを理解していないとダメだなと思いました。</p>
+
+<p>とりあえず、今回のは、</p>
+
+<p>■php<br />
+→デフォルト EUC-JP ???<br />
+■mysql<br />
+→さくらインターネットでデフォルト ja-euc= EUC-JP ???<br />
+■PCブラウザ<br />
+→HTMLでEUC-JP宣言しておけば EUC-JP ???<br />
+■携帯ブラウザ<br />
+→HTMLでEUC-JP宣言しておけば EUC-JP ???<br />
+　しかし、フォーム送信ではSJISになってしまう ???</p>
+
+<p>携帯ブラウザに関しては現在進行中で開発が進んでると思うので<br />
+この先色んな文字コードに対応していくと思う。思いたい。。<br />
+すでに表記に関してはEUC-JPで問題なさげ。<br />
+※古い携帯がSJIS限定らしいが。。。</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="php.html" title="PHP 文字化け　メモ">Permalink</a></li>
+								<li>by </li>
+								<li>at 11:49</li>
+								<li>in <a href="../../php/index.html" title="">PHP/システム関連</a></li>
+								<li><a href="php.html#comments" title="PHP 文字化け　メモにコメント">Comments</a> (0) (2) </li>
+								<li><a href="php.html#trackbacks" title="PHP 文字化け　メモにトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000029"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/29"
+    dc:title=".mailfilter さくらインターネット"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000029"
+    dc:subject="PHP/システム関連"
+    dc:description="空メール返信機能作成メモ - Transcript of session..."
+    dc:creator=""
+    dc:date="2007-06-27T14:28:54+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="mailfilter.html" title=".mailfilter さくらインターネット">.mailfilter さくらインターネット</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="../../php/index.html" title="">PHP/システム関連</a></p>
+								<p class="date">2007&#24180;06&#26376;27&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>空メール返信機能作成メモ</p>
+
+<p>----- Transcript of session follows -----<br />
+/home/xxxxxxxxx/test.html: not found<br />
+554 5.3.0 unknown mailer error 127</p>
+
+<p>↑エラーからの脱却</p>
+
+<p>【mailfilter】<br />
+・パーミッション→600<br />
+・保存設定 EUC LF（改行)<br />
+・to "| /home/xxx/www/xxxxxxx/test.html"<br />
+・保存場所 /home/xxxx/MailBox/</p>
+
+<p>【php側】<br />
+・保存設定 EUC LF（改行)<br />
+・#!/usr/local/bin/php</p>
+
+<p><br />
+とりあえず、メール着信→プログラム起動まで動作した。<br />
+苦しむこと何時間だろ・・・考えたくないなｗｗ</p>
+
+<p>エラー内容にもう少し誠意と筋を通せ！！っと無茶なことを言いたい。</p>
+
+<p>WEBデザイナーっていう仕事の範囲内なのか範囲外なのか分からないけど、<br />
+システム関連はやっぱり大変です。。。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="mailfilter.html" title=".mailfilter さくらインターネット">Permalink</a></li>
+								<li>by </li>
+								<li>at 14:28</li>
+								<li>in <a href="../../php/index.html" title="">PHP/システム関連</a></li>
+								<li><a href="mailfilter.html#comments" title=".mailfilter さくらインターネットにコメント">Comments</a> (0) (2) </li>
+								<li><a href="mailfilter.html#trackbacks" title=".mailfilter さくらインターネットにトラックバック">Trackbacks</a> (1) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000028"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/28"
+    dc:title="k-1オランダ大会"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000028"
+    dc:subject="K-1・格闘技ネタ"
+    dc:description="一年で一番期待できるオランダ大会が終ったってことで、 次はアジア大会ですかね。 ..."
+    dc:creator=""
+    dc:date="2007-06-24T21:58:17+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="k1.html" title="k-1オランダ大会">k-1オランダ大会</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="../../k1/index.html" title="">K-1・格闘技ネタ</a></p>
+								<p class="date">2007&#24180;06&#26376;24&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>一年で一番期待できるオランダ大会が終ったってことで、<br />
+次はアジア大会ですかね。</p>
+
+<p>毎年アジア大会は一気に質下がるからなー。。</p>
+
+<p><br />
+しかし、今日のサップにはビックリしたｗ</p>
+
+<p>Σ(ﾟДﾟ；ｴｰｯ!  </p>
+
+<p>って感じで。。。</p>
+
+<p></p>
+
+<p><br />
+あと、ルスランカラエフが心配だな。<br />
+未来のスーパースターが潰れかけ寸前だ。</p>
+
+<p>それと2m超の選手は別枠にしないと試合にならんね。</p>
+
+<p></p>
+
+<p>アジア大会は置いといて次のラスベガスのやつに期待。<br />
+今回出場しなかったイグナショフ、ナオフォール、ウスティノフらへんが<br />
+出場してくれればK-1マニアとしては万々歳なんだが、<br />
+何故かお呼ばれしないんだなこれが。。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="k1.html" title="k-1オランダ大会">Permalink</a></li>
+								<li>by </li>
+								<li>at 21:58</li>
+								<li>in <a href="../../k1/index.html" title="">K-1・格闘技ネタ</a></li>
+								<li><a href="k1.html#comments" title="k-1オランダ大会にコメント">Comments</a> (0) (0) </li>
+								<li><a href="k1.html#trackbacks" title="k-1オランダ大会にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000027"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/27"
+    dc:title="デッサン（円柱）"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000027"
+    dc:subject="デッサン習い事"
+    dc:description=" モジャオ先生の手直しでやっと見れる感じに。 角度によって円も形を変えるのが難し..."
+    dc:creator=""
+    dc:date="2007-06-22T01:44:42+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="post_17.html" title="デッサン（円柱）">デッサン（円柱）</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="../../cat4/index.html" title="">デッサン習い事</a></p>
+								<p class="date">2007&#24180;06&#26376;22&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p><img alt="070621_2222~01.jpg" src="../../images/070621_2222~01.jpg" width="240" height="320" /></p>
+
+<p>モジャオ先生の手直しでやっと見れる感じに。</p>
+
+<p>角度によって円も形を変えるのが難しいっすね。</p>
+
+<p><br />
+youtubeナイスギター動画</p>
+
+<p><a href="http://www.youtube.com/watch?v=GzGNdkluUjg&mode=related&search=">http://www.youtube.com/watch?v=GzGNdkluUjg&mode=related&search=</a></p>
+
+<p><br />
+オイラ完敗です！！！！！！！！！<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="post_17.html" title="デッサン（円柱）">Permalink</a></li>
+								<li>by </li>
+								<li>at 01:44</li>
+								<li>in <a href="../../cat4/index.html" title="">デッサン習い事</a></li>
+								<li><a href="post_17.html#comments" title="デッサン（円柱）にコメント">Comments</a> (0) (2) </li>
+								<li><a href="post_17.html#trackbacks" title="デッサン（円柱）にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000026"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/26"
+    dc:title="新米ＷＥＢデザイナーの苦悩"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000026"
+    dc:subject="WEBデザインメモ"
+    dc:description="昨日紹介したWeb designingのサイト http://book.myco..."
+    dc:creator=""
+    dc:date="2007-06-19T21:47:56+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="post_16.html" title="新米ＷＥＢデザイナーの苦悩">新米ＷＥＢデザイナーの苦悩</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="../../web/index.html" title="">WEBデザインメモ</a></p>
+								<p class="date">2007&#24180;06&#26376;19&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>昨日紹介したWeb designingのサイト</p>
+
+<p><a href="http://book.mycom.co.jp/wd/">http://book.mycom.co.jp/wd/</a></p>
+
+<p>こちらより、「WEBSITE FRONT」ってバナーより<br />
+今時の最新なＷＥＢサイトを見ることが出来るんだけど、<br />
+毎度ながら凹まされてます。。<br />
+<br><br />
+全部FLASHなんですよね。。<br />
+中には商品紹介系サイトがあるんだけど、ＷＥＢ業界の中にいる私でも、<br />
+途中で操作がめんどくさくなってブラウザを閉じてしまってます。<br />
+商品を見るとこまで辿り着けないｗｗｗ<br />
+<br><br />
+何というか、FLASHってのが難敵すぎる気がします。<br />
+作る側として凝りに凝って驚かせれるようなモノを作っても<br />
+サイトに訪れた人はユーザビリティーが悪すぎて見る気が起こらない。<br />
+FLASHのもっとも大きなデメリットではないでしょうか。<br />
+<br><br />
+で、私は悩む。。<br />
+FLASHを勉強して、あういう素敵なサイトを作りたい！！<br />
+って思うもののFLASHで凝れば凝るほど使いにくいサイトになる。<br />
+んじゃ、FLASHはいいやって無視してると後で痛い目にあう。<br />
+というかやっぱりFLASHを使いこなせるようになりたい！<br />
+<br><br />
+なんだろな・・・<br />
+FLASH=自己満足みたいな。<br />
+<br><br />
+簡単に制作できるもんなら、どうでもいいんだけど、<br />
+作るには相当な知識とセンスが必要だから<br />
+FLASHって存在が重荷になるんですよね。。<br />
+<br><br />
+<br><br />
+ＷＥＢデザイナーを目指して半年が経つけど、<br />
+自覚できる知識が付いてきたような付いてきてないような。<br />
+FLASH以外にもＷＥＢデザイナーと名乗るには恐ろしく広範囲な<br />
+知識と経験が必要なため、今の自分の知識と経験の無さが<br />
+苦悩で仕方ないです。<br />
+<br><br />
+いつになったら俺ＷＥＢデザイナーやってます！って<br />
+胸張って言えるようになるのやら。。<br />
+2,3年後にはなっていたいところですが。<br />
+今の状況が息をするだけでしんどいぐらい苦悩の毎日ですわ～(つд⊂)</p>
+
+<p><br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="post_16.html" title="新米ＷＥＢデザイナーの苦悩">Permalink</a></li>
+								<li>by </li>
+								<li>at 21:47</li>
+								<li>in <a href="../../web/index.html" title="">WEBデザインメモ</a></li>
+								<li><a href="post_16.html#comments" title="新米ＷＥＢデザイナーの苦悩にコメント">Comments</a> (0) (0) </li>
+								<li><a href="post_16.html#trackbacks" title="新米ＷＥＢデザイナーの苦悩にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000025"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/25"
+    dc:title="Web Designing 07月号"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000025"
+    dc:subject="おすすめ雑誌・本・ソフト"
+    dc:description="【Web Designing 07月号】 今年４月から毎月買っている雑誌。 昔Y..."
+    dc:creator=""
+    dc:date="2007-06-18T21:24:47+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="web_designing_07.html" title="Web Designing 07月号">Web Designing 07月号</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="../../cat3/index.html" title="">おすすめ雑誌・本・ソフト</a></p>
+								<p class="date">2007&#24180;06&#26376;18&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>【Web Designing 07月号】<br />
+今年４月から毎月買っている雑誌。<br />
+昔YOUNG GUITARとかバンドやろうぜ！！を買ってた感覚で！！<br />
+ＷＥＢデザイナー必見？？？って言ったとこでしょうか。</p>
+
+<p><br />
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=ytticom-22&o=9&p=8&l=as1&asins=B000RGSXWY&fc1=000000&IS2=1&lt1=_blank&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe></p>
+
+<p><br />
+今月はＥＣサイトの設計についてアレコレと。<br />
+まだ全部読んでないですが、ここに書いてあることを全て<br />
+頭に入れてないとＥＣサイト構築は無理だと思う。<br />
+<br><br />
+自分がこの雑誌に求めているのは、<br />
+知識の補充はもちろんのことだけど、何よりモチベーション向上のためが大きい。<br />
+最新の技術や綺麗なデザインサイトがいっぱい紹介されていて<br />
+毎回、「クソー俺にはまだ作れないな・・・」なんて凹まされながら<br />
+こんぐらいのを作れるようになりたいという気持ちを維持させてます。<br />
+<br><br />
+それと毎月ＦＬＡＳＨ講座があって<br />
+地道にＦＬＡＳＨの勉強が出来るのはありがたい。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="web_designing_07.html" title="Web Designing 07月号">Permalink</a></li>
+								<li>by </li>
+								<li>at 21:24</li>
+								<li>in <a href="../../cat3/index.html" title="">おすすめ雑誌・本・ソフト</a></li>
+								<li><a href="web_designing_07.html#comments" title="Web Designing 07月号にコメント">Comments</a> (0) (3) </li>
+								<li><a href="web_designing_07.html#trackbacks" title="Web Designing 07月号にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000024"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/24"
+    dc:title="結婚式"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000024"
+    dc:subject=""
+    dc:description="親しい友人関係の中では第一号っすね。 滋賀県の坂本ってところにある日吉大社まで行..."
+    dc:creator=""
+    dc:date="2007-06-18T01:36:21+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="post_15.html" title="結婚式">結婚式</a></h2>
+							<div class="entry-catedatebox">
+								
+								
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>親しい友人関係の中では第一号っすね。<br />
+<br><br />
+滋賀県の坂本ってところにある日吉大社まで行ってきました。<br />
+凄い良い雰囲気な土地だったんでまた行きたいすね。<br />
+デートとかで！！<br />
+<br><br />
+それにしても、結婚式とかお祝い事は気分が↑しますね。<br />
+天気も良かったし、幸せな気分になれました。<br />
+俺も結婚したいぜーって思ったり、そんなことを思うことに<br />
+そういう年頃になったのかと自分の変化を実感したり、<br />
+まあ相手いないから無理か・・・なんて思ったり。。<br />
+<br><br />
+新郎が結婚式の日にライブというダブルブッキング組んでしまったらしく、<br />
+式が終ってからライブしにいくそうです。。<br />
+相変わらずその辺は無茶しまくりだなｗっと感心せずにいられない。<br />
+<br><br />
+二人寄り添って歩くのが凄いイイ感じでした！<br />
+末永くお幸せに！！</p>
+
+<p><img alt="070617_1245~02.jpg" src="../../images/070617_1245~02.jpg" width="240" height="320" /></p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="post_15.html" title="結婚式">Permalink</a></li>
+								<li>by </li>
+								<li>at 01:36</li>
+								
+								<li><a href="post_15.html#comments" title="結婚式にコメント">Comments</a> (0) (0) </li>
+								<li><a href="post_15.html#trackbacks" title="結婚式にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000023"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/23"
+    dc:title="絵の習い事"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000023"
+    dc:subject="デッサン習い事"
+    dc:description="立方体をデッサン。 最初は全く書けなかったけど、３点方？？っていうのかな。 それ..."
+    dc:creator=""
+    dc:date="2007-06-14T22:48:04+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="post_14.html" title="絵の習い事">絵の習い事</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="../../cat4/index.html" title="">デッサン習い事</a></p>
+								<p class="date">2007&#24180;06&#26376;14&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>立方体をデッサン。</p>
+
+<p>最初は全く書けなかったけど、３点方？？っていうのかな。<br />
+それ教えてもらって何とかそれらしく・・・</p>
+
+<p><br />
+<img alt="20070614.jpg" src="../../images/20070614.jpg" width="240" height="320" /></p>
+
+<p><br />
+３点方のルールを無視して直感で書いたのがピカソの絵らしい。<br />
+つまり俺はいつもピカソの絵を書いてたわけだ！</p>
+
+<p><br />
+教えてくれる先生がモジャモジャなんで、<br />
+モジャ男先生と心の中で名づけることにした。。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="post_14.html" title="絵の習い事">Permalink</a></li>
+								<li>by </li>
+								<li>at 22:48</li>
+								<li>in <a href="../../cat4/index.html" title="">デッサン習い事</a></li>
+								<li><a href="post_14.html#comments" title="絵の習い事にコメント">Comments</a> (0) (0) </li>
+								<li><a href="post_14.html#trackbacks" title="絵の習い事にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000022"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/22"
+    dc:title="やっぱドリームシアターですわ！"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000022"
+    dc:subject=""
+    dc:description="ドリームシアター新譜♪ 買うつもりなかったけど、視聴したら燃えてきて買ってしまっ..."
+    dc:creator=""
+    dc:date="2007-06-12T21:56:41+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="post_13.html" title="やっぱドリームシアターですわ！">やっぱドリームシアターですわ！</a></h2>
+							<div class="entry-catedatebox">
+								
+								<p class="date">2007&#24180;06&#26376;12&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>ドリームシアター新譜♪</p>
+
+<p><img alt="systematic_chaos_special.jpg" src="../../images/systematic_chaos_special.jpg" width="160" height="160" /></p>
+
+<p><br />
+買うつもりなかったけど、視聴したら燃えてきて買ってしまった一枚。<br />
+安定してドリームシアターな感じだ。<br />
+やっぱいいのー♪<br />
+ライブ見にいきたい。。。誰かいくか！！！！！！！</p>
+
+<p><br><br />
+<br><br />
+<br></p>
+
+<p>勉強のため本を購入</p>
+
+<p>■ILLUSTRATOR トレースマスター<br />
+<img alt="illustratorhon01.jpg" src="../../images/illustratorhon01.jpg" width="100" height="124" /></p>
+
+<p>■FLASH Creative Workshop<br />
+<img alt="flashhon01.jpg" src="../../images/flashhon01.jpg" width="105" height="132" /></p>
+
+<p>今年に入って糞ほど本を購入してる気がする。<br />
+部屋が本だらけですわ！</p>
+
+<p><br />
+あと、絵を習い始めました♪<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="post_13.html" title="やっぱドリームシアターですわ！">Permalink</a></li>
+								<li>by </li>
+								<li>at 21:56</li>
+								
+								<li><a href="post_13.html#comments" title="やっぱドリームシアターですわ！にコメント">Comments</a> (0) (2) </li>
+								<li><a href="post_13.html#trackbacks" title="やっぱドリームシアターですわ！にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000021"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/21"
+    dc:title="鈴鹿300km"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000021"
+    dc:subject=""
+    dc:description="日曜に鈴鹿サーキットいってきました。 TEAM HATAKEYAMAのお手伝いで..."
+    dc:creator=""
+    dc:date="2007-06-12T01:28:24+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="300km.html" title="鈴鹿300km">鈴鹿300km</a></h2>
+							<div class="entry-catedatebox">
+								
+								
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>日曜に鈴鹿サーキットいってきました。</p>
+
+<p>TEAM HATAKEYAMAのお手伝いで。</p>
+
+<p>初めて真近でレースを見ました。</p>
+
+<p>音と速さが凄くてマシンが怪物みたいでした。</p>
+
+<p>てか、やばいぐらいスピード出るンすね。。</p>
+
+<p>レースクィーンの人達も初めて近くで見たんですけど、</p>
+
+<p>スタイル良すぎて同じ人間に見えなかったｗ</p>
+
+<p><br />
+↓詳細はこちらで。（ブログの作成＆管理しとります。）<br />
+<a href="http://www.hatakeyama-yasumasa.com/blog/">http://www.hatakeyama-yasumasa.com/blog/</a></p>
+
+<p><br />
+次は鈴鹿８耐だ！<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="300km.html" title="鈴鹿300km">Permalink</a></li>
+								<li>by </li>
+								<li>at 01:28</li>
+								
+								<li><a href="300km.html#comments" title="鈴鹿300kmにコメント">Comments</a> (0) (0) </li>
+								<li><a href="300km.html#trackbacks" title="鈴鹿300kmにトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000020"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/20"
+    dc:title="YouTubeを満喫すべし。"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000020"
+    dc:subject=""
+    dc:description="あんなこんなそんな動画満載のYouTube。 よく見る動画を毎回長い時間まって再..."
+    dc:creator=""
+    dc:date="2007-06-06T22:33:43+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="youtube.html" title="YouTubeを満喫すべし。">YouTubeを満喫すべし。</a></h2>
+							<div class="entry-catedatebox">
+								
+								<p class="date">2007&#24180;06&#26376;06&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>あんなこんなそんな動画満載のYouTube。<br />
+よく見る動画を毎回長い時間まって再生を待つのはだるい。</p>
+
+<p>ってことで、動画落とせないか調べてみました。</p>
+
+<p><br />
+するとやっぱりあった。。<br />
+こういうの作る人凄いなと毎回思う。</p>
+
+<p>↓YouTubeの動画をダウンロード<br />
+<a href="http://www.piyo2.info/project_youtube_download/">http://www.piyo2.info/project_youtube_download/</a></p>
+
+<p>↓.flv再生ソフト（スロー再生も可能）<br />
+<a href="http://www.videolan.org/vlc/">http://www.videolan.org/vlc/</a></p>
+
+<p><br />
+世の中便利だ。<br />
+使い方は上のリンクに書かれています。<br />
+これで、</p>
+
+<p><a href="http://www.youtube.com/watch?v=mevTnv1SFyU">http://www.youtube.com/watch?v=mevTnv1SFyU</a></p>
+
+<p>こういう、おじさん速くてついていけないよ＞＜<br />
+みたいなことは解消されるわけだ！<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="youtube.html" title="YouTubeを満喫すべし。">Permalink</a></li>
+								<li>by </li>
+								<li>at 22:33</li>
+								
+								<li><a href="youtube.html#comments" title="YouTubeを満喫すべし。にコメント">Comments</a> (0) (0) </li>
+								<li><a href="youtube.html#trackbacks" title="YouTubeを満喫すべし。にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000019"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/19"
+    dc:title="illustratorは難しい・・・"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000019"
+    dc:subject=""
+    dc:description="敬遠していたillustrator！！ しかし、最近仕事でどうしても使わなくては..."
+    dc:creator=""
+    dc:date="2007-06-05T23:04:25+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="illustrator.html" title="illustratorは難しい・・・">illustratorは難しい・・・</a></h2>
+							<div class="entry-catedatebox">
+								
+								<p class="date">2007&#24180;06&#26376;05&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>敬遠していたillustrator！！<br />
+しかし、最近仕事でどうしても使わなくてはいけないので<br />
+勉強＆練習しなければならない。</p>
+
+<p>メッシュツールとかいう存在初めて知ったし。。<br />
+トレース技術は日々練習して高めないとな。。</p>
+
+<p>illustratorを使いこなせると道が開きそうな気がする。</p>
+
+<p><br />
+がんばれ俺！！みたいな。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="illustrator.html" title="illustratorは難しい・・・">Permalink</a></li>
+								<li>by </li>
+								<li>at 23:04</li>
+								
+								<li><a href="illustrator.html#comments" title="illustratorは難しい・・・にコメント">Comments</a> (0) (4) </li>
+								<li><a href="illustrator.html#trackbacks" title="illustratorは難しい・・・にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000018"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/18"
+    dc:title="Heros(格闘技）"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000018"
+    dc:subject=""
+    dc:description="ダメダメ興行だったな。。 ヒョードルが見たいわ！！ ..."
+    dc:creator=""
+    dc:date="2007-06-05T01:38:15+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="heros.html" title="Heros(格闘技）">Heros(格闘技）</a></h2>
+							<div class="entry-catedatebox">
+								
+								
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>ダメダメ興行だったな。。</p>
+
+<p><br />
+ヒョードルが見たいわ！！<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="heros.html" title="Heros(格闘技）">Permalink</a></li>
+								<li>by </li>
+								<li>at 01:38</li>
+								
+								<li><a href="heros.html#comments" title="Heros(格闘技）にコメント">Comments</a> (0) (0) </li>
+								<li><a href="heros.html#trackbacks" title="Heros(格闘技）にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+												<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.y-tti.com/blog/2007/06/index.html#000017"
+    trackback:ping="http://www.y-tti.com/mt/mt-tb.cgi/17"
+    dc:title="勉強！勉強！"
+    dc:identifier="http://www.y-tti.com/blog/2007/06/index.html#000017"
+    dc:subject=""
+    dc:description="憂鬱な時にくるりを聴くと心に響く。 もう１０年近くぐらいループして、くるりナイス..."
+    dc:creator=""
+    dc:date="2007-06-03T22:18:00+09:00" />
+</rdf:RDF>
+-->
+
+						<div class="entry-title">
+							<h2><a href="post_12.html" title="勉強！勉強！">勉強！勉強！</a></h2>
+							<div class="entry-catedatebox">
+								
+								<p class="date">2007&#24180;06&#26376;03&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>憂鬱な時にくるりを聴くと心に響く。</p>
+
+<p>もう１０年近くぐらいループして、くるりナイスサウンド♪って<br />
+再確認したりです。</p>
+
+<p>逆にくるりの音楽が心に響かない時は良い状態なわけです。</p>
+
+<p>新譜出るとか街で見かけたんで買いにいくかー。</p>
+
+<p><br />
+んなことを考えながら崖っぷちなんで勉強勉強。</p>
+
+<p>とりあえずは、</p>
+
+<p>photoshop<br />
+illustrator<br />
+flash</p>
+
+<p>を使いこなせるようにがんばらなくては！</p>
+
+<p>そんなかでもflashは非常に手強い！</p>
+
+<p><br />
+それとナイスおっさんになるため<br />
+jazzギターの練習をちらほらっと。</p>
+
+<p><br />
+イベントが全くない休日だった。。<br />
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="post_12.html" title="勉強！勉強！">Permalink</a></li>
+								<li>by </li>
+								<li>at 22:18</li>
+								
+								<li><a href="post_12.html#comments" title="勉強！勉強！にコメント">Comments</a> (0) (0) </li>
+								<li><a href="post_12.html#trackbacks" title="勉強！勉強！にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+						
+						<div class="entry-pagelinkunder">
+							< <a href="../05/index.html">&laquo; 2007&#24180;05&#26376;</a> | <a href="../../index.html">main</a>| <a href="../07/index.html">2007&#24180;07&#26376; &raquo;</a> >
+						</div><!-- entry-pagelink -->
+
+						<div class="pagetop">
+							<div class="pagetopbox">
+								<a href="index.html#header">Page Top</a>
+							</div><!-- pagetop -->
+							<div class="clear"></div>
+						</div>
+							
+					</div><!-- entry-container -->
+						
+				</div><!-- main -->
+			</div><!-- left-content -->
+				
+			<div id="right-content">
+				<div id="header2">
+				</div><!-- header2 -->
+				
+				<div id="side-content">
+					
+					<!-- 左メニューモジュールの開始 -->
+										<div id="left-side-content">
+						<div id="side-search">
+							<div class="search-form">
+								<form method="get" action="http://www.y-tti.com/mt/mt-search.cgi">
+									<input type="hidden" name="IncludeBlogs" value="1" />
+									<input id="search" class="searchtextarea" tabindex="5" size="10" accesskey="t"  value="" name="search" onblur="if(this.value==''){this.style.color=''; this.form.reset()}" onfocus="this.value = ''; this.style.color = '#000000';" />
+									<input type="submit" tabindex="6" accesskey="s" value="SEARCH" class="searchsubmit" />
+								</form>
+							</div><!-- search-form -->
+						</div><!-- side-search -->
+										
+							
+						<div id="side-recent">
+							<ul>
+																<li><a href="../../2010/07/iphone6.html" title="iPhoneアプリ開発、道に迷いながら6冊の本を読んでみた。" >iPhoneアプリ開発、道に迷いながら6冊の本を読んでみた。</a></li>
+																<li><a href="../../2010/06/myspace.html" title="MySpaceバイオグラフィーの編集が出来ない。" >MySpaceバイオグラフィーの編集が出来ない。</a></li>
+																<li><a href="../../2010/06/flashbuildersourcemate.html" title="FlashBuilderプラグイン【SourceMate]のエラー対処" >FlashBuilderプラグイン【SourceMate]のエラー対処</a></li>
+																<li><a href="../../2009/07/teraco23.html" title="teraco23でマトリックスな格闘をしてきた。" >teraco23でマトリックスな格闘をしてきた。</a></li>
+																<li><a href="../../2009/06/publishing_source_code.html" title="Publishing source code が便利すぎるかも。" >Publishing source code が便利すぎるかも。</a></li>
+																<li><a href="../../2009/06/papervision3d_3d2d.html" title="Papervision3D 3D座標→2D座標の変換メモ" >Papervision3D 3D座標→2D座標の変換メモ</a></li>
+																<li><a href="../../2009/05/_22_web_1.html" title="大阪てら子 22 「webカメラで遊ぼう！」に参加してきました" >大阪てら子 22 「webカメラで遊ぼう！」に参加してきました</a></li>
+																<li><a href="../../2009/04/dbdmysql.html" title="DBD::mysqlのインストールメモ" >DBD::mysqlのインストールメモ</a></li>
+																<li><a href="../../2009/04/post_70.html" title="なぜこのサイトでモノを買ったのか？を考えてみた。" >なぜこのサイトでモノを買ったのか？を考えてみた。</a></li>
+																<li><a href="../../2009/03/flash_10.html" title="Flashバナーのデザイン作成時の留意点" >Flashバナーのデザイン作成時の留意点</a></li>
+																<li><a href="../../2009/03/javascript.html" title="javascript開発環境をとりあえず作っておく。" >javascript開発環境をとりあえず作っておく。</a></li>
+																<li><a href="../../2009/03/post_69.html" title="インターフェースって食べれるの？" >インターフェースって食べれるの？</a></li>
+																<li><a href="../../2009/03/shadowboxhtml.html" title="shadowboxでHTML表示のメモ" >shadowboxでHTML表示のメモ</a></li>
+																<li><a href="../../2009/02/png.html" title="透過png画像が綺麗に表示されない！回避方法メモ" >透過png画像が綺麗に表示されない！回避方法メモ</a></li>
+																<li><a href="../../2009/02/stage.html" title="stage幅取得のタイミングをテストしてみた" >stage幅取得のタイミングをテストしてみた</a></li>
+								
+							</ul>
+						</div><!-- side-recent -->
+						
+						<div id="side-ficcblogparts">
+						<script language="JavaScript" type="text/javascript" src="http://www.anotherbookmark.com/blogparts/bp.js"></script><script language="JavaScript" type="text/javascript">setFlash(160,300,0xffffff,0x24211A,0xF8F8F8,0x7FA81F);</script><noscript><a href="http://www.anotherbookmark.com/" target="_blank">FICC Another Bookmark Beta</a> powered by <a href="http://www.ficc.jp/" target="_blank">FICC</a></noscript>
+						</div><!-- side-ficcblogparts -->
+						
+												<div id="side-categories">
+														<ul>
+								
+								<li><a href="../../ajax/index.html" title="" >Ajaxメモ</a></li>
+								
+								<li><a href="../../flash/index.html" title="" >FLASH勉強</a></li>
+								
+								<li><a href="../../k1/index.html" title="" >K-1・格闘技ネタ</a></li>
+								
+								<li><a href="../../php/index.html" title="" >PHP/システム関連</a></li>
+								
+								<li><a href="../../web/index.html" title="" >WEBデザインメモ</a></li>
+								
+								<li><a href="../../iphone/index.html" title="" >iPhone</a></li>
+								
+								<li><a href="../../youtube/index.html" title="" >youtube動画</a></li>
+								
+								<li><a href="../../cat3/index.html" title="" >おすすめ雑誌・本・ソフト</a></li>
+								
+								<li><a href="../../cat4/index.html" title="" >デッサン習い事</a></li>
+								
+								<li><a href="../../cat1/index.html" title="" >ブログ構築過程</a></li>
+								
+								<li><a href="../../rasheen/index.html" title="" >ラシーン(rasheen)</a></li>
+															</ul>
+							
+						</div><!-- side-categories -->
+						
+						
+						<div id="side-link">
+							<ul>
+								<li><a href="http://www.live-kokuchi.com/" target="_blank">ライブ告知.com</a></li>
+								<li><a href="http://meiryou.ti-da.net/" target="_blank">沖縄インディーズアーティスト、路上ミュージシャン紹介</a></li>
+								<li><a href="http://blog.livedoor.jp/shiozakidream/" target="_blank">オト→キセキ</a></li>
+								<li><a href="http://kawagoe-soichi.spaces.live.com/" target="_blank">風速４０光年</a></li>
+								<li><a href="http://mekishikans.com/" target="_blank">メキシカンズ</a></li>
+								<li><a href="http://marontic.jp/chiemi/" target="_blank">CHIEN</a></li>
+								<li><a href="http://plaza.rakuten.co.jp/yanikko3rd/" target="_blank">○○じゃー</a></li>
+								<li><a href="http://blog.globalleaf.com/" target="_blank">WEB とビールと UMA の一本道</a></li>
+								<li><a href="http://web21.exblog.jp/" target="_blank">闘え！Webデザイナー</a></li>
+								<li><a href="http://tomwebtom.com/web_blog/" target="_blank">WEBデザインを勉強中</a></li>
+								<li><a href="http://noahnola.blog87.fc2.com/" target="_blank">小さな巨人の小さな絵日記</a></li>
+								<li><a href="http://www.ikesai.com/" target="_blank">いけてるサイトドットコム</a></li>
+								<li><a href="http://wd.dsp.co.jp/" target="_blank">withD(デジタルスケープ)</a></li>
+								<li><a href="http://www.n-c-c.org/" target="_blank">NCC(ナショナルクリエーターズカンファレンス)</a></li>
+								<li><a href="http://www.mdn.co.jp/" target="_blank">MdN</a></li>
+								<li><a href="http://www.cbc-net.com/" target="_blank">CBCNET</a></li>
+								<li><a href="http://itpro.nikkeibp.co.jp/article/COLUMN/20060525/238975/?ST=swd-tech" target="_blank">FLASH8 入門講座:ITpro</a></li>
+								<li><a href="http://www.flash-jp.com/" target="_blank">FLASH-jpフォーラム</a></li>
+								<li><a href="http://macototo.cool.ne.jp/junics/" target="_blank">JUNICS HOMEPAGE</a></li>
+							</ul>
+						</div><!-- side-link -->
+						
+						<div id="side-feed">
+							<ul class="ulfeed">
+							<li><a class="rss" href="../../index.xml" title="崖っぷちWEBデザイナーブログ RSS Feed (XML)">RSS Feed (XML)</a></li>
+							<li><a class="rss" href="../../atom.xml" title="崖っぷちWEBデザイナーブログ Atom Feed (XML)">Atom Feed (XML)</a></li>
+							<li><a class="twitter" href="http://twitter.com/y_tti">Twitter</a></li>
+							<li><a class="delicious" href="http://delicious.com/ytti">del.icio.us</a></li>
+							<li><a class="rhatena" href="http://r.hatena.ne.jp/y-tti/">r.hatena</a></li>
+							<li><a class="drecom" href="../../2008/09/drecom_rss.html">drecom RSS</a></li>
+							</ul>
+						</div><!-- side-feed -->
+					</div><!-- left-side-content -->
+					<!-- 左メニューモジュールの終了 -->
+					<!-- 右メニューモジュールの開始 -->
+										<div id="right-side-content">
+						<div id="side-microad">
+<script type="text/javascript"><!--
+in_uid = '130988';
+in_templateid = '51002';
+in_charset = 'UTF-8';
+in_group = 'blog';
+in_matchurl = '';
+in_HBgColor = 'F8F8F8';
+in_HBorderColor = '24211A';
+in_HTitleColor = '24211A';
+in_HTextColor = '5D6155';
+in_HUrlColor = '7FA81F';
+frame_width = '160';
+frame_height = '300';
+--></script>
+<script type='text/javascript' src='http://cache.microad.jp/send0100.js'></script>
+						</div><!-- side-microad -->
+	
+						<div id="side-blogparts">
+<script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script>
+						</div>
+							
+						<div id="side-book">
+
+							<div class="side-bookbox">
+								<div class="booktitle">Adobe Flash CS3 詳細! ActionScript 3.0 入門ノート (DVD-ROM付)</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881665901/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41lyzDy6G3L._SL160_.jpg" alt="Adobe Flash CS3 詳細! ActionScript 3.0 入門ノート (DVD-ROM付)" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+クラスで書けるようになった。配列のpushとかspliceとかsliceとかややこしい部分の辞書代わりにも使ってます。XML関係もこれで覚えた。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">ActionScript 3.0 アニメーション</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4862460496/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51VBoM8avZL._SL160_.jpg" alt="ActionScript 3.0 アニメーション" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+vx,Math,cos,sinとか???な数学的な部分をこの本で理解できた気がします。逃げたいジャンルだけどFLASHに必須なジャンルなのよね。。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">Adobe Flash CS3 詳細! ActionScript3.0入門ノート2 (CD-ROM付) </div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881666460/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41ck4PZgokL._SL160_.jpg" alt="Adobe Flash CS3 詳細! ActionScript3.0入門ノート2 (CD-ROM付)" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+ActionScript応用への第一歩。ただこれを読む前に入門ノート１を先に読んでおいた方がよさそう。ASの世界が広がった気がする本です。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">Flash Creative Workshop</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797336072/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41R-rGNvK6L._SL160_.jpg" alt="Flash Creative Workshop" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+FLASHを始めて右も左も分からない時に救世主となった本。FLASHサイト制作法がなるほど！っと。ActionScriptバリバリの人はスルー。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">FLASH OOP for ActionScript 3.0</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798116300/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51J-MQ%2BFUOL._SL160_.jpg" alt="FLASH OOP for ActionScript 3.0" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+FLASHの「今の主流」を知ることが出来る本。筆者の方々は総勢10人以上でかつ現在活躍中の方々ばかりなんでミーハー的な読み方もありかも。
+								</div>
+							</div><!-- side-bookbox -->
+	
+						</div><!-- side-book -->
+					</div><!-- right-side-content -->					<!-- 右メニューモジュールの終了 -->
+					<div class="clear"></div>
+						
+				</div><!-- side-content -->
+					
+			</div><!-- right-content -->
+			<div class="clear"></div>
+				
+		</div><!-- container -->
+	
+		<!-- フッターモジュールの開始 -->
+		
+		<div id="footer">
+			<div id="footer-content">
+				<div id="footer-profile">
+					<div class="img"><img src="../../img/profile-img.jpg" width="53" height="73" /></div>
+					<div class="descripton">
+					奈良県在住のWEBデザイナー??FLASHer??。
+					2007年1月(27歳時)にネ申の啓示を受けてWEBデザイナーを志す。
+					現在はFLASHを主として活動中。
+					身に付けなきゃいけないことテンコ盛り&金ないわで崖っぷちです。
+					<p><a href="http://twitter.com/y_tti">Twitter</a> | <a href="http://delicious.com/ytti">del.icio.us</a> | <a href="http://r.hatena.ne.jp/y-tti/">r.hatena</a> </p>
+					</div>
+					<div class="clear"></div>
+				</div><!-- footer-profile -->
+				
+								<div id="footer-archives">
+															<ul>
+					
+					<li><a href="../../2010/07/index.html" title="" >2010&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="../../2010/06/index.html" title="" >2010&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="../../2009/07/index.html" title="" >2009&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="../../2009/06/index.html" title="" >2009&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="../../2009/05/index.html" title="" >2009&#24180;05&#26376;</a></li>
+					
+										
+					<li><a href="../../2009/04/index.html" title="" >2009&#24180;04&#26376;</a></li>
+					
+										
+					<li><a href="../../2009/03/index.html" title="" >2009&#24180;03&#26376;</a></li>
+					
+										
+					<li><a href="../../2009/02/index.html" title="" >2009&#24180;02&#26376;</a></li>
+					
+										
+					<li><a href="../../2009/01/index.html" title="" >2009&#24180;01&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/12/index.html" title="" >2008&#24180;12&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/11/index.html" title="" >2008&#24180;11&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/10/index.html" title="" >2008&#24180;10&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/09/index.html" title="" >2008&#24180;09&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/08/index.html" title="" >2008&#24180;08&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/07/index.html" title="" >2008&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/06/index.html" title="" >2008&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/05/index.html" title="" >2008&#24180;05&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/04/index.html" title="" >2008&#24180;04&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/03/index.html" title="" >2008&#24180;03&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/02/index.html" title="" >2008&#24180;02&#26376;</a></li>
+					
+										
+					<li><a href="../../2008/01/index.html" title="" >2008&#24180;01&#26376;</a></li>
+					
+										
+					<li><a href="../12/index.html" title="" >2007&#24180;12&#26376;</a></li>
+					
+										
+					<li><a href="../11/index.html" title="" >2007&#24180;11&#26376;</a></li>
+					
+										
+					<li><a href="../10/index.html" title="" >2007&#24180;10&#26376;</a></li>
+					
+										
+					<li><a href="../09/index.html" title="" >2007&#24180;09&#26376;</a></li>
+					
+										
+					<li><a href="../08/index.html" title="" >2007&#24180;08&#26376;</a></li>
+					
+										
+					<li><a href="../07/index.html" title="" >2007&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="index.html" title="" >2007&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="../05/index.html" title="" >2007&#24180;05&#26376;</a></li>
+										<li><a href="../05/index.html" title="" >2007&#24180;05&#26376;</a></li>
+					</ul>
+					
+					
+					<div class="clear"></div>
+					<ul>
+						<li><a href="../../archives.html" title="崖っぷちWEBデザイナーブログ">Archives</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div><!-- footer-archives -->
+				<div class="clear"></div>
+				
+				
+				<div id="footer-bloglink">
+					<a href="http://www.blogmura.com/" target="_blank"><img src="http://www.blogmura.com/img/www80_15.gif" width="80" height="15" border="0" alt="ブログランキング・にほんブログ村へ" /></a>
+					<a href="http://blog.with2.net/link.html?508541" target="_blank"><img src="http://www.y-tti.com/blog/img/blogrankingu01.gif" border="0" alt="人気blogランキングへ"></a>
+					<a href="http://www.blog-parts.com/" target="_blank"><img src="http://www.blog-feed.com/icon00.gif" border="0" alt="ブログ検索"></a>
+					<script src="http://banner.blogranking.net/scs?37746"></script>
+					<noscript><a href="http://blogranking.net/" target="_blank"><img src="http://banner.blogranking.net/nosbanner?37746" alt="ブログランキング ドット ネット" border="0" /></a></noscript>
+					<a href="http://nendai-blog.zerone.jp/" target="_blank"><img src="../../img/bn_80_15.gif" border="0" width="80" height="15"alt="年代別ブログ図鑑"></a>
+					<a href="http://www.fivestyle.biz/click/in/?key=1191690099wEZ6Im9bgT1584"><img src="http://www.fivestyle.biz/help/banner_imeges/banner29.gif" alt="芸術 ブログランキング" border="0"></a>
+				</div><!-- footer-bloglink -->
+					
+			</div><!-- footer-content -->
+		</div><!-- footer -->		<!-- フッターモジュールの終了 -->
+	</body>
+</html>
+<script language="javascript">
+	window.onload = function () { 
+		dp.SyntaxHighlighter.ClipboardSwf = "http://www.y-tti.com/blog/SyntaxHighlighter/Scripts/clipboard.swf";
+		dp.SyntaxHighlighter.HighlightAll('code');
+	}
+</script>
+<script type="text/javascript" src="http://www.y-tti.com/mogura/w_js.html"></script>
+<noscript>
+<img src="http://www.y-tti.com/mogura/writelog.html?mode=img&js=2" width="0" height="0" style="visibility:hidden;" />
+</noscript> 

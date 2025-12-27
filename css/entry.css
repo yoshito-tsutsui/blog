@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+/* -----------------------------------------
+
+INFORMATION
+
+FileName:	entry.css
+Summary:	format
+Created:	2008-09-04
+UpdatedBy:	2008-09-04
+Copyright:	(c)2008 www.y-tti.com
+
+------------------------------------------ */
+
+
+/* 001:コンテンツ
+--------------------------- */
+div#entry-container {
+	width:560px;
+}
+
+/* 002:title
+--------------------------- */
+div.entry-title {
+	background:url(../img/entry-titlebg.gif) no-repeat;
+	height:50px;
+	padding:30px 0 0 0;
+}
+
+div.entry-title h2{
+	background:url(../img/arrow_60.gif) no-repeat 6px 6px;
+	padding:0 0 0 20px;
+	font-weight:bold;
+	font-size:120%;
+	color:#24211A;
+	float:left;
+}
+
+div.entry-title h2 a{
+	font-weight:bold;
+	color:#24211A;
+}
+
+div.entry-title h2 a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+div.entry-catedatebox {
+	float:right;
+	text-align:right;
+}
+
+div.entry-catedatebox p{
+	margin:0;
+	padding:0;
+}
+
+div.entry-catedatebox p.cate{
+	color:#333333;
+}
+
+div.entry-catedatebox p a {
+	
+	color:#24211A;
+}
+
+div.entry-catedatebox p.date{
+	font-size:80%;
+}
+
+
+/* 003:page-link
+--------------------------- */
+div.entry-pagelink {
+	font-size:80%;
+	text-align:right;
+	height:15px;
+}
+
+div.entry-pagelinkunder {
+	font-size:80%;
+	text-align:right;
+	padding:50px 0 0 0;
+	height:15px;
+}
+
+/* ページトップ
+--------------------------- */
+div.pagetop {
+	font-size:80%;
+	padding:20px 0 0 0;
+	height:15px;
+}
+
+div.pagetopbox {
+	width:70px;
+	float:right;
+}
+
+div.pagetop a{
+	background:url(../img/arrow_52.gif) no-repeat 0px 4px;
+	padding:0 0 0 15px;
+	margin:0 0 0px 0;
+	display:block;
+	color:#5D6155;
+}
+
+div.pagetop a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+/* 004:entry-content entry-body
+--------------------------- */
+div.entry-content {
+	padding:10px;
+	margin:0 0 20px 0;
+}
+
+div.entry-body {
+	margin-bottom:1em;
+	line-height:160%;
+	letter-spacing:1px;
+}
+
+div.entry-body img{
+	border:1px solid #e6e6e6;
+	margin:0;
+	padding: 5px
+}
+
+div.entry-body a:hover img{
+	border:6px solid #7FA81F;
+	margin:0;
+	padding: 0px
+}
+
+div.entry-body h3{
+	background:url(../img/entry-body_h3.gif) no-repeat;
+	color:#7FA81F;
+	font-weight:bold;
+	font-size:110%;
+	height:23px;
+	_height:28px;
+	padding:5px 0 0 16px;
+	margin:38px 0 12px 0;
+}
+
+div.entry-body h3 a{
+	color:#7FA81F;
+	font-weight:bold;
+}
+
+div.entry-body h3 a:hover{
+	color:#24211A;
+}
+
+div.entry-body h4{
+	background:url(../img/entry-body_h4.gif) no-repeat 4px;
+	color:#24211A;
+	font-weight:bold;
+	font-size:100%;
+	margin:24px 0 5px 0;
+	padding:0 0 0 17px;
+}
+
+div.entry-body ul {
+	padding:0 0 0 20px;
+}
+div.entry-body li {
+	list-style:circle;
+	margin-bottom:5px;
+}
+
+div.entry-body a {
+	text-decoration:underline;
+}
+
+/* 005:entry-info
+--------------------------- */
+
+div.entry-info {
+	background:url(../img/entry-infobg.gif) no-repeat;
+	height:70px;
+	padding:7px 0 0 0;
+}
+
+div.entry-info ul {
+	text-align:right;
+}
+
+div.entry-info li {
+	display:inline;
+	font-size:80%;
+	margin:0 0 0 5px;
+}
+/* 006:precode-block
+--------------------------- */
+div.precode-block {
+    margin: 1em 0;
+    border: 2px solid #e6e6e6;
+    background-color: #fefefe;
+}
+ 
+div.precode-block p.precode-title {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+ 
+    color: #24211A;
+    background-color: #31313b;
+}
+ 
+div.precode-block div.precode-wrapper {
+    overflow: auto;
+}
+ 
+/*
+ * 縦スクロールバー表示用スタイル
+ */
+div.precode-block div.scroll {
+    /*height: 30em;*/ /* 1.4 × 任意の表示行数(デフォルト:30行) ＋ 1em */
+    max-height: 30em;
+}
+ 
+div.precode-block ol {
+    margin: .5em 0 .5em 40px;
+    padding: 0;
+    color: #8A8F7E;
+    background-color: #fefefe;
+}
+ 
+div.precode-block ol li {
+    padding: 0 .5em;
+    list-style:decimal ;
+    line-height: 1.4;
+    border-left: 2px solid #7FA81F;
+}
+ 
+div.precode-block ol li code {
+    font-family: monospace, 'Courier New', Courier, Fixed !important;
+    white-space: pre;
+    /*
+     * 横スクロールを表示せずに、折り返して表示させる場合
+    */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: pre-wrap; /* CSS3 */
+    word-wrap: break-word; /* IE 5.5+ */
+    
+    color: #24211A;
+}
+ 
+div.precode-block ol li.precode-odd {
+    background-color:#f8f8f8;
+    margin:1px 0;
+}
+div.precode-block ol li.precode-eve {
+    margin:1px 0;
+}
+
+/* 007:archiveslist
+--------------------------- */
+div#entry-archiveslist {
+
+}
+
+div#entry-archiveslist ul{
+	padding:0;
+}
+
+div#entry-archiveslist li{
+	list-style:none;
+	clear:both;
+}
+
+div#entry-archiveslist div.listdate{
+	width:80px;
+	color:#7FA81F;
+	float:left;
+
+}
+
+div#entry-archiveslist div.listlink{
+	width:460px;
+	color:#FFFFFF;
+	float:left;
+}
+
+div#entry-archiveslist div.listlink a{
+	background:url(../img/arrow_36.gif) no-repeat 0px 5px;
+	padding:0 0 0 15px;
+}
+
+div#entry-archiveslist div.listlink a{
+	background:url(../img/arrow_36.gif) no-repeat 0px 5px;
+	padding:0 0 0 15px;
+}
+
+div#entry-archiveslist div.listlink a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+/* 008:search
+--------------------------- */
+div#entry-search {
+
+}
+
+div#entry-search h4.search-results-subheader,
+div#entry-search h3.search-results-header {
+	background:#24211A;
+	color:#FFFFFF;
+	padding:0 0 0 3px;
+	margin-bottom:10px;
+}
+
+dl#search-section {
+
+}
+
+dl#search-section dt{
+	font-size:90%;
+}
+
+dl#search-section li{
+	list-style:none;
+}
+
+dd#search-box li,
+dd#search-options li{
+	display:inline;
+}
+
+h5.search-results-tit a{
+	background:url(../img/arrow_36.gif) no-repeat 0px 5px;
+	padding:0 0 0 15px;
+	margin:0 0 0px 0;
+	display:block;
+	color:#5D6155;
+}
+
+h5.search-results-tit a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+p.search-results-content {
+	padding:0 0 0 15px;
+}
+
+/* 009:entry-more
+--------------------------- */
+div.entry-more {
+
+}
+
+div.entry-more a{
+	color:#7FA81F;
+	text-decoration:underline;
+}
+
+div.entry-more a{
+	background:url(../img/arrow_36.gif) no-repeat 0px 5px;
+	padding:0 0 0 15px;
+}
+
+div.entry-more a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+/* 009:drecomrss
+--------------------------- */
+span.drecomrss_blog_list_item {
+	color:#7FA81F;
+}
+
+
+/* 010:pre.code
+--------------------------- */
+pre.code {
+	background-color:#F3F3F3;
+	border-color:#D4D4D4 #EEEEEE #EEEEEE #D4D4D4;
+	padding:10px;
+	margin:10px 0;
+	color:#24211A;
+}

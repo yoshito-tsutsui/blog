@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="robots" content="INDEX,FOLLOW" />
+		<meta name="description" content="奈良県で勉強中の<s>兵庫県で働く</s>ひよっこWEBデザイナー。<br>
+2007年1月(27歳時)にネ申の啓示を受けてWEBデザイナーを志す。<br>
+photoshop,illustrator,Flash,shade,html,css,php/cgi,movabletypeと<br>
+身に付けなきゃいけないことテンコ盛り&金ないわで崖っぷちです。
+" />
+		<meta name="generator" content="http://www.sixapart.jp/movabletype/" />
+		<link rel="home" href="index.html" title="崖っぷちWEBデザイナーブログ" />
+		<link rel="index" href="http://www.y-tti.com/blog/archives.html" title="崖っぷちWEBデザイナーブログarchives" />
+		<link rel="stylesheet" href="styles-site.css" type="text/css" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="alternate" type="application/atom+xml" title="Atom" href="atom.xml" />
+		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="index.xml" /> 
+
+		<link rel="stylesheet" href="SyntaxHighlighter/Styles/SyntaxHighlighter.css" type="text/css" />  
+		<script type="text/javascript" src="SyntaxHighlighter/Scripts/shCore.js"></script>   
+		<script type="text/javascript" src="SyntaxHighlighter/Scripts/shBrushPhp.js"></script>
+		<script type="text/javascript" src="SyntaxHighlighter/Scripts/shBrushJScript.js"></script>
+		
+		<title>崖っぷちWEBデザイナーブログ</title>
+		
+	</head>
+	<body>
+		<div id="topborder"></div>
+	
+		<div id="container">
+			
+			<div id="left-content">
+				<div id="header">
+					<h1><a href="index.html" accesskey="1" title="崖っぷちWEBデザイナーブログ"><img src="img/logo.gif" alt="崖っぷちWEBデザイナーブログ" /></a></h1>
+				</div><!-- header -->
+				<div id="main">
+				
+					<div id="entry-container">
+																		<div class="entry-pagelink">
+							< <a href="index.php?page=1" title="">次の5日分</a> | </MTPaginateIfPreviousPage_><a href="index.php?page=3" title="">前の5日分</a></MTPaginateIfNextPage_>> 
+						</div><!-- entry-pagelink -->
+						
+						
+						
+												<div class="entry-title">
+							<h2><a href="2009/06/papervision3d_3d2d.php" title="Papervision3D 3D座標→2D座標の変換メモ">Papervision3D 3D座標→2D座標の変換メモ</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="flash/index.html" title="">FLASH勉強</a></p>
+								<p class="date">2009&#24180;06&#26376;11&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							
+<p>pv3dに3D座標→2D座標の変換クラスがあるか探してたのですが、結局見つけることが出来ず途方にくれてたわけですが、<br />
+<a href="http://www.nabble.com/3D-%3E%3E-2D-coordinates-td14730886.html" target="_blank">http://www.nabble.com/3D-%3E%3E-2D-coordinates-td14730886.html</a><br />
+こちらにそれらしきソースが！！</p>
+
+<h3>以下該当ソース</h3>
+<pre name="code" class="js">
+private function getObj2DCords ( o:DisplayObject3D, camera:CameraObject3D,  offsetX:Number = 0, offsetY:Number = 0 ):Point
+{
+	var view:Matrix3D = o.view;
+	var persp:Number = (camera.focus * camera.zoom) / (camera.focus + view.n34);
+	return new Point ( (view.n14 * persp) + offsetX, (view.n24 * persp) + offsetY );
+}</pre>
+
+<h3>サンプルをwonderflに上げてみた。</h3>
+<p>
+<div style="text-align:center;width:465px;"><iframe title="Papervision3D 3D座標→2D座標 - wonderfl build flash online" src="http://wonderfl.kayac.com/blogparts/13931817a8e66476482e60d0d11fb8a98ae7d1b5" width="465" height="490" style="border:1px black solid;"></iframe><a href="http://wonderfl.kayac.com/code/13931817a8e66476482e60d0d11fb8a98ae7d1b5" title="Papervision3D 3D座標→2D座標 - wonderfl build flash online">Papervision3D 3D座標→2D座標 - wonderfl build flash online</a></div>
+</p>
+
+<p>
+※CameraType.DEBUGを使ってるので、マウスドラッグや方向キーでカメラが動きます。<br /><br />
+3D空間にあるCubeの座標に2D座標の青い円を置いてみた。<br />
+これで、3Dオブジェクトに対して、簡単なコメントや「Click!!」とかの文字をつけることが出来そうだ。
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2009/06/papervision3d_3d2d.php" title="Papervision3D 3D座標→2D座標の変換メモ">Permalink</a></li>
+								<li>by </li>
+								<li>at 03:14</li>
+								<li>in <a href="flash/index.html" title="">FLASH勉強</a></li>
+								<li><a href="2009/06/papervision3d_3d2d.php#comments" title="Papervision3D 3D座標→2D座標の変換メモにコメント">Comments</a> (3) </li>
+								<li><a href="2009/06/papervision3d_3d2d.php#trackbacks" title="Papervision3D 3D座標→2D座標の変換メモにトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2009/05/_22_web_1.php" title="大阪てら子 22 「webカメラで遊ぼう！」に参加してきました">大阪てら子 22 「webカメラで遊ぼう！」に参加してきました</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="flash/index.html" title="">FLASH勉強</a></p>
+								<p class="date">2009&#24180;05&#26376;31&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>
+大阪てら子 22 「webカメラで遊ぼう！」に参加してきました。<br />
+毎度ながら、スイマセン！的な発表なんですが、今回もスイマセンです。<br />
+</p>
+
+<p>
+今回やっておきたかったことは以下の２点。
+<ul>
+<li>Webカメラで撮った画像を保存。</li>
+<li>シンプルな動体検知</li>
+</ul>
+<p>
+
+<h3>こんなものを発表しました動画</h3>
+<p>
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/lebjLE6TFm4&hl=ja&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/lebjLE6TFm4&hl=ja&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</p>
+
+<h3>Webカメラで撮った画像を保存</h3>
+<p>Flashのみで画像保存はFlash Player9の段階では不可能？みたいなので、サーバー側(php)で保存します。<br />
+※Flash Player10からはローカルファイルアクセス機能が出来るようになったので画像保存できるかもしれない。
+</p>
+
+<blockquote>
+１、BitmapDataをエンコードしてサーバーへ送信<br />
+２、サーバー側で画像保存<br />
+※サーバーはローカルにMAMPをインストールした環境を使用しました。（mac 0SX）
+</blockquote>
+
+
+
+
+<p>Flash→PHPの連携はパラメーターの引き渡しが簡単に出来る<a href="http://amfphp.org/" target="_blank">AMFPHP</a>を使ってみました。エンコードに関しては、<a href="http://code.google.com/p/as3corelib/" target="_blank">as3corelib</a>よりPNGEncoderを使用しています。
+</p>
+
+<h4>主要部分のASスクリプト</h4>
+<pre name="code" class="js">
+package
+{
+	import com.adobe.images.PNGEncoder;
+	import flash.display.BitmapData;
+	import flash.display.Sprite;
+	import flash.net.NetConnection;
+	import flash.net.Responder;
+	import flash.utils.ByteArray;
+	
+	public class Test_amfphp extends Sprite
+	{
+		public function Test_amfphp()
+		{
+			//BitmapDataをエンコード
+			var bmd:BitmapData = new BitmapData(100,100,false,0x0)
+			var byteArray:ByteArray = PNGEncoder.encode(bmd);
+			
+			//AMFPHPのgateway.phpがある場所
+			var gateway:String = "http://localhost/amfphp/gateway.php";
+			
+			//AMFPHPが返す値の受け皿を設定
+			var responder:Responder = new Responder(_onResult,_onStatus);
+			
+			//つなげる。
+			var connection:NetConnection = new NetConnection();
+			connection.connect(gateway);
+			
+			//呼ぶ
+			connection.call("PHPクラス名.メソッド名",responder,byteArray,"その他引数１","その他引数２");
+		}
+		
+		private function _onResult($result:Object):void {
+			trace("結果_" + $result);
+		}
+		
+		private function _onStatus($status:Object):void {
+			trace("ステータス_" + $status);
+		}
+
+	}
+}
+</pre>
+
+<h4>画像保存のphpスクリプト</h4>
+
+
+<pre name="code" class="php">class PngSave
+{
+    public function download($image,$dir)
+    {
+        $fileName = $dir.&quot;hae.png&quot;; // ファイル名
+        
+        //方法1
+        $fp = fopen($fileName, 'wb');
+        fwrite($fp, $image-&gt;data);
+        fclose($fp);
+        
+        //方法2 ブラウザからじゃないと上手くいかない？
+        //$im = imagecreatefromstring ($image-&gt;data);
+        //header('Content-Type: image/png');
+        //header(&quot;Content-Disposition: attachment; filename=&quot;.$fileName);
+        //imagepng($im);
+        
+        return $fileName;
+    }
+}</pre>
+
+
+
+<p>ActionScript側からAMFPHPにByteArrayを飛ばした時、$image->dataにデータが入ってます。※$imageと指定してハマりました。<br />
+参考：<a href="http://d.hatena.ne.jp/hirossy1977/20071217" target="_blank">AMFPHP1.9b2でByteArrayをもらう、返す</a>　
+</p>
+
+
+<h3>シンプルな動体検知</h3>
+<p>
+動体検知ですが、検知する場所を決めて、その場所のピクセルの色が一つ前の色と最新の色とで、
+どれだけ変化しているか？で判断しています。<br />
+今回の場合、画面の左、上、右の３カ所に検知するポイントを置いて、そこのピクセルの色が一定以上変化したかどうか？で動体検知を行いました。
+
+</p>
+<h4>動体検知判断のASスクリプト</h4>
+<pre name="code" class="js">
+package
+{
+	import flash.display.Sprite;
+	
+	public class Test_ColorDiff extends Sprite
+	{
+		public function Test_ColorDiff()
+		{
+			//古い色と最新の色
+			var color_old:uint = 0xFFFFFF;
+			var color_new:uint = 0xFFFF00;
+			
+			//古い色をR,G,Bに分ける
+			var color_old_arr:Array = [ 
+				color_old >> 16 , 
+				color_old >> 8 & 0xFF ,
+				color_old & 0xFF ,
+				];
+			trace("old-R_" + color_old_arr[0]); //255
+			trace("old-G_" + color_old_arr[1]); //255
+			trace("old-B_" + color_old_arr[2]); //255
+			
+			//新しいい色をR,G,Bに分ける
+			var color_new_arr:Array = [ 
+				color_new >> 16 , 
+				color_new >> 8 & 0xFF ,
+				color_new & 0xFF ,
+				];
+			trace("new-R_" + color_new_arr[0]); //255
+			trace("new-G_" + color_new_arr[1]); //255
+			trace("new-B_" + color_new_arr[2]); //0
+			
+			//R,G,Bそれぞれ古い色と新しい色を比較し、threshold_valueの値以上に差が出たら「動いた」と見なす。
+			var threshold_value:Number = 20;
+			for(var i:Number = 0;i <= 2;i++ ){
+				if(Math.abs(color_old_arr[i] - color_new_arr[i]) > threshold_value ) {
+					trace("動いた！");
+				}
+			}
+			
+		}
+	}
+}
+</pre>
+
+<p>てな感じです。</p>
+
+
+<h3>大阪てら子 22 「webカメラで遊ぼう！」の感想</h3>
+<p>
+世の中広いわけで、凄いスクリプトを書く人、とても良いアイデアを持っている人を目のあたりにすると、
+危機感というか、やべー状態になりました。
+<br /><br />
+ということでこれからも精進していこうと思います。
+</p>
+<br />
+<p>USKさんが今回の様子をしっかりまとめてくださっています。<br />
+<p><a href="http://www.mrlittlebig.com/blog/032/" target="_blank">大阪てら子 22 「webカメラで遊ぼう！」@trace</a>
+</p>
+<p>
+それと、トンカさんが同様に動体検知されてました。<br />
+<a href="http://www.kiteretsu-so.com/archives/1386" target="_blank">てら子に行ってきた！～大阪てら子 22 「webカメラで遊ぼう！」～@キテレツ荘</a><br />
+動体検知方法は、BlendMode.DIFFERENCEで古い情報と新しい情報の差分を取得する方法のようです。その方法は全く思いつかなかった！！
+</p>
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2009/05/_22_web_1.php" title="大阪てら子 22 「webカメラで遊ぼう！」に参加してきました">Permalink</a></li>
+								<li>by </li>
+								<li>at 22:47</li>
+								<li>in <a href="flash/index.html" title="">FLASH勉強</a></li>
+								<li><a href="2009/05/_22_web_1.php#comments" title="大阪てら子 22 「webカメラで遊ぼう！」に参加してきましたにコメント">Comments</a> (9) </li>
+								<li><a href="2009/05/_22_web_1.php#trackbacks" title="大阪てら子 22 「webカメラで遊ぼう！」に参加してきましたにトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2009/04/dbdmysql.php" title="DBD::mysqlのインストールメモ">DBD::mysqlのインストールメモ</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="php/index.html" title="">PHP/システム関連</a></p>
+								<p class="date">2009&#24180;04&#26376;23&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>Movable Typeをローカル環境にインストールしようとした時に躓いたのでメモ。
+</p>
+<p>※私のはMac OS10.5.6に<a href="http://www.mamp.info/" target="_blank">MAMP</a>をインストールした環境です。</p>
+
+<h3>DBD::mysqlがインストールされてない</h3>
+<p>ローカルにMovable Typeを解凍&設置し、mt-check.cgiを走らせたところ、</p>
+<blockquote>サーバーにDBD::mysqlがインストールされていないか、DBD::mysqlに必要なモジュールがインストールされていません DBIとDBD::mysqlは、MySQLを使ってブログのデータを管理するために必要です。 DBD::mysqlをインストールする場合は、インストール手順を参照してください。
+</blockquote>
+<p>なエラーが。MAMPはデフォでMySQLをインストールしてくれるので、DBD::mysqlとはperlとMySQLをつないでくれる便利なモノと予想。まあ、それはどうでもよくて、DBD::mysqlをインストールすることに。</p>
+
+<h3>DBD::mysqlをインストール</h3>
+<p><a href="http://dev.mysql.com/downloads/" target="_blank">MySQL</a>と<a href="http://www.cpan.org/modules/by-module/DBD/" target="_blank">DBD::mysql</a>が必要となるのでダウンロードし解凍しとく。</p>
+<p>以下を実行</p>
+<blockquote>1. mysql_configを探す。（私の場合は /Applications/MAMP/Library/bin/ にある）<br /><br />
+2. MAMPと同じバージョンのMySQLをダウンロードして、解凍する。<br />
+　（訳注．mySQLのサイトからでもよし、MAMPのサイトでソース版をダウンロードしてもよし）<br /><br />
+3. includeディレクトリを /Applications/MAMP/Library/ディレクトリの下に移動する。<br /><br />
+4. libディレクトリの内容を /Applications/MAMP/Library/lib/mysql/ディレクトリにコピーする。<br /><br />
+5. ターミナルを起動し、DBD::mysqlを解凍したディレクトリに移動<br /><br />
+6. make file を作る: <br />sudo Perl Makefile.PL --mysql_config=/Applications/MAMP/Library/bin/mysql_config<br />
+　（訳注．mysql_configを指定することによって、この環境用のコンパイル引数を調べて設定してくれる）<br />
+<strong>※自分の場合、このままでは無理でした。当エントリの下の方参照</strong>
+<br />
+7. sudo make<br /><br />
+8. sudo make install</blockquote>
+※<a href="http://d.hatena.ne.jp/lyco/20090315" target="_blank">Macが主流になってきました</a>様より引用
+
+<h4>ここで make コマンドが使えない</h4>
+<blockquote>-bash: make: command not found</blockquote>
+とハマる。
+
+<h3>makeコマンドを使用できるようDeveloper Toolをインスト</h3>
+<p>appleの<a href="https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/promo?source=ADCLOG&code=ADCLOG-NEX" target="_blank">ADC member site</a>より、Xcode (最新ver) Developer ToolsをDL＆インストール</p>
+<p>※DLにメンバー登録が必要です。（無料）</p>
+
+<h4>Device Centralが起動するか心配</h4>
+<p>Xcodeがあると、Device Central CS3が起動しないという症状があり、以前Xcodeをアンインストールしました。→Device Central CS3起動するようになった。
+</p>
+<p>で、今回、Xcode 3.1.2をインストールしたところ、Device Central CS3も無事起動！！</p>
+
+<h4>makeコマンドも無事使用可能に</h4>
+<p>ということで、makeコマンドが通り、無事にDBD::mysqlがインストールされ、<del>かつMac0S 10.5.6 & Movable Type + MySQL環境が構築できました。おわり。</del></p>
+<p>嘘です。MySQLを選ぶところでこんなエラーが。(apache_error_logより)</p>
+<pre name="code" class="js">[Thu Apr 23 23:40:17 2009] [notice] Digest: generating secret for digest authentication ...
+[Thu Apr 23 23:40:17 2009] [notice] Digest: done
+[Thu Apr 23 23:40:17 2009] [notice] Apache/2.0.59 (Unix) PHP/5.2.6 DAV/2 configured -- resuming normal operations
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] dyld: lazy symbol binding failed: Symbol not found: _mysql_init, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Expected in: dynamic lookup, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] , referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] dyld: Symbol not found: _mysql_init, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1]   Expected in: dynamic lookup, referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] , referer: http://localhost/mt/mt-wizard.cgi
+[Thu Apr 23 23:40:26 2009] [error] [client ::1] Premature end of script headers: mt-wizard.cgi, referer: http://localhost/mt/mt-wizard.cgi
+</pre>
+
+<h4>perlからMySQLへアクセスするスクリプトを試す</h4>
+<p>※mt425っていうデータベースとユーザはphpMyadminより作成してあります。 </p>
+<pre name="code" class="js">use DBI;
+
+$user = 'hoge';
+$passwd = 'hoge';
+#$db = DBI->connect('DBI:mysql:hoge:localhost', $user, $passwd);
+$db = DBI->connect('DBI:mysql:mt425:localhost:mysql_socket=/Applications/MAMP/tmp/mysql/mysql.sock', $user, $passwd);
+$sth = $db->prepare("SELECT cd, nm FROM test");
+$sth->execute;
+$num_rows = $sth->rows;
+print "該当 $num_rows 件\n";
+for ($i=0; $i<$num_rows; $i++) {
+    @a = $sth->fetchrow_array;
+    print "cd=$a[0], nm=$a[1] \n";
+}
+$sth->finish;
+$db->disconnect;</pre>
+
+<p>結果</p>
+<pre name="code" class="js">dyld: lazy symbol binding failed: Symbol not found: _mysql_init
+  Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle
+  Expected in: dynamic lookup
+
+dyld: Symbol not found: _mysql_init
+  Referenced from: /Library/Perl/5.8.8/darwin-thread-multi-2level/auto/DBD/mysql/mysql.bundle
+  Expected in: dynamic lookup
+
+Trace/BPT trap</pre>
+<p>
+同じようなエラーが出たんで、Movable Typeはひとまず置いといて、perl&MySQLを解決しなくては。
+</p>
+<h3>追加(次の日)　寝て頭すっきりさせたらエラーがなくなった。</h3>
+<p>弄くりまわしてごちゃごちゃしたらエラーがなくなった。その過程を覚えてる範囲で記載しておきます。</p>
+<h4>１、用意するMySQLのバージョン</h4>
+<p>MAMPにはすでにMySQLが入っているのだけど、どうも完全体ではないみたいなので、MySQLをDLしてきて、おいしいところだけチョイスする。その時に「Mac OS X 10.5 (x86)」と「Mac OS X 10.5 (x86_64)」があるわけだが、x86の方を選んだ。※最初はx86_64を選んでいてエラーでてた。ただし、結果的にエラーがなくなっただけで、これが原因かどうかは分かりません。
+</p>
+<h4>perl Makefile.PLの設定</h4>
+<blockquote>perl Makefile.PL --libs="-L/Applications/MAMP/Library/lib/mysql/lib -lmysqlclient" --mysql_config=/Applications/MAMP/Library/bin/mysql_config  --testdb=mt425 --testhost=localhost -testuser=mt425 -testpassword=admin</blockquote>
+<p>※一行で<br />
+※mt425っていうデータベースとユーザはphpMyadminより作成してあります。
+</p>
+<p>自分の場合、<br />
+/Applications/MAMP/Library/lib/mysql/lib<br />
+にDLしてきたMySQL（Mac OS X 10.5 (x86)）のlibファイルをコピペして、Makefile.PL時に設定しました。</p>
+<p>後は、
+sudo make<br />
+sudo make test<br />
+sudo make install<br />
+です。</p>
+<h4>make test時にエラーが</h4>
+<p>/tmp/mysql.sockが無いYO!みたいなエラーが出たけど、これは無視！<br />
+※perlでのアクセス時や、movable typeインストール時にmysql.sockの位置を指定できため。</p>
+<p>export PATH=$PATH:/Applications/MAMP/Library/bin
+あと上記のようなコマンドを打ったけど、意味は全然わかっていなかったりする。</p>
+
+<h3>OS10.5.6 & Movable Type & MySQL完了</h3>
+<p><img alt="mtmysql.jpg" src="images/mtmysql.jpg" width="364" height="293" /></p>
+<p>データベースソケットのところにmysql.sockの位置を指定。データベースポートは無視。</p>
+<p>これで多分完了。ローカルにmt環境作るだけなんて簡単よ！とか思ってたけど全くそんなことなかった。サーバー弄くれる人尊敬します。</p>
+
+
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2009/04/dbdmysql.php" title="DBD::mysqlのインストールメモ">Permalink</a></li>
+								<li>by </li>
+								<li>at 17:33</li>
+								<li>in <a href="php/index.html" title="">PHP/システム関連</a></li>
+								<li><a href="2009/04/dbdmysql.php#comments" title="DBD::mysqlのインストールメモにコメント">Comments</a> (7) </li>
+								<li><a href="2009/04/dbdmysql.php#trackbacks" title="DBD::mysqlのインストールメモにトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2009/04/post_70.php" title="なぜこのサイトでモノを買ったのか？を考えてみた。">なぜこのサイトでモノを買ったのか？を考えてみた。</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="web/index.html" title="">WEBデザインメモ</a></p>
+								<p class="date">2009&#24180;04&#26376;08&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>ネットで何かを買う時、何が決め手になるのか？を考えた。ターゲットは「自分」。
+</p>
+
+<h3>パソコンデスクを購入した。</h3>
+<p>購入したサイトは以下。<br />
+<a href="http://garage.plus.co.jp/product/table/d2/d2.asp" target="_blank">ガラージ</a>
+</p>
+<h4>購入を決断した決め手、その１</h4>
+<p>写真がかっこいい。WEBデザインが好み。</p>
+<p>写真（CG）とWEBデザインが、自分好みな感じで、見た瞬間「これいいかも？」と思った。「デスク」でぐぐると色々なサイトが見れるのですが、<a href="http://garage.plus.co.jp/" target="_blank">ガラージ</a>のサイトは他と比べて、ひと味違う空気感というかデザインな気がした。他のサイトの大概が「楽天」的なデザインでモノに関係なく興味を持つことがなかった。
+</p>
+<h4>購入を決断した決め手、その２</h4>
+<p>詳細情報が豊富。</p>
+<p>写真で興味を持った僕は、デスクの詳細を読んでいった。写真と文字でしっかり説明されていて購入後の配置や用途など想像することが容易に出来た。
+</p>
+
+<h3>Tシャツを購入した。</h3>
+<p>購入したサイトは以下。<br />
+<a href="http://www.upsold.com/parody/main.html" target="_blank">UPSOLD</a></p>
+<h4>購入を決断した決め手、その１</h4>
+<p>写真が見やすい。1ページに表示する商品数がちょうどいい。</p>
+<p>商品くり抜きの単色背景によって、他の羅列されたTシャツとの区別がつきやすい。こういうTシャツ販売サイトは、大量に商品があるので、以下に数多くの商品を瞬時に見れるかが大事だと思う。</p>
+
+<h3>まとめ</h3>
+<p>デザインはとても大事だと思う。<br />
+WEBページを開いた時、一番に人の感覚を左右するのはデザインだと思います。その次に文字などによる情報が目に入ってくる。「なんかイイナ〜」や「イマイチだな」などの視覚による感覚はとても大事で、購入するかしないかまで関係してくることもある。<br />
+商品自体はイマイチでも、WEBデザインが素晴らしければ、僕はその商品を購入してしまうかもしれない。</p>
+<p>
+とまあ、自分はデザインよりコーディング系ばっかりやってるんですが、デザインの勉強はしっかりやっておこうと思った次第でございます。</p>
+
+
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2009/04/post_70.php" title="なぜこのサイトでモノを買ったのか？を考えてみた。">Permalink</a></li>
+								<li>by </li>
+								<li>at 01:38</li>
+								<li>in <a href="web/index.html" title="">WEBデザインメモ</a></li>
+								<li><a href="2009/04/post_70.php#comments" title="なぜこのサイトでモノを買ったのか？を考えてみた。にコメント">Comments</a> (8) </li>
+								<li><a href="2009/04/post_70.php#trackbacks" title="なぜこのサイトでモノを買ったのか？を考えてみた。にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+												<div class="entry-title">
+							<h2><a href="2009/03/flash_10.php" title="Flashバナーのデザイン作成時の留意点">Flashバナーのデザイン作成時の留意点</a></h2>
+							<div class="entry-catedatebox">
+								<p class="cate"><a href="flash/index.html" title="">FLASH勉強</a></p>
+								<p class="date">2009&#24180;03&#26376;24&#26085;</p>
+							</div>
+							<div class="clear"></div>
+							
+						</div><!-- entry-title -->
+						
+						<div class="entry-content">
+							<!-- エントリー本文 -->
+							<div class="entry-body">
+							<p>ポータル系サイトなどでよく見かけるFlashバナーですが、バナー制作規定にある「容量(swfファイルサイズ)」にたびたび泣かされます。何も考えずオーサリングすれば必ず容量オーバーするという悪夢。下手すりゃ構成案段階まで逆戻りして作り直しなんてことになるかもしれないので、「構成案とデザイン」時の留意点をメモしておこうと思います。<br />
+※オーサリング担当者からデザイン担当者へ向けての留意点という視点で。</p>
+
+<h3>オブジェクト数に気をつける</h3>
+<h4>オブジェクト数と比例して容量が増える</h4>
+<p><img alt="bnrCreate_obj.jpg" src="images/bnrCreate_obj.jpg" width="450" height="120" /></p>
+<p>異なるオブジェクト１個配置より異なるオブジェクト３個配置の方が容量が大きい。<br>
+※同じ形のオブジェクトであれば、Flashオーサリング時にシンボルとして扱えるので問題なしです。
+</p>
+<p>オブジェクトの大きさにもよるが、単純な考え方として、異なるオブジェクトが増えるとその分、Flashに配置する素材が増えるので、swf容量も大きくなる。</p>
+<p>訴求したいものを絞るとオブジェクト数も減るはず。</p>
+<br /><br />
+<p>■補足</p>
+<p>ビットマップの場合は、面積(大きさ)が大きくなるほどと容量が増える。「10px × 10px」のビットマップ３個と「100px × 100px」の画像１個なら、後者の方が容量が大きい。</p>
+<p>ベクターの場合は、パスの複雑差などが容量に関係してくる。</p>
+
+
+
+<h3>背景とかカットシーン数に気をつける</h3>
+<h4>背景を変える</h4>
+<p><img alt="bnrCreate_haikei1.jpg" src="images/bnrCreate_haikei1.jpg" width="450" height="120" /></p>
+<p>単純に背景を変えるとその分、Flashに配置する素材が増えるので容量が増える。</p>
+
+<h4>背景を変えない</h4>
+<p><img alt="bnrCreate_haikei2.jpg" src="images/bnrCreate_haikei2.jpg" width="450" height="120" /></p>
+<p>背景を統一すると容量が少なくて済む。</p>
+<br /><br />
+<p>シーンをどのようにカット割りするかが大事。出来る限り少ないカットシーン数で済む表現方法を考えるのが大事。かもしれない</p>
+
+
+<h3>単色の背景を用いる＆色数を少なくする</h3>
+<p>オブジェクト（↓ではキャラクター）の容量について。</p>
+<h4>単色の背景の場合</h4>
+<p><img alt="bnrCreate_gradi2.jpg" src="images/bnrCreate_gradi2.jpg" width="450" height="120" /></p>
+<p>アルファチャンネル(透明エリア)を保持しないgif形式を使用することにより、容量が小さくて済む。また、gif書き出しの時に色数を削ることが出来るので更に容量を減らすことが出来る。</p>
+
+<h4>単色の背景でない場合（グラデーションとか）</h4>
+<p><img alt="bnrCreate_gradi1.jpg" src="images/bnrCreate_gradi1.jpg" width="450" height="120" /></p>
+<p>アルファチャンネル(透明エリア)を保持するpng形式となるので、容量が大きくなる。一つや二つのオブジェクトなら構わないが、数が膨れ上がると容量の差は歴然となってくる。。かもしれない。
+</p>
+
+<br /><br /><br /><p>
+気がついたら書き足し&修正していきます。</p>
+
+
+
+
+							</div><!-- entry-body -->
+						</div><!-- entry-content -->
+						
+						<!-- エントリー追記 -->
+						
+						
+						<!-- エントリー情報 -->
+						<div class="entry-info">
+							<ul>
+								<li><a href="2009/03/flash_10.php" title="Flashバナーのデザイン作成時の留意点">Permalink</a></li>
+								<li>by </li>
+								<li>at 18:10</li>
+								<li>in <a href="flash/index.html" title="">FLASH勉強</a></li>
+								<li><a href="2009/03/flash_10.php#comments" title="Flashバナーのデザイン作成時の留意点にコメント">Comments</a> (1) </li>
+								<li><a href="2009/03/flash_10.php#trackbacks" title="Flashバナーのデザイン作成時の留意点にトラックバック">Trackbacks</a> (0) </li>
+							</ul>
+						</div><!-- entry-info_end -->
+						
+
+						
+												<div class="entry-pagelinkunder">
+							< <a href="index.php?page=1" title="">次の5日分</a> | </MTPaginateIfPreviousPage_><a href="index.php?page=3" title="">前の5日分</a></MTPaginateIfNextPage_>> 
+						</div><!-- entry-pagelink -->
+						
+						
+
+						<div class="pagetop">
+							<div class="pagetopbox">
+								<a href="index.php?page=2#header">Page Top</a>
+							</div><!-- pagetop -->
+							<div class="clear"></div>
+						</div>
+							
+					</div><!-- entry-container -->
+						
+				</div><!-- main -->
+			</div><!-- left-content -->
+				
+			<div id="right-content">
+				<div id="header2">
+				</div><!-- header2 -->
+				
+				<div id="side-content">
+					
+					<!-- 左メニューモジュールの開始 -->
+										<div id="left-side-content">
+						<div id="side-search">
+							<div class="search-form">
+								<form method="get" action="http://www.y-tti.com/mt/mt-search.cgi">
+									<input type="hidden" name="IncludeBlogs" value="1" />
+									<input id="search" class="searchtextarea" tabindex="5" size="10" accesskey="t"  value="" name="search" onblur="if(this.value==''){this.style.color=''; this.form.reset()}" onfocus="this.value = ''; this.style.color = '#000000';" />
+									<input type="submit" tabindex="6" accesskey="s" value="SEARCH" class="searchsubmit" />
+								</form>
+							</div><!-- search-form -->
+						</div><!-- side-search -->
+										
+							
+						<div id="side-recent">
+							<ul>
+																<li><a href="2010/07/iphone6.php" title="iPhoneアプリ開発、道に迷いながら6冊の本を読んでみた。" >iPhoneアプリ開発、道に迷いながら6冊の本を読んでみた。</a></li>
+																<li><a href="2010/06/myspace.php" title="MySpaceバイオグラフィーの編集が出来ない。" >MySpaceバイオグラフィーの編集が出来ない。</a></li>
+																<li><a href="2010/06/flashbuildersourcemate.php" title="FlashBuilderプラグイン【SourceMate]のエラー対処" >FlashBuilderプラグイン【SourceMate]のエラー対処</a></li>
+																<li><a href="2009/07/teraco23.php" title="teraco23でマトリックスな格闘をしてきた。" >teraco23でマトリックスな格闘をしてきた。</a></li>
+																<li><a href="2009/06/publishing_source_code.php" title="Publishing source code が便利すぎるかも。" >Publishing source code が便利すぎるかも。</a></li>
+																<li><a href="2009/06/papervision3d_3d2d.php" title="Papervision3D 3D座標→2D座標の変換メモ" >Papervision3D 3D座標→2D座標の変換メモ</a></li>
+																<li><a href="2009/05/_22_web_1.php" title="大阪てら子 22 「webカメラで遊ぼう！」に参加してきました" >大阪てら子 22 「webカメラで遊ぼう！」に参加してきました</a></li>
+																<li><a href="2009/04/dbdmysql.php" title="DBD::mysqlのインストールメモ" >DBD::mysqlのインストールメモ</a></li>
+																<li><a href="2009/04/post_70.php" title="なぜこのサイトでモノを買ったのか？を考えてみた。" >なぜこのサイトでモノを買ったのか？を考えてみた。</a></li>
+																<li><a href="2009/03/flash_10.php" title="Flashバナーのデザイン作成時の留意点" >Flashバナーのデザイン作成時の留意点</a></li>
+																<li><a href="2009/03/javascript.php" title="javascript開発環境をとりあえず作っておく。" >javascript開発環境をとりあえず作っておく。</a></li>
+																<li><a href="2009/03/post_69.php" title="インターフェースって食べれるの？" >インターフェースって食べれるの？</a></li>
+																<li><a href="2009/03/shadowboxhtml.php" title="shadowboxでHTML表示のメモ" >shadowboxでHTML表示のメモ</a></li>
+																<li><a href="2009/02/png.php" title="透過png画像が綺麗に表示されない！回避方法メモ" >透過png画像が綺麗に表示されない！回避方法メモ</a></li>
+																<li><a href="2009/02/stage.php" title="stage幅取得のタイミングをテストしてみた" >stage幅取得のタイミングをテストしてみた</a></li>
+								
+							</ul>
+						</div><!-- side-recent -->
+						
+						<div id="side-ficcblogparts">
+						<script language="JavaScript" type="text/javascript" src="http://www.anotherbookmark.com/blogparts/bp.js"></script><script language="JavaScript" type="text/javascript">setFlash(160,300,0xffffff,0x24211A,0xF8F8F8,0x7FA81F);</script><noscript><a href="http://www.anotherbookmark.com/" target="_blank">FICC Another Bookmark Beta</a> powered by <a href="http://www.ficc.jp/" target="_blank">FICC</a></noscript>
+						</div><!-- side-ficcblogparts -->
+						
+												<div id="side-categories">
+														<ul>
+								
+								<li><a href="ajax/index.html" title="" >Ajaxメモ</a></li>
+								
+								<li><a href="flash/index.html" title="" >FLASH勉強</a></li>
+								
+								<li><a href="k1/index.html" title="" >K-1・格闘技ネタ</a></li>
+								
+								<li><a href="php/index.html" title="" >PHP/システム関連</a></li>
+								
+								<li><a href="web/index.html" title="" >WEBデザインメモ</a></li>
+								
+								<li><a href="iphone/index.html" title="" >iPhone</a></li>
+								
+								<li><a href="youtube/index.html" title="" >youtube動画</a></li>
+								
+								<li><a href="cat3/index.html" title="" >おすすめ雑誌・本・ソフト</a></li>
+								
+								<li><a href="cat4/index.html" title="" >デッサン習い事</a></li>
+								
+								<li><a href="cat1/index.html" title="" >ブログ構築過程</a></li>
+								
+								<li><a href="rasheen/index.html" title="" >ラシーン(rasheen)</a></li>
+															</ul>
+							
+						</div><!-- side-categories -->
+						
+						
+						<div id="side-link">
+							<ul>
+								<li><a href="http://www.live-kokuchi.com/" target="_blank">ライブ告知.com</a></li>
+								<li><a href="http://meiryou.ti-da.net/" target="_blank">沖縄インディーズアーティスト、路上ミュージシャン紹介</a></li>
+								<li><a href="http://blog.livedoor.jp/shiozakidream/" target="_blank">オト→キセキ</a></li>
+								<li><a href="http://kawagoe-soichi.spaces.live.com/" target="_blank">風速４０光年</a></li>
+								<li><a href="http://mekishikans.com/" target="_blank">メキシカンズ</a></li>
+								<li><a href="http://marontic.jp/chiemi/" target="_blank">CHIEN</a></li>
+								<li><a href="http://plaza.rakuten.co.jp/yanikko3rd/" target="_blank">○○じゃー</a></li>
+								<li><a href="http://blog.globalleaf.com/" target="_blank">WEB とビールと UMA の一本道</a></li>
+								<li><a href="http://web21.exblog.jp/" target="_blank">闘え！Webデザイナー</a></li>
+								<li><a href="http://tomwebtom.com/web_blog/" target="_blank">WEBデザインを勉強中</a></li>
+								<li><a href="http://noahnola.blog87.fc2.com/" target="_blank">小さな巨人の小さな絵日記</a></li>
+								<li><a href="http://www.ikesai.com/" target="_blank">いけてるサイトドットコム</a></li>
+								<li><a href="http://wd.dsp.co.jp/" target="_blank">withD(デジタルスケープ)</a></li>
+								<li><a href="http://www.n-c-c.org/" target="_blank">NCC(ナショナルクリエーターズカンファレンス)</a></li>
+								<li><a href="http://www.mdn.co.jp/" target="_blank">MdN</a></li>
+								<li><a href="http://www.cbc-net.com/" target="_blank">CBCNET</a></li>
+								<li><a href="http://itpro.nikkeibp.co.jp/article/COLUMN/20060525/238975/?ST=swd-tech" target="_blank">FLASH8 入門講座:ITpro</a></li>
+								<li><a href="http://www.flash-jp.com/" target="_blank">FLASH-jpフォーラム</a></li>
+								<li><a href="http://macototo.cool.ne.jp/junics/" target="_blank">JUNICS HOMEPAGE</a></li>
+							</ul>
+						</div><!-- side-link -->
+						
+						<div id="side-feed">
+							<ul class="ulfeed">
+							<li><a class="rss" href="index.xml" title="崖っぷちWEBデザイナーブログ RSS Feed (XML)">RSS Feed (XML)</a></li>
+							<li><a class="rss" href="atom.xml" title="崖っぷちWEBデザイナーブログ Atom Feed (XML)">Atom Feed (XML)</a></li>
+							<li><a class="twitter" href="http://twitter.com/y_tti">Twitter</a></li>
+							<li><a class="delicious" href="http://delicious.com/ytti">del.icio.us</a></li>
+							<li><a class="rhatena" href="http://r.hatena.ne.jp/y-tti/">r.hatena</a></li>
+							<li><a class="drecom" href="2008/09/drecom_rss.php">drecom RSS</a></li>
+							</ul>
+						</div><!-- side-feed -->
+					</div><!-- left-side-content -->
+					<!-- 左メニューモジュールの終了 -->
+					<!-- 右メニューモジュールの開始 -->
+										<div id="right-side-content">
+						<div id="side-microad">
+<script type="text/javascript"><!--
+in_uid = '130988';
+in_templateid = '51002';
+in_charset = 'UTF-8';
+in_group = 'blog';
+in_matchurl = '';
+in_HBgColor = 'F8F8F8';
+in_HBorderColor = '24211A';
+in_HTitleColor = '24211A';
+in_HTextColor = '5D6155';
+in_HUrlColor = '7FA81F';
+frame_width = '160';
+frame_height = '300';
+--></script>
+<script type='text/javascript' src='http://cache.microad.jp/send0100.js'></script>
+						</div><!-- side-microad -->
+	
+						<div id="side-blogparts">
+<script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script>
+						</div>
+							
+						<div id="side-book">
+
+							<div class="side-bookbox">
+								<div class="booktitle">Adobe Flash CS3 詳細! ActionScript 3.0 入門ノート (DVD-ROM付)</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881665901/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41lyzDy6G3L._SL160_.jpg" alt="Adobe Flash CS3 詳細! ActionScript 3.0 入門ノート (DVD-ROM付)" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+クラスで書けるようになった。配列のpushとかspliceとかsliceとかややこしい部分の辞書代わりにも使ってます。XML関係もこれで覚えた。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">ActionScript 3.0 アニメーション</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4862460496/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51VBoM8avZL._SL160_.jpg" alt="ActionScript 3.0 アニメーション" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+vx,Math,cos,sinとか???な数学的な部分をこの本で理解できた気がします。逃げたいジャンルだけどFLASHに必須なジャンルなのよね。。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">Adobe Flash CS3 詳細! ActionScript3.0入門ノート2 (CD-ROM付) </div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4881666460/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41ck4PZgokL._SL160_.jpg" alt="Adobe Flash CS3 詳細! ActionScript3.0入門ノート2 (CD-ROM付)" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+ActionScript応用への第一歩。ただこれを読む前に入門ノート１を先に読んでおいた方がよさそう。ASの世界が広がった気がする本です。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">Flash Creative Workshop</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797336072/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41R-rGNvK6L._SL160_.jpg" alt="Flash Creative Workshop" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+FLASHを始めて右も左も分からない時に救世主となった本。FLASHサイト制作法がなるほど！っと。ActionScriptバリバリの人はスルー。
+								</div>
+							</div><!-- side-bookbox -->
+							
+							<div class="side-bookbox">
+								<div class="booktitle">FLASH OOP for ActionScript 3.0</div>
+								<div class="booklink">
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798116300/ytticom-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51J-MQ%2BFUOL._SL160_.jpg" alt="FLASH OOP for ActionScript 3.0" style="border: none;" /></a>
+								</div>
+								<div class="bookdescription">
+FLASHの「今の主流」を知ることが出来る本。筆者の方々は総勢10人以上でかつ現在活躍中の方々ばかりなんでミーハー的な読み方もありかも。
+								</div>
+							</div><!-- side-bookbox -->
+	
+						</div><!-- side-book -->
+					</div><!-- right-side-content -->					<!-- 右メニューモジュールの終了 -->
+					<div class="clear"></div>
+						
+				</div><!-- side-content -->
+					
+			</div><!-- right-content -->
+			<div class="clear"></div>
+				
+		</div><!-- container -->
+	
+		<!-- フッターモジュールの開始 -->
+		
+		<div id="footer">
+			<div id="footer-content">
+				<div id="footer-profile">
+					<div class="img"><img src="img/profile-img.jpg" width="53" height="73" /></div>
+					<div class="descripton">
+					奈良県在住のWEBデザイナー??FLASHer??。
+					2007年1月(27歳時)にネ申の啓示を受けてWEBデザイナーを志す。
+					現在はFLASHを主として活動中。
+					身に付けなきゃいけないことテンコ盛り&金ないわで崖っぷちです。
+					<p><a href="http://twitter.com/y_tti">Twitter</a> | <a href="http://delicious.com/ytti">del.icio.us</a> | <a href="http://r.hatena.ne.jp/y-tti/">r.hatena</a> </p>
+					</div>
+					<div class="clear"></div>
+				</div><!-- footer-profile -->
+				
+								<div id="footer-archives">
+															<ul>
+					
+					<li><a href="2010/07/index.html" title="" >2010&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2010/06/index.html" title="" >2010&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2009/07/index.html" title="" >2009&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2009/06/index.html" title="" >2009&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2009/05/index.html" title="" >2009&#24180;05&#26376;</a></li>
+					
+										
+					<li><a href="2009/04/index.html" title="" >2009&#24180;04&#26376;</a></li>
+					
+										
+					<li><a href="2009/03/index.html" title="" >2009&#24180;03&#26376;</a></li>
+					
+										
+					<li><a href="2009/02/index.html" title="" >2009&#24180;02&#26376;</a></li>
+					
+										
+					<li><a href="2009/01/index.html" title="" >2009&#24180;01&#26376;</a></li>
+					
+										
+					<li><a href="2008/12/index.html" title="" >2008&#24180;12&#26376;</a></li>
+					
+										
+					<li><a href="2008/11/index.html" title="" >2008&#24180;11&#26376;</a></li>
+					
+										
+					<li><a href="2008/10/index.html" title="" >2008&#24180;10&#26376;</a></li>
+					
+										
+					<li><a href="2008/09/index.html" title="" >2008&#24180;09&#26376;</a></li>
+					
+										
+					<li><a href="2008/08/index.html" title="" >2008&#24180;08&#26376;</a></li>
+					
+										
+					<li><a href="2008/07/index.html" title="" >2008&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2008/06/index.html" title="" >2008&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2008/05/index.html" title="" >2008&#24180;05&#26376;</a></li>
+					
+										
+					<li><a href="2008/04/index.html" title="" >2008&#24180;04&#26376;</a></li>
+					
+										
+					<li><a href="2008/03/index.html" title="" >2008&#24180;03&#26376;</a></li>
+					
+										
+					<li><a href="2008/02/index.html" title="" >2008&#24180;02&#26376;</a></li>
+					
+										
+					<li><a href="2008/01/index.html" title="" >2008&#24180;01&#26376;</a></li>
+					
+										
+					<li><a href="2007/12/index.html" title="" >2007&#24180;12&#26376;</a></li>
+					
+										
+					<li><a href="2007/11/index.html" title="" >2007&#24180;11&#26376;</a></li>
+					
+										
+					<li><a href="2007/10/index.html" title="" >2007&#24180;10&#26376;</a></li>
+					
+										
+					<li><a href="2007/09/index.html" title="" >2007&#24180;09&#26376;</a></li>
+					
+										
+					<li><a href="2007/08/index.html" title="" >2007&#24180;08&#26376;</a></li>
+					
+										
+					<li><a href="2007/07/index.html" title="" >2007&#24180;07&#26376;</a></li>
+					
+										
+					<li><a href="2007/06/index.html" title="" >2007&#24180;06&#26376;</a></li>
+					
+										
+					<li><a href="2007/05/index.html" title="" >2007&#24180;05&#26376;</a></li>
+										<li><a href="2007/05/index.html" title="" >2007&#24180;05&#26376;</a></li>
+					</ul>
+					
+					
+					<div class="clear"></div>
+					<ul>
+						<li><a href="archives.php" title="崖っぷちWEBデザイナーブログ">Archives</a></li>
+					</ul>
+					<div class="clear"></div>
+				</div><!-- footer-archives -->
+				<div class="clear"></div>
+				
+				
+				<div id="footer-bloglink">
+					<a href="http://www.blogmura.com/" target="_blank"><img src="http://www.blogmura.com/img/www80_15.gif" width="80" height="15" border="0" alt="ブログランキング・にほんブログ村へ" /></a>
+					<a href="http://blog.with2.net/link.php?508541" target="_blank"><img src="http://www.y-tti.com/blog/img/blogrankingu01.gif" border="0" alt="人気blogランキングへ"></a>
+					<a href="http://www.blog-parts.com/" target="_blank"><img src="http://www.blog-feed.com/icon00.gif" border="0" alt="ブログ検索"></a>
+					<script src="http://banner.blogranking.net/scs?37746"></script>
+					<noscript><a href="http://blogranking.net/" target="_blank"><img src="http://banner.blogranking.net/nosbanner?37746" alt="ブログランキング ドット ネット" border="0" /></a></noscript>
+					<a href="http://nendai-blog.zerone.jp/" target="_blank"><img src="img/bn_80_15.gif" border="0" width="80" height="15"alt="年代別ブログ図鑑"></a>
+					<a href="http://www.fivestyle.biz/click/in/?key=1191690099wEZ6Im9bgT1584"><img src="http://www.fivestyle.biz/help/banner_imeges/banner29.gif" alt="芸術 ブログランキング" border="0"></a>
+				</div><!-- footer-bloglink -->
+					
+			</div><!-- footer-content -->
+		</div><!-- footer -->		<!-- フッターモジュールの終了 -->
+	</body>
+</html>
+<script language="javascript">
+		 window.onload = function () { 
+			dp.SyntaxHighlighter.ClipboardSwf = "/flash/clipboard.swf";
+			dp.SyntaxHighlighter.HighlightAll('code');	
+		}
+		</script>
+<script type="text/javascript" src="http://www.y-tti.com/mogura/w_js.php"></script>
+<noscript>
+<img src="http://www.y-tti.com/mogura/writelog.php?mode=img&js=2" width="0" height="0" style="visibility:hidden;" />
+</noscript> 

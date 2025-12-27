@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* -----------------------------------------
+
+INFORMATION
+
+FileName:	comment.css
+Summary:	format
+Created:	2008-09-04
+UpdatedBy:	2008-09-04
+Copyright:	(c)2008 www.y-tti.com
+
+------------------------------------------ */
+
+
+
+/* 001:trackback
+--------------------------- */
+div.trackbacks {
+	font-size:85%;
+	padding:10px 0 0 0;
+}
+
+div.trackbacks h4 {
+	background:#24211A;
+	color:#FFFFFF;
+	padding:0 0 0 3px;
+	margin-bottom:10px;
+}
+
+
+/* 001:comments
+--------------------------- */
+div.comments {
+	font-size:90%;
+	padding:20px 0 0 0;
+}
+
+div.comments h4{
+	background:#24211A;
+	color:#FFFFFF;
+	padding:0 0 0 3px;
+	margin-bottom:10px;
+}
+
+div.comments h5{
+	color:#24211A;
+}
+
+ul.comments-open-footer {
+	margin-top:6px;
+}
+
+ul.comments-open-footer li{
+	display:inline;
+	margin-right:5px;
+}
+
+ul.comments-open-footer input{
+	background-color:#24211A;
+	color:#FFFFFF;
+	font-size:12px;
+	height:20px;
+	width:50px;
+}
+
+div.comments-body {
+	background-color:#F8F8F8;
+}
+
+div.comments-body p {
+	margin:0;
+	padding:2px 0 20px 0;
+}
+
+ul.comments-info {
+	margin-bottom:0;
+	padding: 3px 0 0 0px;
+}
+
+ul.comments-info li{
+	display:inline;
+	padding: 0 0 0 0px;
+	margin:0;
+}
+ul.comments-info li.comment-name{
+	color:#24211A;
+	background:url(../img/arrow_60.gif) no-repeat 6px 5px;
+	padding:0 0 0 18px;
+
+}
+
+ul.comments-info li.comment-date{
+	color:#7FA81F;
+}
+
+ul.comments-info li.comment-name a{
+	color:#24211A;
+}

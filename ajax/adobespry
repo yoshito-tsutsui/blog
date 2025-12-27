@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Adobe sqry動作確認</title>
+<link rel="stylesheet" href="http://www.y-tti.com/blog/Ajax/adobespry/css/SpryValidationTextField.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://www.y-tti.com/blog/Ajax/adobespry/css/SpryValidationSelect.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://www.y-tti.com/blog/Ajax/adobespry/css/SpryValidationCheckbox.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://www.y-tti.com/blog/Ajax/adobespry/css/SpryValidationRadio.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://www.y-tti.com/blog/Ajax/adobespry/css/SpryValidationTextarea.css" type="text/css" media="all">
+<link rel="stylesheet" href="http://www.y-tti.com/blog/Ajax/adobespry/css/Style.css" type="text/css" media="all">
+<script src="http://www.y-tti.com/blog/Ajax/adobespry/js/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="http://www.y-tti.com/blog/Ajax/adobespry/js/SpryValidationSelect.js" type="text/javascript"></script>
+<script src="http://www.y-tti.com/blog/Ajax/adobespry/js/SpryValidationCheckbox.js" type="text/javascript"></script>
+<script src="http://www.y-tti.com/blog/Ajax/adobespry/js/SpryValidationRadio.js" type="text/javascript"></script>
+<script src="http://www.y-tti.com/blog/Ajax/adobespry/js/SpryValidationRadio.js" type="text/javascript"></script>
+<script src="http://www.y-tti.com/blog/Ajax/adobespry/js/SpryValidationTextarea.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+window.onload = function() {
+	new Spry.Widget.ValidationTextField("checkText1", "none",{validateOn:["change"]});<!--(03)-->
+	new Spry.Widget.ValidationTextField("checkText2", "email",{validateOn:["blur"]});<!--(03)-->
+	new Spry.Widget.ValidationTextField("checkText3", "none", {minChars:6, maxChars:10, validateOn:["blur"]});<!--(03)-->
+	new Spry.Widget.ValidationTextField("checkText4", "custom",{validateOn:["blur"],pattern:"000-0000-0000",useCharacterMasking:true})
+	new Spry.Widget.ValidationSelect("checkSelect1",{invalidValue:"×", validateOn:["change"]});
+	new Spry.Widget.ValidationCheckbox("checkCheckbox1", {isRequired:false, validateOn:["change"], minSelections:1, maxSelections:3});
+	new Spry.Widget.ValidationRadio("checkRadio1",{invalidValue:"×", validateOn:["change"]});
+	new Spry.Widget.ValidationTextarea("checkTextarea1", {validateOn:["change"], isRequired:true, counterType:"chars_count", counterId:"countsprytextarea1", minChars:5, maxChars:40});
+	}
+// --></script>
+</head>
+<body>
+
+<div id="main">
+<h1>Adobe sqry動作確認</h1>
+
+	<div id="left">
+		width:120px
+	</div>
+	<div id="right">
+		width:420px
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>未入力チェック</p>
+		<span id="checkText1">
+		項目名：<input type="text" name="text1" id="text1">
+		<span class="textfieldRequiredMsg">テキストが未入力です</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>メールチェック</p>
+		<span id="checkText2">
+		項目名：<input type="text" name="text1" id="text1">
+		<span class="textfieldRequiredMsg">テキストが未入力です</span>
+		<span class="textfieldInvalidFormatMsg">メールアドレスが間違っています</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>文字数制限チェック</p>
+		<span id="checkText3">
+		項目名：<input type="text" name="text1" id="text1">
+		<span class="textfieldRequiredMsg">テキストが未入力です</span>
+		<span class="textfieldMinCharsMsg">入力したテキストが6文字未満です</span>
+		<span class="textfieldMaxCharsMsg">入力したテキストが11文字以上です</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>カスタムパターンチェック</p>
+		<span id="checkText4">
+		項目名：<input type="text" name="text1" id="text1">
+		<span class="textfieldRequiredMsg">テキストが未入力です</span>
+		<span class="textfieldInvalidFormatMsg">カスタム形式 (000-0000-0000) 以外は受け付けません</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>セレクトボックス未選択チェック</p>
+		<span id="checkSelect1">
+		項目名：<select name="select1">
+		<option value=""></option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="×">×</option>
+		</select>
+		<span class="selectRequiredMsg">項目を選択してください</span>
+		<span class="selectInvalidMsg">この項目は選択できません。</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>チェックボックス未選択チェック（１から３個まで）</p>
+		<span id="checkCheckbox1">
+		項目名：<input type="checkbox" name="checkbox01[]" />
+		<input type="checkbox" name="checkbox01[]" />
+		<input type="checkbox" name="checkbox01[]" />
+		<input type="checkbox" name="checkbox01[]" />
+		<span class="checkboxMinSelectionsMsg">1つは選んでください。</span>
+		<span class="checkboxMaxSelectionsMsg">3つまでしか選べません。</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>ラジオボタン未選択チェック</p>
+		<span id="checkRadio1">
+		項目名：
+		<input type="radio" name="radiobtn01" value="1" />1
+		<input type="radio" name="radiobtn01" value="2" />2
+		<input type="radio" name="radiobtn01" value="×" />×
+		<span class="radioRequiredMsg">項目を選択したください。</span>
+		<span class="radioInvalidMsg">この項目は選択できません。</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+		<form action="http://www.y-tti.com/blog/Ajax/adobespry/regist.cgi" method="post">
+		<p>テキストエリア色々チェック</p>
+		<span id="checkTextarea1">
+		<textarea name="txtArea_Check" id="txtArea_Check" cols="45" rows="5"></textarea>
+		<span id="countsprytextarea1">&nbsp;</span>
+		<span class="textareaRequiredMsg">テキストが未入力です</span>
+		<span class="textareaMinCharsMsg">入力したテキストが6文字未満です</span>
+		<span class="textareaMaxCharsMsg">入力したテキストが45文字以上です</span>
+		</span>
+		<input type="submit" value="GO!!">
+		</form>
+		<hr>
+	</div>
+
+</div>
+</body>
+</html>

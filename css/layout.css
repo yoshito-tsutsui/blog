@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/* -----------------------------------------
+
+INFORMATION
+
+FileName:	basic.css
+Summary:	format
+Created:	2008-09-04
+UpdatedBy:	2008-09-04
+Copyright:	(c)2008 www.y-tti.com
+
+------------------------------------------ */
+
+
+
+/* 001:ベース
+--------------------------- */
+body {
+	text-align:center;
+}
+
+div#topborder {
+	background:url(../img/topborderbg.gif) repeat-x;
+	width:100%;
+	height:6px;
+}
+
+div#container {
+	width:1000px;
+	margin:0 auto;
+	background:url(../img/contentbg.gif) repeat-y;
+	text-align:left;
+	padding:0 0 50px 0;
+}
+
+
+/* ヘッダー
+--------------------------- */
+div#header {
+	height:98px;
+	padding:12px 0 0 0;
+}
+div#header2 {
+	height:124px;
+}
+/* コンテンツエリア
+--------------------------- */
+div#left-content {
+	width:600px;
+	padding:0 0 0 20px;
+	float:left;
+}
+
+div#right-content {
+	width:380px;
+	float:left;
+}
+
+div#side-content {
+}
+
+div#left-side-content {
+	width:190px;
+	float:left;
+}
+div#right-side-content {
+	width:190px;
+	float:left;
+}
+
+* html div#left-side-content,
+* html div#right-side-content {
+	padding:0 0 0 15px;
+}
+
+/* メインコンテンツエリア
+--------------------------- */
+div#main {
+}
+
+/*
+entry.cssに記述
+div#entry-content {
+}
+*/
+
+/* サイトコンテンツエリア
+--------------------------- */
+/*
+side.cssに記述
+*/
+
+/* フッター
+--------------------------- */
+div#footer {
+	background:url(../img/footerbg1.gif) repeat;
+	line-height:1;
+	width:100%;
+	margin:0 auto ;
+	padding-top:17px;
+	text-align:center;
+}
+/*
+side.cssに記述
+*/

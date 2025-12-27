@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+/* -----------------------------------------
+
+INFORMATION
+
+FileName:	basic.css
+Summary:	format
+Created:	2008-09-04
+UpdatedBy:	2008-09-04
+Copyright:	(c)2008 www.y-tti.com
+
+------------------------------------------ */
+
+
+/*--------------------------------------------
+
+INDEX
+
+001:共通
+002:ベース
+003:リンク
+004:見出し
+005:テーブル
+006:リスト
+007:画像
+010:FORM
+------------------------------------------ */
+
+
+/* 001:共通
+--------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+	}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+	vertical-align: baseline; 
+}
+
+
+/* 002:ベース
+--------------------------- */
+body {
+	background:#FFFFFF;
+	color:#5D6155;
+	font-size:75%;
+	font-family:"メイリオ" ,"ＭＳ Ｐゴシック","ヒラギノ角ゴ Pro W3";
+}
+
+p {
+	margin-bottom:1em;
+	line-height:160%;
+	letter-spacing:1px;
+}
+
+span,table,ul,li{
+	margin-bottom:1em;
+	line-height:1.6;
+}
+
+
+/* 003:リンク
+--------------------------- */
+a:link {
+	color:#8A8F7E;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#8A8F7E;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+a:active {
+	color:#8A8F7E;
+	text-decoration:none;
+}
+
+
+/* 004:見出し
+--------------------------- */
+h1,h2,h3,h4,h5,h6 { 
+	font-size:100%;
+	font-style: normal;
+	font-weight: normal;
+}
+strong {
+	color:#FF3B77;
+}
+
+/* 005:テーブル
+--------------------------- */
+caption, th, td {
+	text-align:left;	
+}
+
+
+/* 006:リスト
+--------------------------- */
+ul,dl {
+  list-style:none;
+}
+
+li{
+  display:list-item;
+  zoom:normal;
+}
+
+
+/* 007:画像
+--------------------------- */
+img,a img {
+  vertical-align:top;
+  border:none;
+  background:transparent;
+}
+
+/* 008:clear
+---------------------------- */
+div.clear {
+	clear: both;
+	margin:-1px 0 0 0;
+	_margin:-4px 0 0 0;
+	height: 1px;
+	visibility: hidden;
+	*zoom:1;
+}
+
+div.clear img {
+	width: 100%;
+}
+
+/* 009:その他
+--------------------------- */
+body #main img.imgNoMargin{
+	margin:0;
+}
+
+body .smallTxt{
+	font-size:83%;
+}
+
+body .colortxt01{
+	color:#FFAD02;
+}
+
+.CT{
+	display:none;
+}
+
+/* 010:FORM
+--------------------------- */
+input, textarea {
+	background-color:#f8f8f8;
+	border-color:#D4D4D4 #EEEEEE #EEEEEE #D4D4D4;
+}
+input, textarea {
+	border-style:solid;
+	border-width:1px;
+	font-family:Arial,Helvetica,"メイリオ" ,"ＭＳ Ｐゴシック","ヒラギノ角ゴ Pro W3",sans-serif;
+	font-size:12px;
+}
+
+fieldset {
+	border:none;
+}
+
+/* 011:blockquote
+--------------------------- */
+blockquote {
+	background-color:#F3F3F3;
+	border-color:#D4D4D4 #EEEEEE #EEEEEE #D4D4D4;
+	padding:10px;
+	margin:10px 0;
+	color:#24211A;
+}

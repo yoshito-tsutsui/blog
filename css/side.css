@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/* -----------------------------------------
+
+INFORMATION
+
+FileName:	side.css
+Summary:	format
+Created:	2008-09-04
+UpdatedBy:	2008-09-04
+Copyright:	(c)2008 www.y-tti.com
+
+------------------------------------------ */
+
+/* 000:common
+--------------------------- */
+div#side-search,
+div#side-categories,
+div#side-link,
+div#side-ficcblogparts,
+div#side-feed,
+div#side-book,
+div#side-recent {
+	padding:20px 0 20px 0;
+	width:160px;
+}
+
+div#side-content{
+	font-size:85%;
+}
+div#side-content ul{
+
+}
+
+div#side-content li{
+	background:url(../img/side-linebg1.gif) no-repeat bottom left;
+	padding:0 0 5px 0;
+	margin:0 0 4px 0;
+}
+
+div#side-content li a{
+	background:url(../img/arrow_36.gif) no-repeat 0px 5px;
+	padding:0 0 0 15px;
+	margin:0 0 0px 0;
+	display:block;
+	color:#5D6155;
+}
+
+div#side-content li a:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+/* 001:search
+--------------------------- */
+div#side-search {
+	background:url(../img/search-titlebg.gif) no-repeat;
+}
+
+div.search-form {
+	padding:0 0 0 5px;
+}
+
+input.searchtextarea {
+	margin:4px 0 0 0;
+	background-color:#FFFFFF;
+}
+
+input.searchsubmit {
+	background-color:#24211A;
+	color:#FFFFFF;
+	height:18px;
+	width:50px;
+	margin:0 0 0 4px;
+}
+input.searchsubmit {
+	border:medium none;
+	font-size:8px;
+	font-weight:bold;
+	font-family:Arial,Helvetica,"ヒラギノ角ゴ Pro W3",sans-serif;
+	text-transform:uppercase;
+}
+
+/* 002:recent
+--------------------------- */
+div#side-recent {
+	background:url(../img/recent-titlebg.gif) no-repeat;
+}
+
+div#side-recent img{
+	margin:3px 0 0 2px;
+}
+/* 003:categories
+--------------------------- */
+div#side-categories {
+	background:url(../img/categories-titlebg.gif) no-repeat;
+}
+
+/* 004:link
+--------------------------- */
+div#side-link {
+	background:url(../img/link-titlebg.gif) no-repeat;
+}
+
+/* 005:side-ficcblogparts
+--------------------------- */
+div#side-ficcblogparts {
+	padding:0px 0 25px 0;
+	width:160px;
+}
+
+/* 006:side-feed
+--------------------------- */
+div#side-feed {
+	padding:0px 0 15px 0;
+}
+
+div#side-feed li{
+	background:none;
+}
+
+div#side-feed li a{
+	background:none;
+	padding:0 0 0 18px;
+}
+
+div#side-feed li a.rss{
+	background:url(../img/feed-icon.gif) no-repeat transparent;
+}
+
+div#side-feed li a.twitter{
+	background:url(../img/twitter-icon.gif) no-repeat transparent;
+}
+
+div#side-feed li a.delicious{
+	background:url(../img/delicious-icon.gif) no-repeat transparent;
+}
+
+div#side-feed li a.rhatena{
+	background:url(../img/rhatena-icon.gif) no-repeat transparent;
+}
+
+div#side-feed li a.drecom{
+	background:url(../img/drecom-icon.gif) no-repeat transparent;
+}
+
+div#side-feed li a.rhatena:hover,
+div#side-feed li a.delicious:hover,
+div#side-feed li a.twitter:hover,
+div#side-feed li a.drecom:hover,
+div#side-content li a.rss:hover {
+	color:#24211A;
+	text-decoration:underline;
+	background:#7FA81F;
+}
+
+/* 007:side-microad
+--------------------------- */
+div#side-microad {
+	padding:0 0 0px 0;
+	width:160px;
+}
+
+/* 008:side-book
+--------------------------- */
+div#side-book {
+	background:url(../img/book-titlebg.gif) no-repeat;
+}
+
+div.side-bookbox {
+	background:url(../img/side-linebg1.gif) no-repeat bottom left;
+	margin-bottom:6px;
+}
+
+div.booktitle {
+	background:url(../img/arrow_greenunder.gif) no-repeat 3px 4px;
+	padding:0 0 0 16px;
+	margin:0 0 0 0;
+	color:#24211A;
+	font-weight:bold;
+}
+
+div.booklink {
+	margin:4px auto 7px auto;
+	text-align:center;
+}
+
+div.bookdescription {
+	padding:0 8px 10px 8px;
+}
+
+/* 009:side-blogparts
+--------------------------- */
+div#side-blogparts {
+	padding:0 0 20px 0;
+	width:160px;
+}

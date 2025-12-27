@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>test</title>
+<link rel="stylesheet" type="text/css" media="all" href="index.css" />
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript">
+	swfobject.registerObject("flashobj", "9.0.0");
+</script>
+<script language="javascript">
+
+function setFlashArea(w , h) {
+	
+	var browserName = navigator.appName;
+	document.getElementById("flasharea").height = h;
+	document.getElementById("flasharea").width = w;
+	if(browserName=="Microsoft Internet Explorer" && navigator.appVersion.indexOf('Win')!= -1) {
+		document.getElementById("flashobj").height = h;
+		document.getElementById("flashobj").width = w;
+	} else {
+		document.getElementById("flashobj").height = h;
+		document.getElementById("flashobj").width = w;
+		document.getElementById("flashobj2").height = h;
+		document.getElementById("flashobj2").width = w;
+	}
+}
+</script>
+</head>
+<body>
+<div id="flasharea">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="150" height="150" id="flashobj">
+		<param name="wmode" value="transparent" />
+		<param name="movie" value="test.swf" />
+		<!--[if !IE]>-->
+		<object type="application/x-shockwave-flash" data="test.swf" width="150" height="150" id="flashobj2" wmode="transparent" >
+		<!--<![endif]-->
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+		<!--[if !IE]>-->
+		</object>
+		<!--<![endif]-->
+	</object>
+</div>
+<div id="dummy"></div>
+<h1>FLASHとjavascriptとCSSなどの連携</h1>
+<div>
+■鹿に対してロールオーバー<br />
+１、FLASHのflash.external.ExternalInterfaceによりjavascript関数を呼び出す<br />
+２、javascriptにてflashareaのサイズ(800 * 800)を変更<br />
+３、鹿が登場。<br />
+<br />
+<br />
+■鹿に対してロールアウト<br />
+１、FLASHのflash.external.ExternalInterfaceによりjavascript関数を呼び出す<br />
+２、javascriptにてflashareaのサイズ(150 * 150)を変更<br />
+<br />
+<br />
+Firefoxで上手く動作しない。。<br />
+ExternalInterfaceにてjavascript呼び出しされていることは確認済<br />
+javascriptの問題ぽい。←解決方法探す前に力尽きた＞＜
+<br />
+○IE 7<br />
+○safari 3.1.2<br />
+×Firefox 3<br />
+<br />
+<br />
+※追記
+○Firefox 3<br />
+原因はdiv(flasharea)内にてIE以外という条件分岐している部分にある<br />
+objectタグへの指定方法が上手くいってなかった。<br />
+id="flashobj2" wmode="transparent"の２つを追加し、<br />
+javascriptにて上記"flashobj2"の値を変更したら上手く動作した。<br />
+</div>
+<div>
+
+</div>
+</body>
+</html>
